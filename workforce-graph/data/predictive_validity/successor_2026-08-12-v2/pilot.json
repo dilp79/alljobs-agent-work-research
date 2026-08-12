@@ -1,0 +1,5138 @@
+{
+  "claim_ceiling": {
+    "allowed": "predictive validity of frozen model-vote doses for deterministic conformance in one synthetic read-only tool harness under one exact model route",
+    "causal_effect_identified": false,
+    "mission_success_measured": false,
+    "not_osworld_or_gui_computer_use": true,
+    "not_workforce_share_or_production_reliability": true
+  },
+  "frame_payload_sha256": "0fbd1407af6c3ed739fea18db53bb22c1e7b8e6c94046530ae05facad2ceef27",
+  "model_id": "google/gemini-3.5-flash-lite",
+  "payload_sha256": "808a7a7da870c0bfd5c766523d24de616ccdc9e977f13d53c9901ff8fa6d3a43",
+  "phase": "pilot",
+  "pilot_decision": {
+    "decision": "HOLD_INSTRUMENT_RANGE_MISS",
+    "per_scaffold": {
+      "fields_only": {
+        "failures": 20,
+        "passes": 0
+      },
+      "partial_recursive_shape": {
+        "failures": 20,
+        "passes": 0
+      },
+      "recursive_shape": {
+        "failures": 20,
+        "passes": 0
+      },
+      "top_level_types": {
+        "failures": 20,
+        "passes": 0
+      }
+    },
+    "selected_scaffold": null
+  },
+  "records": [
+    {
+      "case_id": "sbov1-data_reconciliation-02::dense_semantic_shift",
+      "category": "data_reconciliation",
+      "deliverable": {
+        "discrepancy_summary": "Two numeric value pairs (left-02-a vs right-02-a and left-02-b vs right-02-b) differ in value under exact-equality, and two string pairs (dense-left-1 vs dense-right-1 and dense-left-3 vs dense-right-3) have mismatched values ('Value-1' vs 'Other-1' and 'Value-3' vs 'Other-3').",
+        "matched_records": [
+          {
+            "left_record_id": "dense-left-0",
+            "right_record_id": "dense-right-0"
+          },
+          {
+            "left_record_id": "dense-left-2",
+            "right_record_id": "dense-right-2"
+          },
+          {
+            "left_record_id": "dense-left-4",
+            "right_record_id": "dense-right-4"
+          }
+        ],
+        "mission_id": "sbov1-data_reconciliation-02",
+        "unmatched_records": [
+          {
+            "left_record_id": "left-02-a",
+            "right_record_id": "right-02-a"
+          },
+          {
+            "left_record_id": "left-02-b",
+            "right_record_id": "right-02-b"
+          },
+          {
+            "left_record_id": "dense-left-1",
+            "right_record_id": "dense-right-1"
+          },
+          {
+            "left_record_id": "dense-left-3",
+            "right_record_id": "dense-right-3"
+          }
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "reconciliation-membership"
+        ]
+      },
+      "prompt_sha256": "59efefceaa8d693ae03592e7b9bfcb0681c3a79bba0cf70ff74a6a76a3bda838",
+      "recorded_at": "2026-08-12T07:08:14.482819+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518540-DP947AXGiezcTw5ZJyR9",
+          "gen-1786518543-GsmQSv8IoqFUhlBay7dQ"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "b8a14b8f2f0d1485bf8cab2a6d043b1311724275a7b7e4aae2f13ca033b17343",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 282,
+        "prompt_tokens": 998
+      }
+    },
+    {
+      "case_id": "sbov1-data_reconciliation-02::dense_semantic_shift",
+      "category": "data_reconciliation",
+      "deliverable": {
+        "discrepancy_summary": "Two pairs have mismatched values (left-02-a vs right-02-a, left-02-b vs right-02-b), and dense-left-1/dense-right-1 and dense-left-3/dense-right-3 have exact-equality value mismatches.",
+        "matched_records": [
+          {
+            "left_record_id": "dense-left-0",
+            "right_record_id": "dense-right-0",
+            "status": "matched"
+          },
+          {
+            "left_record_id": "dense-left-2",
+            "right_record_id": "dense-right-2",
+            "status": "matched"
+          },
+          {
+            "left_record_id": "dense-left-4",
+            "right_record_id": "dense-right-4",
+            "status": "matched"
+          }
+        ],
+        "mission_id": "sbov1-data_reconciliation-02",
+        "unmatched_records": [
+          "left-02-a",
+          "right-02-a",
+          "left-02-b",
+          "right-02-b",
+          "dense-left-1",
+          "dense-right-1",
+          "dense-left-3",
+          "dense-right-3"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "reconciliation-membership"
+        ]
+      },
+      "prompt_sha256": "7851a43ac7cc7bd3b35e8785fe3d027db996e745f84e80c7eafea251e14ac5c5",
+      "recorded_at": "2026-08-12T07:09:06.786525+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518593-pJYIb9e6TosMQo7zVPYM",
+          "gen-1786518596-FsQiinsvD60jtetwYAmc"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "b8a14b8f2f0d1485bf8cab2a6d043b1311724275a7b7e4aae2f13ca033b17343",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 251,
+        "prompt_tokens": 1148
+      }
+    },
+    {
+      "case_id": "sbov1-data_reconciliation-02::dense_semantic_shift",
+      "category": "data_reconciliation",
+      "deliverable": {
+        "discrepancy_summary": "Reconciliation completed with exact-equality comparison mode. Records left-02-a, left-02-b, dense-left-1, and dense-left-3 have value mismatches and are unmatched. Records dense-left-0, dense-left-2, and dense-left-4 match their right counterparts exactly.",
+        "matched_records": [
+          {
+            "left_record_id": "dense-left-0",
+            "right_record_id": "dense-right-0",
+            "status": "matched"
+          },
+          {
+            "left_record_id": "dense-left-2",
+            "right_record_id": "dense-right-2",
+            "status": "matched"
+          },
+          {
+            "left_record_id": "dense-left-4",
+            "right_record_id": "dense-right-4",
+            "status": "matched"
+          }
+        ],
+        "mission_id": "sbov1-data_reconciliation-02",
+        "unmatched_records": [
+          "left-02-a",
+          "left-02-b",
+          "dense-left-1",
+          "dense-left-3"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "reconciliation-membership"
+        ]
+      },
+      "prompt_sha256": "8d46cbbd4ae414235c04e33c4725e38bdc9dc439ca40535712cb3e6f13fe727a",
+      "recorded_at": "2026-08-12T07:09:33.103816+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518620-MtdI3eWgGpiOBwWLwssI",
+          "gen-1786518622-l2Zzyo7DKVidVn2QE0mg"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "b8a14b8f2f0d1485bf8cab2a6d043b1311724275a7b7e4aae2f13ca033b17343",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 237,
+        "prompt_tokens": 1160
+      }
+    },
+    {
+      "case_id": "sbov1-data_reconciliation-02::dense_semantic_shift",
+      "category": "data_reconciliation",
+      "deliverable": {
+        "discrepancy_summary": "Two pairs have numeric value discrepancies (left-02-a/right-02-a and left-02-b/right-02-b) and two pairs have exact string value mismatches (dense-left-1/dense-right-1 and dense-left-3/dense-right-3) under exact-equality comparison.",
+        "matched_records": [
+          {
+            "left_record_id": "dense-left-0",
+            "right_record_id": "dense-right-0"
+          },
+          {
+            "left_record_id": "dense-left-2",
+            "right_record_id": "dense-right-2"
+          },
+          {
+            "left_record_id": "dense-left-4",
+            "right_record_id": "dense-right-4"
+          }
+        ],
+        "mission_id": "sbov1-data_reconciliation-02",
+        "unmatched_records": [
+          {
+            "left_record_id": "left-02-a",
+            "right_record_id": "right-02-a"
+          },
+          {
+            "left_record_id": "left-02-b",
+            "right_record_id": "right-02-b"
+          },
+          {
+            "left_record_id": "dense-left-1",
+            "right_record_id": "dense-right-1"
+          },
+          {
+            "left_record_id": "dense-left-3",
+            "right_record_id": "dense-right-3"
+          }
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "reconciliation-membership"
+        ]
+      },
+      "prompt_sha256": "2142906cb442851779a0d8cb0afe87093c05fa36e6a7de173aaa9285f8f94602",
+      "recorded_at": "2026-08-12T07:08:40.670801+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518567-VUKOkgbzkAAJbM3VkyfA",
+          "gen-1786518569-GLxOvwbqDc1wLTT0SQLv"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "b8a14b8f2f0d1485bf8cab2a6d043b1311724275a7b7e4aae2f13ca033b17343",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 316,
+        "prompt_tokens": 1070
+      }
+    },
+    {
+      "case_id": "sbov1-data_reconciliation-02::semantic_shift",
+      "category": "data_reconciliation",
+      "deliverable": {
+        "discrepancy_summary": "Left and right records do not match under exact-equality comparison mode: left-02-a (100) vs right-02-a (101); left-02-b (40) vs right-02-b (45).",
+        "matched_records": [],
+        "mission_id": "sbov1-data_reconciliation-02",
+        "unmatched_records": [
+          {
+            "left_record_id": "left-02-a",
+            "left_value": 100,
+            "right_record_id": "right-02-a",
+            "right_value": 101
+          },
+          {
+            "left_record_id": "left-02-b",
+            "left_value": 40,
+            "right_record_id": "right-02-b",
+            "right_value": 45
+          }
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "reconciliation-membership"
+        ]
+      },
+      "prompt_sha256": "208fe76e6ba33dcac7c60cbb0c7877464047ec81eed4d0413c9c046b2e94311a",
+      "recorded_at": "2026-08-12T07:08:12.225326+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518540-wjpphmEZcMWqvLBOpmCw",
+          "gen-1786518541-7HV5AaIUbGGXEf9wvlDz"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "3002f159bca741dc3d0038a218a7d79da99d8a015f6c36a5a01b31048e36d456",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 175,
+        "prompt_tokens": 754
+      }
+    },
+    {
+      "case_id": "sbov1-data_reconciliation-02::semantic_shift",
+      "category": "data_reconciliation",
+      "deliverable": {
+        "discrepancy_summary": "Both record pairs have differing values under exact-equality comparison mode.",
+        "matched_records": [],
+        "mission_id": "sbov1-data_reconciliation-02",
+        "unmatched_records": [
+          {
+            "left_record_id": "left-02-a",
+            "left_value": 100,
+            "right_record_id": "right-02-a",
+            "right_value": 101
+          },
+          {
+            "left_record_id": "left-02-b",
+            "left_value": 40,
+            "right_record_id": "right-02-b",
+            "right_value": 45
+          }
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "reconciliation-membership"
+        ]
+      },
+      "prompt_sha256": "962891000f56a9fcdac1964a2d87aaf9c2e8834fe12980a8d09273aceef7f4c2",
+      "recorded_at": "2026-08-12T07:09:05.558302+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518593-tMX4HpjOcbz8DaUxhNu1",
+          "gen-1786518595-RbGTMQ7ndXDR4ZcVR6qr"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "3002f159bca741dc3d0038a218a7d79da99d8a015f6c36a5a01b31048e36d456",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 129,
+        "prompt_tokens": 842
+      }
+    },
+    {
+      "case_id": "sbov1-data_reconciliation-02::semantic_shift",
+      "category": "data_reconciliation",
+      "deliverable": {
+        "discrepancy_summary": "Neither record pair matches under exact-equality comparison mode as left_value (100, 40) does not equal right_value (101, 45).",
+        "matched_records": [],
+        "mission_id": "sbov1-data_reconciliation-02",
+        "unmatched_records": [
+          "left-02-a",
+          "left-02-b"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "reconciliation-membership"
+        ]
+      },
+      "prompt_sha256": "9f07112e4187131b2d4afd9725137f6dc90c201b12dbafab521eb15ce33854b7",
+      "recorded_at": "2026-08-12T07:09:31.907647+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518619-ibmlv2arvPKuRTFGgqd9",
+          "gen-1786518621-SKp9KX4u3wzHFVSobuZz"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "3002f159bca741dc3d0038a218a7d79da99d8a015f6c36a5a01b31048e36d456",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 123,
+        "prompt_tokens": 854
+      }
+    },
+    {
+      "case_id": "sbov1-data_reconciliation-02::semantic_shift",
+      "category": "data_reconciliation",
+      "deliverable": {
+        "discrepancy_summary": "Both record pairs (left-02-a and left-02-b) fail exact equality comparison because their left and right values differ.",
+        "matched_records": [],
+        "mission_id": "sbov1-data_reconciliation-02",
+        "unmatched_records": [
+          {
+            "left_record_id": "left-02-a",
+            "left_value": 100,
+            "right_record_id": "right-02-a",
+            "right_value": 101
+          },
+          {
+            "left_record_id": "left-02-b",
+            "left_value": 40,
+            "right_record_id": "right-02-b",
+            "right_value": 45
+          }
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "reconciliation-membership"
+        ]
+      },
+      "prompt_sha256": "8d0286f3e1dd91ade73ed701acf61c2b34868c1d7236557508c0adb9d87adc1e",
+      "recorded_at": "2026-08-12T07:08:39.286299+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518566-gZCUQlJfmXHOeWiqaVB6",
+          "gen-1786518569-p9o5UDYnpxRKLtZkKWn3"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "3002f159bca741dc3d0038a218a7d79da99d8a015f6c36a5a01b31048e36d456",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 146,
+        "prompt_tokens": 826
+      }
+    },
+    {
+      "case_id": "sbov1-draft_generation-02::dense_semantic_shift",
+      "category": "draft_generation",
+      "deliverable": {
+        "completeness": true,
+        "draft": "Synthetic grounded-report primary fact 02 changed\nSynthetic grounded-report supporting fact 02\nDense synthetic supporting fact 1; preserve exact grounding.\nDense synthetic supporting fact 2; preserve exact grounding.\nDense synthetic supporting fact 3; preserve exact grounding.\nDense synthetic supporting fact 4; preserve exact grounding.\nDense synthetic supporting fact 5; preserve exact grounding.\nDense synthetic supporting fact 6; preserve exact grounding.",
+        "grounded_sources": [
+          "source-02-a",
+          "source-02-b",
+          "dense-source-1",
+          "dense-source-2",
+          "dense-source-3",
+          "dense-source-4",
+          "dense-source-5",
+          "dense-source-6"
+        ],
+        "mission_id": "sbov1-draft_generation-02",
+        "required_fields": [
+          "section|summary",
+          "section|evidence"
+        ],
+        "tone": "bounded professional"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "document-grounding"
+        ]
+      },
+      "prompt_sha256": "6071beb5941dffb911f2adb2e3024c274d99f6ddb9e98e7ac1044ae37199d1f5",
+      "recorded_at": "2026-08-12T07:08:11.245624+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518540-7D6KmNwZWMQfTfcC76Ul",
+          "gen-1786518540-PvDULQFbP3sCDoKJtywU"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "e84f6a1cf8bbb9e7265fa980afbb8d724140e6a5fc45e1b3d3c9d93062437dbd",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 188,
+        "prompt_tokens": 1110
+      }
+    },
+    {
+      "case_id": "sbov1-draft_generation-02::dense_semantic_shift",
+      "category": "draft_generation",
+      "deliverable": {
+        "completeness": "complete",
+        "draft": "Synthetic grounded-report primary fact 02 changed. Synthetic grounded-report supporting fact 02. Dense synthetic supporting fact 1; preserve exact grounding. Dense synthetic supporting fact 2; preserve exact grounding. Dense synthetic supporting fact 3; preserve exact grounding. Dense synthetic supporting fact 4; preserve exact grounding. Dense synthetic supporting fact 5; preserve exact grounding. Dense synthetic supporting fact 6; preserve exact grounding.",
+        "grounded_sources": [
+          "source-02-a",
+          "source-02-b",
+          "dense-source-1",
+          "dense-source-2",
+          "dense-source-3",
+          "dense-source-4",
+          "dense-source-5",
+          "dense-source-6"
+        ],
+        "mission_id": "sbov1-draft_generation-02",
+        "required_fields": [
+          "section|summary",
+          "section|evidence"
+        ],
+        "tone": "bounded professional"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "document-grounding"
+        ]
+      },
+      "prompt_sha256": "ba98600b02c8c121551d844ee07b753df0feba79feae842f49385c18c036135f",
+      "recorded_at": "2026-08-12T07:09:08.602824+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518594-KSSbLR6LUfBWGYweFTkF",
+          "gen-1786518598-Z4XWFIqdfxv5twGNlqw2"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "e84f6a1cf8bbb9e7265fa980afbb8d724140e6a5fc45e1b3d3c9d93062437dbd",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 206,
+        "prompt_tokens": 1214
+      }
+    },
+    {
+      "case_id": "sbov1-draft_generation-02::dense_semantic_shift",
+      "category": "draft_generation",
+      "deliverable": {
+        "completeness": "complete",
+        "draft": "Synthetic grounded-report primary fact 02 changed. Synthetic grounded-report supporting fact 02. Dense synthetic supporting fact 1; preserve exact grounding. Dense synthetic supporting fact 2; preserve exact grounding. Dense synthetic supporting fact 3; preserve exact grounding. Dense synthetic supporting fact 4; preserve exact grounding. Dense synthetic supporting fact 5; preserve exact grounding. Dense synthetic supporting fact 6; preserve exact grounding.",
+        "grounded_sources": [
+          "source-02-a",
+          "source-02-b",
+          "dense-source-1",
+          "dense-source-2",
+          "dense-source-3",
+          "dense-source-4",
+          "dense-source-5",
+          "dense-source-6"
+        ],
+        "mission_id": "sbov1-draft_generation-02",
+        "required_fields": [
+          "section|summary",
+          "section|evidence"
+        ],
+        "tone": "bounded professional"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "document-grounding"
+        ]
+      },
+      "prompt_sha256": "0b3d0ad46c6d30a251c68e9c79baa9f0f1784a8fb7e39c50d5584619c185f643",
+      "recorded_at": "2026-08-12T07:09:34.844169+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518621-oRewbzVQPYiJGMoIV22U",
+          "gen-1786518624-OGZ8zJDAzBoC0ak6rpEj"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "e84f6a1cf8bbb9e7265fa980afbb8d724140e6a5fc45e1b3d3c9d93062437dbd",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 182,
+        "prompt_tokens": 1226
+      }
+    },
+    {
+      "case_id": "sbov1-draft_generation-02::dense_semantic_shift",
+      "category": "draft_generation",
+      "deliverable": {
+        "completeness": "complete",
+        "draft": "Summary: Synthetic grounded-report primary fact 02 changed, Dense synthetic supporting fact 2; preserve exact grounding., Dense synthetic supporting fact 4; preserve exact grounding., Dense synthetic supporting fact 6; preserve exact grounding. Evidence: Synthetic grounded-report supporting fact 02, Dense synthetic supporting fact 1; preserve exact grounding., Dense synthetic supporting fact 3; preserve exact grounding., Dense synthetic supporting fact 5; preserve exact grounding.",
+        "grounded_sources": [
+          "source-02-a",
+          "source-02-b",
+          "dense-source-1",
+          "dense-source-2",
+          "dense-source-3",
+          "dense-source-4",
+          "dense-source-5",
+          "dense-source-6"
+        ],
+        "mission_id": "sbov1-draft_generation-02",
+        "required_fields": [
+          "completeness",
+          "draft",
+          "grounded_sources",
+          "mission_id",
+          "required_fields",
+          "tone"
+        ],
+        "tone": "bounded professional"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "document-grounding"
+        ]
+      },
+      "prompt_sha256": "896764860ec233be8553ac2c057cec4e980d5134a44e38d9e96722ffa4b09580",
+      "recorded_at": "2026-08-12T07:08:42.473220+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518568-44CtGUZfiA10wQSz4KVU",
+          "gen-1786518572-f4gDdjAc1FlDprAV0557"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "e84f6a1cf8bbb9e7265fa980afbb8d724140e6a5fc45e1b3d3c9d93062437dbd",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 186,
+        "prompt_tokens": 1202
+      }
+    },
+    {
+      "case_id": "sbov1-draft_generation-02::semantic_shift",
+      "category": "draft_generation",
+      "deliverable": {
+        "completeness": true,
+        "draft": "Summary: Synthetic grounded-report primary fact 02 changed\nEvidence: Synthetic grounded-report supporting fact 02",
+        "grounded_sources": [
+          "source-02-a",
+          "source-02-b"
+        ],
+        "mission_id": "sbov1-draft_generation-02",
+        "required_fields": [
+          "completeness",
+          "draft",
+          "grounded_sources",
+          "mission_id",
+          "required_fields",
+          "tone"
+        ],
+        "tone": "bounded,professional"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "document-grounding"
+        ]
+      },
+      "prompt_sha256": "e3033f76aebbd796f9f2776ea68f0ebe128dd4f30c4d58345390884fe6ace937",
+      "recorded_at": "2026-08-12T07:08:13.043865+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518540-zExxh84oEmyhjQXwIvKA",
+          "gen-1786518542-38HwGmOCFTeQw9iv2NMs"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "20f95eabeaba449bdb4687a31ba3afa2a8b221b6d91f40aba248748d5012ef90",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 139,
+        "prompt_tokens": 806
+      }
+    },
+    {
+      "case_id": "sbov1-draft_generation-02::semantic_shift",
+      "category": "draft_generation",
+      "deliverable": {
+        "completeness": "complete",
+        "draft": "Section section|summary: Synthetic grounded-report primary fact 02 changed. Section section|evidence: Synthetic grounded-report supporting fact 02.",
+        "grounded_sources": [
+          "source-02-a",
+          "source-02-b"
+        ],
+        "mission_id": "sbov1-draft_generation-02",
+        "required_fields": [
+          "fact-02-a",
+          "fact-02-b"
+        ],
+        "tone": "bounded professional"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "document-grounding"
+        ]
+      },
+      "prompt_sha256": "9b9daa1ecbbf7aebf9fef5b2946da15220ad53b45ea71cbddadaa1fa1dd45a6e",
+      "recorded_at": "2026-08-12T07:09:07.563493+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518594-KOXFPc8zfGgm1f4ppcCC",
+          "gen-1786518597-JcypE7Oq1D36GJX233Ti"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "20f95eabeaba449bdb4687a31ba3afa2a8b221b6d91f40aba248748d5012ef90",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 150,
+        "prompt_tokens": 910
+      }
+    },
+    {
+      "case_id": "sbov1-draft_generation-02::semantic_shift",
+      "category": "draft_generation",
+      "deliverable": {
+        "completeness": "complete",
+        "draft": "Section summary: Synthetic grounded-report primary fact 02 changed. Section evidence: Synthetic grounded-report supporting fact 02.",
+        "grounded_sources": [
+          "source-02-a",
+          "source-02-b"
+        ],
+        "mission_id": "sbov1-draft_generation-02",
+        "required_fields": [
+          "fact-02-a",
+          "fact-02-b"
+        ],
+        "tone": "bounded and professional"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "document-grounding"
+        ]
+      },
+      "prompt_sha256": "0ff8d851b1a3214eaa8a2ff2a899aad8f801eb923f1fe89b34da9d73e718b919",
+      "recorded_at": "2026-08-12T07:09:33.854774+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518620-KSudvlguDZt744ixn6b6",
+          "gen-1786518623-wCUgzs8pPRm0ZkWnJ44d"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "20f95eabeaba449bdb4687a31ba3afa2a8b221b6d91f40aba248748d5012ef90",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 147,
+        "prompt_tokens": 922
+      }
+    },
+    {
+      "case_id": "sbov1-draft_generation-02::semantic_shift",
+      "category": "draft_generation",
+      "deliverable": {
+        "completeness": "complete",
+        "draft": "Section section|summary: Synthetic grounded-report primary fact 02 changed (Source source-02-a). Section section|evidence: Synthetic grounded-report supporting fact 02 (Source source-02-b).",
+        "grounded_sources": [
+          "source-02-a",
+          "source-02-b"
+        ],
+        "mission_id": "sbov1-draft_generation-02",
+        "required_fields": [
+          "section|summary",
+          "section|evidence"
+        ],
+        "tone": "bounded professional"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "document-grounding"
+        ]
+      },
+      "prompt_sha256": "cb0c98e529d5bbca9264f1ce3fc45471ed5b2e2155d80b93ea78e55878ffc74f",
+      "recorded_at": "2026-08-12T07:08:41.446029+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518568-OBRSgBVsTvMZjiJaWaS0",
+          "gen-1786518571-MCrJ8Uo47JoZ1kB34KuP"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "20f95eabeaba449bdb4687a31ba3afa2a8b221b6d91f40aba248748d5012ef90",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 161,
+        "prompt_tokens": 898
+      }
+    },
+    {
+      "case_id": "sbov1-escalation_preparation-03::dense_semantic_shift",
+      "category": "escalation_preparation",
+      "deliverable": {
+        "evidence": "evidence-03",
+        "issue": "management-issue",
+        "mission_id": "sbov1-escalation_preparation-03",
+        "owner": "management-issue owner",
+        "recommended_next_step": "prepare-human-review-packet",
+        "risk": "risk|review"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "escalation-rule"
+        ]
+      },
+      "prompt_sha256": "771a892801fd588ce3af0ddb9e321108f2192675825a13adfbc78335c9c4297d",
+      "recorded_at": "2026-08-12T07:08:17.987168+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518545-5Eh3swvZWAFvf90Ibty6",
+          "gen-1786518547-lBSz1sDZqJkfLtxMRt0z"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "7b37c7c36531c3b895fc06ba1c4055411586c7608c36c58e8b43c909bce73c71",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 93,
+        "prompt_tokens": 873
+      }
+    },
+    {
+      "case_id": "sbov1-escalation_preparation-03::dense_semantic_shift",
+      "category": "escalation_preparation",
+      "deliverable": {
+        "evidence": [
+          "evidence-03"
+        ],
+        "issue": "management-issue",
+        "mission_id": "sbov1-escalation_preparation-03",
+        "owner": "management-issue owner",
+        "recommended_next_step": "prepare-human-review-packet",
+        "risk": "risk|review"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "escalation-rule"
+        ]
+      },
+      "prompt_sha256": "f56cdc04046a37397ae252bc7c5b5cd4795abd2bf74277e4a4c7c47d06b65f47",
+      "recorded_at": "2026-08-12T07:09:12.008672+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518599-nyCHFr5iqmiMIzTpO0W0",
+          "gen-1786518602-95fo6BsHFnUei2nu6PMZ"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "7b37c7c36531c3b895fc06ba1c4055411586c7608c36c58e8b43c909bce73c71",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 99,
+        "prompt_tokens": 973
+      }
+    },
+    {
+      "case_id": "sbov1-escalation_preparation-03::dense_semantic_shift",
+      "category": "escalation_preparation",
+      "deliverable": {
+        "evidence": [
+          "evidence-03"
+        ],
+        "issue": "management-issue",
+        "mission_id": "sbov1-escalation_preparation-03",
+        "owner": "management-issue owner",
+        "recommended_next_step": "prepare-human-review-packet",
+        "risk": "risk|review"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "escalation-rule"
+        ]
+      },
+      "prompt_sha256": "f56cdc04046a37397ae252bc7c5b5cd4795abd2bf74277e4a4c7c47d06b65f47",
+      "recorded_at": "2026-08-12T07:09:38.385870+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518626-ww7ZC5xN4lDcejP2rDv9",
+          "gen-1786518628-H6pyd5x7xqi7vuD24p0a"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "7b37c7c36531c3b895fc06ba1c4055411586c7608c36c58e8b43c909bce73c71",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 99,
+        "prompt_tokens": 973
+      }
+    },
+    {
+      "case_id": "sbov1-escalation_preparation-03::dense_semantic_shift",
+      "category": "escalation_preparation",
+      "deliverable": {
+        "evidence": [
+          "evidence-03"
+        ],
+        "issue": "management-issue",
+        "mission_id": "sbov1-escalation_preparation-03",
+        "owner": "management-issue owner",
+        "recommended_next_step": "prepare-human-review-packet",
+        "risk": "risk|review"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "escalation-rule"
+        ]
+      },
+      "prompt_sha256": "0c359d2f3d2bdb3eb503ab12adb6fb5350688e13981ef2d94f4c46cafa6f3375",
+      "recorded_at": "2026-08-12T07:08:45.575393+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518573-46EphD7uraaBxcIVFuJE",
+          "gen-1786518575-Lqc3djurOUmRuOJBt2lX"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "7b37c7c36531c3b895fc06ba1c4055411586c7608c36c58e8b43c909bce73c71",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 99,
+        "prompt_tokens": 961
+      }
+    },
+    {
+      "case_id": "sbov1-escalation_preparation-03::semantic_shift",
+      "category": "escalation_preparation",
+      "deliverable": {
+        "evidence": "evidence-03",
+        "issue": "management-issue-score is 0, which does not meet the threshold of 50",
+        "mission_id": "sbov1-escalation_preparation-03",
+        "owner": "management-issue owner",
+        "recommended_next_step": "prepare-human-review-packet",
+        "risk": "risk|review"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "escalation-rule"
+        ]
+      },
+      "prompt_sha256": "8ab1613388b6ef55c40e9e616edb02c1f2c17273090f3285812d58cfc388b473",
+      "recorded_at": "2026-08-12T07:08:17.282285+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518545-dzyXEgBuhzPymb1QETgF",
+          "gen-1786518547-7oyDDk71KKZpqFf4w80j"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "26ae27a2e1eff731ac382c4abfe958d6fda14bd6682d4de9705581ddb0e3ea03",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 109,
+        "prompt_tokens": 716
+      }
+    },
+    {
+      "case_id": "sbov1-escalation_preparation-03::semantic_shift",
+      "category": "escalation_preparation",
+      "deliverable": {
+        "evidence": [
+          "management-issue-score metric value is 0"
+        ],
+        "issue": "management-issue score 0 is below the required threshold of 50",
+        "mission_id": "sbov1-escalation_preparation-03",
+        "owner": "management-issue owner",
+        "recommended_next_step": "prepare-human-review-packet",
+        "risk": "risk|review"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "escalation-rule"
+        ]
+      },
+      "prompt_sha256": "94e3f63e32ea5634bb2ebaee10f48a958a87a40478f6a2b2dec0068905f27a7a",
+      "recorded_at": "2026-08-12T07:09:11.313748+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518599-hTeYjCHazzohlKIMFMw9",
+          "gen-1786518601-MByIzXrTP6SmPxnhH8Cr"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "26ae27a2e1eff731ac382c4abfe958d6fda14bd6682d4de9705581ddb0e3ea03",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 117,
+        "prompt_tokens": 816
+      }
+    },
+    {
+      "case_id": "sbov1-escalation_preparation-03::semantic_shift",
+      "category": "escalation_preparation",
+      "deliverable": {
+        "evidence": [
+          "management-issue-score is 0, which is below the threshold of 50"
+        ],
+        "issue": "management-issue",
+        "mission_id": "sbov1-escalation_preparation-03",
+        "owner": "management-issue owner",
+        "recommended_next_step": "prepare-human-review-packet",
+        "risk": "risk|review"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "escalation-rule"
+        ]
+      },
+      "prompt_sha256": "94e3f63e32ea5634bb2ebaee10f48a958a87a40478f6a2b2dec0068905f27a7a",
+      "recorded_at": "2026-08-12T07:09:37.722107+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518625-m7z6uCll2kwAf6skEkwR",
+          "gen-1786518627-z8BQsO1iTxlzl856ty9k"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "26ae27a2e1eff731ac382c4abfe958d6fda14bd6682d4de9705581ddb0e3ea03",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 113,
+        "prompt_tokens": 816
+      }
+    },
+    {
+      "case_id": "sbov1-escalation_preparation-03::semantic_shift",
+      "category": "escalation_preparation",
+      "deliverable": {
+        "evidence": [
+          "evidence-03"
+        ],
+        "issue": "management-issue",
+        "mission_id": "sbov1-escalation_preparation-03",
+        "owner": "management-issue owner",
+        "recommended_next_step": "prepare-human-review-packet",
+        "risk": "risk|review"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "escalation-rule"
+        ]
+      },
+      "prompt_sha256": "e4ecd1d6ab0799a743ef88f15111854d4e06ba0909d253bd9397ef43f856e8b8",
+      "recorded_at": "2026-08-12T07:08:44.936901+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518573-LtDmZpRG5220FSrrduZ1",
+          "gen-1786518575-DqcQIcJvq0pbdjmyTLfc"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "26ae27a2e1eff731ac382c4abfe958d6fda14bd6682d4de9705581ddb0e3ea03",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 99,
+        "prompt_tokens": 804
+      }
+    },
+    {
+      "case_id": "sbov1-exception_handling-03::dense_semantic_shift",
+      "category": "exception_handling",
+      "deliverable": {
+        "allowed_resolution": "local-review-no-live-fix",
+        "diagnosis": "The primary exception evidence metric value is 0 within the 60-minutes window, which is below the threshold of 120. Distractor metrics are present but irrelevant to the rule resolution.",
+        "escalation_path": [
+          "evidence-rule-resolution",
+          "review"
+        ],
+        "evidence": [
+          "exception",
+          "source",
+          "03"
+        ],
+        "mission_id": "sbov1-exception_handling-03"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "exception-rule"
+        ]
+      },
+      "prompt_sha256": "a9fde1912a3dcd21b3b5b64d777cddb23ff748b691d4f4f8fb2b6f711d8a134e",
+      "recorded_at": "2026-08-12T07:08:19.656229+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518546-lmOMuUtdf67aIGDVbv5k",
+          "gen-1786518549-RN1tfuiC2HHZTc6h9RfE"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "a9469f02e6f4f3ff395879e729cf7e60be08488473571f48d1b6c62aaa79dec0",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 148,
+        "prompt_tokens": 1005
+      }
+    },
+    {
+      "case_id": "sbov1-exception_handling-03::dense_semantic_shift",
+      "category": "exception_handling",
+      "deliverable": {
+        "allowed_resolution": "local-review-no-live-fix",
+        "diagnosis": "diagnose only declared threshold violations with exact units and window",
+        "escalation_path": "evidence-rule-resolution",
+        "evidence": [
+          "exception",
+          "source",
+          "03"
+        ],
+        "mission_id": "sbov1-exception_handling-03"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "exception-rule"
+        ]
+      },
+      "prompt_sha256": "0e89da917ae36fd4eb7362970f33781f4055df8c08bae8a555cde9442f65d710",
+      "recorded_at": "2026-08-12T07:09:13.417436+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518600-aOO20LLdzUYqiWAfYWlS",
+          "gen-1786518603-GbFG50Y7MhL3VTc7hlcq"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "a9469f02e6f4f3ff395879e729cf7e60be08488473571f48d1b6c62aaa79dec0",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 108,
+        "prompt_tokens": 1083
+      }
+    },
+    {
+      "case_id": "sbov1-exception_handling-03::dense_semantic_shift",
+      "category": "exception_handling",
+      "deliverable": {
+        "allowed_resolution": "local-review-no-live-fix",
+        "diagnosis": "diagnose only declared threshold violations with exact units and window",
+        "escalation_path": "evidence-rule-resolution -> review",
+        "evidence": [
+          "exception",
+          "source",
+          "03"
+        ],
+        "mission_id": "sbov1-exception_handling-03"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "exception-rule"
+        ]
+      },
+      "prompt_sha256": "7e5c94f6c45073201bb8579c3a33cb465fa27e13ba5604b5cf191eb5bda70787",
+      "recorded_at": "2026-08-12T07:09:39.704912+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518627-h79s5Ii23YbKFZ93mzOj",
+          "gen-1786518629-5tuusL2GWAsoHhAhGuyy"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "a9469f02e6f4f3ff395879e729cf7e60be08488473571f48d1b6c62aaa79dec0",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 110,
+        "prompt_tokens": 1095
+      }
+    },
+    {
+      "case_id": "sbov1-exception_handling-03::dense_semantic_shift",
+      "category": "exception_handling",
+      "deliverable": {
+        "allowed_resolution": "local-review-no-live-fix",
+        "diagnosis": "diagnose only declared threshold violations with exact units and window",
+        "escalation_path": "evidence-rule-resolution",
+        "evidence": [
+          "exception",
+          "source",
+          "03"
+        ],
+        "mission_id": "sbov1-exception_handling-03"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "exception-rule"
+        ]
+      },
+      "prompt_sha256": "0e89da917ae36fd4eb7362970f33781f4055df8c08bae8a555cde9442f65d710",
+      "recorded_at": "2026-08-12T07:08:46.933997+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518574-pQdsBgen4YB3jsxgDWwr",
+          "gen-1786518576-0xooReMb0UoNuyHk5nOq"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "a9469f02e6f4f3ff395879e729cf7e60be08488473571f48d1b6c62aaa79dec0",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 108,
+        "prompt_tokens": 1083
+      }
+    },
+    {
+      "case_id": "sbov1-exception_handling-03::semantic_shift",
+      "category": "exception_handling",
+      "deliverable": {
+        "allowed_resolution": "local-review-no-live-fix",
+        "diagnosis": "Exception evidence indicates no live diagnostics or repair permitted under operator-family-exception-handling.v1; observed metric value 0 is below threshold 120 for evidence-rule-resolution.",
+        "escalation_path": "Route through evidence-rule-resolution review channel without autonomous approval or network access.",
+        "evidence": [
+          "exception",
+          "source",
+          "03"
+        ],
+        "mission_id": "sbov1-exception_handling-03"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "exception-rule"
+        ]
+      },
+      "prompt_sha256": "e151749dca01525b570bb749d3f81da6ea39bdf528e3c7811e6cbf205e0de5e6",
+      "recorded_at": "2026-08-12T07:08:18.840992+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518546-Pa3XZMFE30qJSQ8qVyce",
+          "gen-1786518548-3PVUearlgeZuEn3S36tm"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "3638e7fe050707d36aa0ae84ffa01053fb72252c730a363cfa57cc907fd96ab7",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 146,
+        "prompt_tokens": 752
+      }
+    },
+    {
+      "case_id": "sbov1-exception_handling-03::semantic_shift",
+      "category": "exception_handling",
+      "deliverable": {
+        "allowed_resolution": "local-review-no-live-fix",
+        "diagnosis": "diagnose only declared threshold violations with exact units and window",
+        "escalation_path": "evidence-rule-resolution/review",
+        "evidence": [
+          "exception",
+          "source",
+          "03"
+        ],
+        "mission_id": "sbov1-exception_handling-03"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "exception-rule"
+        ]
+      },
+      "prompt_sha256": "bbf1e51e68d86b2d48821e86e1767f045e5363499da7b7f8f5c170c25c01cd07",
+      "recorded_at": "2026-08-12T07:09:12.657335+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518600-dvlDD7SEbfPAMaPQXCrj",
+          "gen-1786518602-5WtL0xRL7WiVSZRTo5jW"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "3638e7fe050707d36aa0ae84ffa01053fb72252c730a363cfa57cc907fd96ab7",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 110,
+        "prompt_tokens": 830
+      }
+    },
+    {
+      "case_id": "sbov1-exception_handling-03::semantic_shift",
+      "category": "exception_handling",
+      "deliverable": {
+        "allowed_resolution": "local-review-no-live-fix",
+        "diagnosis": "diagnose only declared threshold violations with exact units and window",
+        "escalation_path": "evidence-rule-resolution/review",
+        "evidence": [
+          "exception",
+          "source",
+          "03"
+        ],
+        "mission_id": "sbov1-exception_handling-03"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "exception-rule"
+        ]
+      },
+      "prompt_sha256": "0d791dc44544ce1ee0d0fd3888d5144aecd6e3774716f08316ec67d63c5d21f2",
+      "recorded_at": "2026-08-12T07:09:39.056404+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518626-DFYV6fU3d7jRKr4adNuo",
+          "gen-1786518629-R6gAzlqhvQkiytlkcNaJ"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "3638e7fe050707d36aa0ae84ffa01053fb72252c730a363cfa57cc907fd96ab7",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 110,
+        "prompt_tokens": 842
+      }
+    },
+    {
+      "case_id": "sbov1-exception_handling-03::semantic_shift",
+      "category": "exception_handling",
+      "deliverable": {
+        "allowed_resolution": "local-review-no-live-fix",
+        "diagnosis": "diagnose only declared threshold violations with exact units and window",
+        "escalation_path": "evidence-rule-resolution/review",
+        "evidence": [
+          "exception",
+          "source",
+          "03"
+        ],
+        "mission_id": "sbov1-exception_handling-03"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "exception-rule"
+        ]
+      },
+      "prompt_sha256": "bbf1e51e68d86b2d48821e86e1767f045e5363499da7b7f8f5c170c25c01cd07",
+      "recorded_at": "2026-08-12T07:08:46.282516+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518574-r5svWa48Q8LhbmBjc2cM",
+          "gen-1786518576-sxgOewrh3b7xwmVIaPHV"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "3638e7fe050707d36aa0ae84ffa01053fb72252c730a363cfa57cc907fd96ab7",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 110,
+        "prompt_tokens": 830
+      }
+    },
+    {
+      "case_id": "sbov1-followup_scheduling-02::dense_semantic_shift",
+      "category": "followup_scheduling",
+      "deliverable": {
+        "confirmation_status": "pending",
+        "conflicts": [],
+        "constraints": {
+          "date": "2032-04-12",
+          "duration_minutes": 45,
+          "minimum_capacity": 1,
+          "required_equipment": [],
+          "subject_id": "guest-appointment-02"
+        },
+        "mission_id": "sbov1-followup_scheduling-02",
+        "proposal": {
+          "end_minute": 705,
+          "score": 10,
+          "start_minute": 660
+        },
+        "timezone": "Europe/Moscow"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "schedule-feasibility"
+        ]
+      },
+      "prompt_sha256": "34139dd6f340148f76dd4f5f19c2b5cc32ce1b68c87c90139045f951aa508ae1",
+      "recorded_at": "2026-08-12T07:08:23.409336+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518550-YtAZ0GwJtDT24yTdw5TV",
+          "gen-1786518553-btnOxqQAHqRIhqUgFYfg"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "2aeb14c9e85d8f0007b67e35f2f1d16af61b00871b5db894811a6394af4c41b5",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 171,
+        "prompt_tokens": 1162
+      }
+    },
+    {
+      "case_id": "sbov1-followup_scheduling-02::dense_semantic_shift",
+      "category": "followup_scheduling",
+      "deliverable": {
+        "confirmation_status": "pending",
+        "conflicts": [
+          "Busy interval 540-585 overlaps start minute 600",
+          "Busy interval 585-630 overlaps candidate start minute 600"
+        ],
+        "constraints": [
+          "Duration is 45 minutes",
+          "Minimum capacity is 1",
+          "Date is 2032-04-12"
+        ],
+        "mission_id": "sbov1-followup_scheduling-02",
+        "proposal": {
+          "date": "2032-04-12",
+          "duration_minutes": 45,
+          "end_minute": 705,
+          "resource_id": "room-birch",
+          "start_minute": 660,
+          "subject_id": "guest-appointment-02"
+        },
+        "timezone": "Europe/Moscow"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "schedule-feasibility"
+        ]
+      },
+      "prompt_sha256": "3f3d0bae89551e794511816c199cc290d30cc34603d4e3237fe45d20839be36b",
+      "recorded_at": "2026-08-12T07:09:17.610129+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518604-dSZ9war53RrYkOWYNQ6O",
+          "gen-1786518607-meDlXYjlxUnBhdSalkbY"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "2aeb14c9e85d8f0007b67e35f2f1d16af61b00871b5db894811a6394af4c41b5",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 186,
+        "prompt_tokens": 1276
+      }
+    },
+    {
+      "case_id": "sbov1-followup_scheduling-02::dense_semantic_shift",
+      "category": "followup_scheduling",
+      "deliverable": {
+        "confirmation_status": "pending",
+        "conflicts": [
+          "Busy interval 540-585 overlaps with candidate slot starting at 600? No, busy intervals are [540, 585], [585, 630], [585, 595], [705, 715].",
+          "Candidate slot at start_minute 600 falls inside busy intervals [585, 630]."
+        ],
+        "constraints": [
+          "Duration is 45 minutes",
+          "Must fall within availability window [540, 720]",
+          "Must not overlap with busy intervals",
+          "Select earliest feasible slot"
+        ],
+        "mission_id": "sbov1-followup_scheduling-02",
+        "proposal": {
+          "date": "2032-04-12",
+          "time": "12:00"
+        },
+        "timezone": "Europe/Moscow"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "schedule-feasibility"
+        ]
+      },
+      "prompt_sha256": "92e2517f4bb79f5985b91e97fbd3fcf97cc4c30d53060089507961bfb503fc14",
+      "recorded_at": "2026-08-12T07:09:43.543898+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518630-smjHM1UcXzWJG3nfWUmw",
+          "gen-1786518633-jrkBQ5peX8dvK9Gb8LTW"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "2aeb14c9e85d8f0007b67e35f2f1d16af61b00871b5db894811a6394af4c41b5",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 1310
+      }
+    },
+    {
+      "case_id": "sbov1-followup_scheduling-02::dense_semantic_shift",
+      "category": "followup_scheduling",
+      "deliverable": {
+        "confirmation_status": "pending",
+        "conflicts": [
+          "540-585",
+          "585-630",
+          "585-595",
+          "705-715"
+        ],
+        "constraints": [
+          "date == 2032-04-12",
+          "duration_minutes == 45",
+          "minimum_capacity == 1"
+        ],
+        "mission_id": "sbov1-followup_scheduling-02",
+        "proposal": {
+          "date": "2032-04-12",
+          "duration_minutes": 45,
+          "end_minute": 705,
+          "start_minute": 660,
+          "subject_id": "guest-appointment-02"
+        },
+        "timezone": "Europe/Moscow"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "schedule-feasibility"
+        ]
+      },
+      "prompt_sha256": "8dda71b7c0e7f6409ec933ec21ba58d6dc412171d189babcd3e17fafd75d71f6",
+      "recorded_at": "2026-08-12T07:08:50.892587+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518578-67dYV9ZNs04PQB2U6UWS",
+          "gen-1786518580-kfImd3ZtJnOuoNFnLlgl"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "2aeb14c9e85d8f0007b67e35f2f1d16af61b00871b5db894811a6394af4c41b5",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 205,
+        "prompt_tokens": 1252
+      }
+    },
+    {
+      "case_id": "sbov1-followup_scheduling-02::semantic_shift",
+      "category": "followup_scheduling",
+      "deliverable": {
+        "confirmation_status": "pending",
+        "conflicts": [],
+        "constraints": {
+          "duration_minutes": 45,
+          "minimum_capacity": 1,
+          "required_equipment": [],
+          "required_resource_id": null
+        },
+        "mission_id": "sbov1-followup_scheduling-02",
+        "proposal": {
+          "date": "2032-04-12",
+          "end_minute": 705,
+          "resource_id": "room-birch",
+          "start_minute": 660
+        },
+        "timezone": "Europe/Moscow"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "schedule-feasibility"
+        ]
+      },
+      "prompt_sha256": "37016b5c51014835480a95b2e2792ddc3318c945d42e66f0ec2fc908e39b61e3",
+      "recorded_at": "2026-08-12T07:08:22.499110+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518550-jUmFJgoyVKZ9nprVz10J",
+          "gen-1786518552-XLBq1sS20ilfEpxFz8AE"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "cdf7d33ff7c0f1c1f99ccc20170adfa0be92ce71c3fb13065604054ddadd3e7b",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 170,
+        "prompt_tokens": 904
+      }
+    },
+    {
+      "case_id": "sbov1-followup_scheduling-02::semantic_shift",
+      "category": "followup_scheduling",
+      "deliverable": {
+        "confirmation_status": "pending",
+        "conflicts": [
+          "Candidate score 8 at start_minute 600 conflicts with busy interval [585, 630]"
+        ],
+        "constraints": [
+          "Date: 2032-04-12",
+          "Duration: 45 minutes",
+          "Availability window: 540 to 720",
+          "Earliest feasible candidate score 10 at start_minute 660"
+        ],
+        "mission_id": "sbov1-followup_scheduling-02",
+        "proposal": {
+          "date": "2032-04-12",
+          "duration_minutes": 45,
+          "end_minute": 705,
+          "start_minute": 660,
+          "subject_id": "guest-appointment-02"
+        },
+        "timezone": "Europe/Moscow"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "schedule-feasibility"
+        ]
+      },
+      "prompt_sha256": "9a10a5a33c9b3cd1b6c71ebd8c71def72e0997e70507b9beb52bd71cf8f44c7f",
+      "recorded_at": "2026-08-12T07:09:16.527675+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518604-iizDd4I3OlCXLWwQtADS",
+          "gen-1786518606-Nd2E4LvI6T1lJTfq8zlS"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "cdf7d33ff7c0f1c1f99ccc20170adfa0be92ce71c3fb13065604054ddadd3e7b",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 163,
+        "prompt_tokens": 1018
+      }
+    },
+    {
+      "case_id": "sbov1-followup_scheduling-02::semantic_shift",
+      "category": "followup_scheduling",
+      "deliverable": {
+        "confirmation_status": "pending",
+        "conflicts": [
+          "Candidate start_minute 600 conflicts with busy interval [585, 630]"
+        ],
+        "constraints": [
+          "Availability window [540, 720]",
+          "Duration 45 minutes",
+          "Candidate attendance score max or earliest feasible"
+        ],
+        "mission_id": "sbov1-followup_scheduling-02",
+        "proposal": {
+          "date": "2032-04-12",
+          "time": "11:00"
+        },
+        "timezone": "Europe/Moscow"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "schedule-feasibility"
+        ]
+      },
+      "prompt_sha256": "67f9952e4730f5616f51fd98e7f7276fa45dac295f8b15d18c00404fbd337047",
+      "recorded_at": "2026-08-12T07:09:42.463369+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518630-4qUJIriJiWFM2kCFnFRw",
+          "gen-1786518632-p3zLmjyjjVPPzKXOLCbV"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "cdf7d33ff7c0f1c1f99ccc20170adfa0be92ce71c3fb13065604054ddadd3e7b",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 145,
+        "prompt_tokens": 1052
+      }
+    },
+    {
+      "case_id": "sbov1-followup_scheduling-02::semantic_shift",
+      "category": "followup_scheduling",
+      "deliverable": {
+        "confirmation_status": "pending",
+        "conflicts": [
+          "Candidate is busy from minute 540 to 630 (overlaps candidate attendance slot at 600)."
+        ],
+        "constraints": [
+          "Date: 2032-04-12",
+          "Duration: 45 minutes",
+          "Availability window: 540 to 720 minutes",
+          "Select earliest-feasible candidate attendance slot"
+        ],
+        "mission_id": "sbov1-followup_scheduling-02",
+        "proposal": {
+          "date": "2032-04-12",
+          "duration_minutes": 45,
+          "start_minute": 660,
+          "subject_id": "guest-appointment-02"
+        },
+        "timezone": "Europe/Moscow"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "schedule-feasibility"
+        ]
+      },
+      "prompt_sha256": "d45300c6a5f5e5cb72b47be0337294831cb404ec8e8b30b244130d22d7166f8d",
+      "recorded_at": "2026-08-12T07:08:49.866250+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518577-zGgF1cXdvNCrK0HFnPcW",
+          "gen-1786518579-TtoBB4CuGrZDEet4QUPW"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "cdf7d33ff7c0f1c1f99ccc20170adfa0be92ce71c3fb13065604054ddadd3e7b",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 190,
+        "prompt_tokens": 994
+      }
+    },
+    {
+      "case_id": "sbov1-information_retrieval-03::dense_semantic_shift",
+      "category": "information_retrieval",
+      "deliverable": {
+        "answer": "Needle-03 is contained in local closed-corpus-retrieval (record-03-a, section S1).",
+        "citations": [
+          "record-03-a"
+        ],
+        "missing_data_flags": [],
+        "mission_id": "sbov1-information_retrieval-03",
+        "record_ids": [
+          "record-03-a"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "trace-entailment"
+        ]
+      },
+      "prompt_sha256": "7092d2ea187511115aa3eaf09cc0894c4fbb8e1bf0a4756849990abc7e00ca52",
+      "recorded_at": "2026-08-12T07:08:24.805377+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518551-U56J9nc5IiDpIUxTsuEU",
+          "gen-1786518554-cnFgwUVWiUZFyxtAbnj6"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "82f8ece16de9d471cda823a4a46fac47435431d2cbd979eea287a1d763eea193",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 119,
+        "prompt_tokens": 1018
+      }
+    },
+    {
+      "case_id": "sbov1-information_retrieval-03::dense_semantic_shift",
+      "category": "information_retrieval",
+      "deliverable": {
+        "answer": "needle-03",
+        "citations": [
+          "record-03-a"
+        ],
+        "missing_data_flags": [],
+        "mission_id": "sbov1-information_retrieval-03",
+        "record_ids": [
+          "record-03-a"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "trace-entailment"
+        ]
+      },
+      "prompt_sha256": "eda34689530f38e628ab574e351ce867de50dd4e16763d67182770c699ef1ec9",
+      "recorded_at": "2026-08-12T07:09:18.874157+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518605-34jV22xto1DH6sPplYf2",
+          "gen-1786518608-YZ2mi2PWocAGPg8hwRyr"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "82f8ece16de9d471cda823a4a46fac47435431d2cbd979eea287a1d763eea193",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 1122
+      }
+    },
+    {
+      "case_id": "sbov1-information_retrieval-03::dense_semantic_shift",
+      "category": "information_retrieval",
+      "deliverable": {
+        "answer": "Local closed-corpus-retrieval contains needle-03.",
+        "citations": [
+          "record-03-a"
+        ],
+        "missing_data_flags": [],
+        "mission_id": "sbov1-information_retrieval-03",
+        "record_ids": [
+          "record-03-a"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "trace-entailment"
+        ]
+      },
+      "prompt_sha256": "d69e9a81e279174277d2da2e5e5e82819a6973f3785550196d113dd94d68608f",
+      "recorded_at": "2026-08-12T07:09:44.863722+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518631-xyqK2XPaGZKfNp5FTtvI",
+          "gen-1786518634-19bAPfpWz5IBa1l4ioVB"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "82f8ece16de9d471cda823a4a46fac47435431d2cbd979eea287a1d763eea193",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 104,
+        "prompt_tokens": 1138
+      }
+    },
+    {
+      "case_id": "sbov1-information_retrieval-03::dense_semantic_shift",
+      "category": "information_retrieval",
+      "deliverable": {
+        "answer": "Local closed-corpus-retrieval contains needle-03.",
+        "citations": [
+          "record-03-a"
+        ],
+        "missing_data_flags": [],
+        "mission_id": "sbov1-information_retrieval-03",
+        "record_ids": [
+          "record-03-a"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "trace-entailment"
+        ]
+      },
+      "prompt_sha256": "c277819934f3f1d393f9e0bf096f558f5c879e4e0aa35513e2592129d0355182",
+      "recorded_at": "2026-08-12T07:08:52.286242+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518579-lNf4rP3oCIMN2KPbbF0Q",
+          "gen-1786518582-LEiWLVZMxdQs8vQ8kEYs"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "82f8ece16de9d471cda823a4a46fac47435431d2cbd979eea287a1d763eea193",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 104,
+        "prompt_tokens": 1094
+      }
+    },
+    {
+      "case_id": "sbov1-information_retrieval-03::semantic_shift",
+      "category": "information_retrieval",
+      "deliverable": {
+        "answer": "Needle-03 is contained in local closed-corpus-retrieval, specifically in record-03-a.",
+        "citations": [
+          "record-03-a"
+        ],
+        "missing_data_flags": [],
+        "mission_id": "sbov1-information_retrieval-03",
+        "record_ids": [
+          "record-03-a"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "trace-entailment"
+        ]
+      },
+      "prompt_sha256": "6371b81640d6870ff522e331a131bbbfcf2161b2974a129611ffcaa4344fc12e",
+      "recorded_at": "2026-08-12T07:08:24.103992+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518551-RvAy1M4Fe4BXKoHByhhG",
+          "gen-1786518554-OE9vzSSnfvNmRR0LomM8"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "17b00c6b2b0545e7c5529be082a5cb61ac88926ac95fad5d6ed162f87a8f00d6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 116,
+        "prompt_tokens": 762
+      }
+    },
+    {
+      "case_id": "sbov1-information_retrieval-03::semantic_shift",
+      "category": "information_retrieval",
+      "deliverable": {
+        "answer": "needle-03",
+        "citations": [
+          "record-03-a"
+        ],
+        "missing_data_flags": [],
+        "mission_id": "sbov1-information_retrieval-03",
+        "record_ids": [
+          "record-03-a"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "trace-entailment"
+        ]
+      },
+      "prompt_sha256": "2a67fdf4a613bb3b33c38da5cf72dcc8ef388d94dbccb8ba3cf292485475a5cc",
+      "recorded_at": "2026-08-12T07:09:18.231789+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518605-Ijbe6xpNl63jr2UDeSeR",
+          "gen-1786518608-UJx0g7sr3pnKuIa6kdDQ"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "17b00c6b2b0545e7c5529be082a5cb61ac88926ac95fad5d6ed162f87a8f00d6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 866
+      }
+    },
+    {
+      "case_id": "sbov1-information_retrieval-03::semantic_shift",
+      "category": "information_retrieval",
+      "deliverable": {
+        "answer": "needle-03",
+        "citations": [
+          "record-03-a"
+        ],
+        "missing_data_flags": [],
+        "mission_id": "sbov1-information_retrieval-03",
+        "record_ids": [
+          "record-03-a"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "trace-entailment"
+        ]
+      },
+      "prompt_sha256": "78acb12d00ca518a25d48cb772aab9b7f7a8197777786e735d5033677213896f",
+      "recorded_at": "2026-08-12T07:09:44.208883+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518631-tKE3oBK7ZSHxH2JiuKzz",
+          "gen-1786518634-K0OimQzaioHtLBxmIkpq"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "17b00c6b2b0545e7c5529be082a5cb61ac88926ac95fad5d6ed162f87a8f00d6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 882
+      }
+    },
+    {
+      "case_id": "sbov1-information_retrieval-03::semantic_shift",
+      "category": "information_retrieval",
+      "deliverable": {
+        "answer": "Local closed-corpus-retrieval contains needle-03.",
+        "citations": [
+          "record-03-a"
+        ],
+        "missing_data_flags": [],
+        "mission_id": "sbov1-information_retrieval-03",
+        "record_ids": [
+          "record-03-a"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "trace-entailment"
+        ]
+      },
+      "prompt_sha256": "b92c4e4a942f3bdfa88d7cd7c2367a1cb8fcf5cae86d7c9809af22a7a3a20ef5",
+      "recorded_at": "2026-08-12T07:08:51.602486+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518578-r3dZC7Pzkk50rC9wnE1t",
+          "gen-1786518581-3ApZfj4w3UVvcEgLjHR4"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "17b00c6b2b0545e7c5529be082a5cb61ac88926ac95fad5d6ed162f87a8f00d6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 104,
+        "prompt_tokens": 838
+      }
+    },
+    {
+      "case_id": "sbov1-intake_classification-01::dense_semantic_shift",
+      "category": "intake_classification",
+      "deliverable": {
+        "confidence": 1.0,
+        "escalation_required": false,
+        "label": "OTHER",
+        "mission_id": "sbov1-intake_classification-01",
+        "rationale": "The subject score is 75 (meeting threshold >= 50), but under exact-keyword match mode against security-labels.v1, the subject text 'Synthetic unknown subject' contains no security keywords ('security', etc.). Thus, label MATCH does not apply, and OTHER is selected as the correct fallback label."
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "taxonomy-rule"
+        ]
+      },
+      "prompt_sha256": "a6057c91d44044352fa8f1369e231296e025cd56a6bfb83a05ee2a16a0e38019",
+      "recorded_at": "2026-08-12T07:08:28.502905+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518556-oUDXtBCYb3EMGKwMt38T",
+          "gen-1786518558-ahm1KaVMvmW4FtiIlg5O"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "45a699d72cacf628a3f6c29623a19389726a2b514e87ce353a23f29c00c8b9ac",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 133,
+        "prompt_tokens": 934
+      }
+    },
+    {
+      "case_id": "sbov1-intake_classification-01::dense_semantic_shift",
+      "category": "intake_classification",
+      "deliverable": {
+        "confidence": "high",
+        "escalation_required": false,
+        "label": "MATCH",
+        "mission_id": "sbov1-intake_classification-01",
+        "rationale": "The subject text mentions 'security', which triggers an exact keyword match under the rules for security-labels.v1."
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "taxonomy-rule"
+        ]
+      },
+      "prompt_sha256": "9cccce3398b983f0cac9eeee931d2cc78f4fc432e8d28fc0cd72c188c2a81102",
+      "recorded_at": "2026-08-12T07:09:22.243378+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518610-2OIdF653gU1ga3aI9imT",
+          "gen-1786518612-vmp0Ns32ZDgVdEvdGNd6"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "45a699d72cacf628a3f6c29623a19389726a2b514e87ce353a23f29c00c8b9ac",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 90,
+        "prompt_tokens": 1014
+      }
+    },
+    {
+      "case_id": "sbov1-intake_classification-01::dense_semantic_shift",
+      "category": "intake_classification",
+      "deliverable": {
+        "confidence": "high",
+        "escalation_required": false,
+        "label": "MATCH",
+        "mission_id": "sbov1-intake_classification-01",
+        "rationale": "The subject score of 75 meets or exceeds the threshold of 50 under exact-keyword rules, matching the security label code MATCH."
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "taxonomy-rule"
+        ]
+      },
+      "prompt_sha256": "9cccce3398b983f0cac9eeee931d2cc78f4fc432e8d28fc0cd72c188c2a81102",
+      "recorded_at": "2026-08-12T07:09:48.139606+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518636-6zD97nEgmJE7QuaWCF95",
+          "gen-1786518638-o2GSliYK86MiuQh71SSo"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "45a699d72cacf628a3f6c29623a19389726a2b514e87ce353a23f29c00c8b9ac",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 1014
+      }
+    },
+    {
+      "case_id": "sbov1-intake_classification-01::dense_semantic_shift",
+      "category": "intake_classification",
+      "deliverable": {
+        "confidence": "high",
+        "escalation_required": false,
+        "label": "MATCH",
+        "mission_id": "sbov1-intake_classification-01",
+        "rationale": "The subject score is 75, which meets or exceeds the threshold of 50 under exact-keyword match mode for the security-label category, pointing directly to the MATCH label."
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "taxonomy-rule"
+        ]
+      },
+      "prompt_sha256": "9cccce3398b983f0cac9eeee931d2cc78f4fc432e8d28fc0cd72c188c2a81102",
+      "recorded_at": "2026-08-12T07:08:55.616965+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518583-YpxEX6ANwLtbX8hg5OuL",
+          "gen-1786518585-yYGPvU3Q46Z5WylILPpr"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "45a699d72cacf628a3f6c29623a19389726a2b514e87ce353a23f29c00c8b9ac",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 104,
+        "prompt_tokens": 1014
+      }
+    },
+    {
+      "case_id": "sbov1-intake_classification-01::semantic_shift",
+      "category": "intake_classification",
+      "deliverable": {
+        "confidence": 1.0,
+        "escalation_required": false,
+        "label": "OTHER",
+        "mission_id": "sbov1-intake_classification-01",
+        "rationale": "The case facts do not contain the security keyword required for the MATCH label under exact-keyword match mode, so OTHER is selected."
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "taxonomy-rule"
+        ]
+      },
+      "prompt_sha256": "c12fd2649362795399abe965e19c328090a3cc0eead1efd836308a6f6aa6264b",
+      "recorded_at": "2026-08-12T07:08:27.627884+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518555-Mo3ZzuMzKbCXjtIZSjCZ",
+          "gen-1786518557-ufsr2qmj3xQKFjQUYwKt"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "8e2c4f2b7161c67aaecb0514496a19800219bf900d495e445a44c261131ea37c",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 94,
+        "prompt_tokens": 720
+      }
+    },
+    {
+      "case_id": "sbov1-intake_classification-01::semantic_shift",
+      "category": "intake_classification",
+      "deliverable": {
+        "confidence": "high",
+        "escalation_required": false,
+        "label": "MATCH",
+        "mission_id": "sbov1-intake_classification-01",
+        "rationale": "The subject text mentions security and the match mode requires exact keyword evaluation against the defined rules where the keyword security maps to the MATCH label."
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "taxonomy-rule"
+        ]
+      },
+      "prompt_sha256": "5bc082d4f4cf1bbbe81f6955136039635dcd89592877ce09eb66057a671ec9ab",
+      "recorded_at": "2026-08-12T07:09:21.556203+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518609-gbbUJcIO0jLbQLFdYtUu",
+          "gen-1786518611-8l87hQVz7iRNofni9EeG"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "8e2c4f2b7161c67aaecb0514496a19800219bf900d495e445a44c261131ea37c",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 93,
+        "prompt_tokens": 800
+      }
+    },
+    {
+      "case_id": "sbov1-intake_classification-01::semantic_shift",
+      "category": "intake_classification",
+      "deliverable": {
+        "confidence": "high",
+        "escalation_required": false,
+        "label": "MATCH",
+        "mission_id": "sbov1-intake_classification-01",
+        "rationale": "The subject text mentions the keyword 'security', matching the security-label keyword rule under exact-keyword matching with a score exceeding the 50 threshold."
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "taxonomy-rule"
+        ]
+      },
+      "prompt_sha256": "5bc082d4f4cf1bbbe81f6955136039635dcd89592877ce09eb66057a671ec9ab",
+      "recorded_at": "2026-08-12T07:09:47.452960+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518635-FXELtSbrhkRbfHEBQc1r",
+          "gen-1786518637-dfTz4Ruh5lh9UZWEikfR"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "8e2c4f2b7161c67aaecb0514496a19800219bf900d495e445a44c261131ea37c",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 97,
+        "prompt_tokens": 800
+      }
+    },
+    {
+      "case_id": "sbov1-intake_classification-01::semantic_shift",
+      "category": "intake_classification",
+      "deliverable": {
+        "confidence": "high",
+        "escalation_required": false,
+        "label": "MATCH",
+        "mission_id": "sbov1-intake_classification-01",
+        "rationale": "The subject text concerns synthetic unknown subject and the keyword security matches the taxonomy threshold rules."
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "taxonomy-rule"
+        ]
+      },
+      "prompt_sha256": "5bc082d4f4cf1bbbe81f6955136039635dcd89592877ce09eb66057a671ec9ab",
+      "recorded_at": "2026-08-12T07:08:54.860042+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518582-VFtL8TimLFEU80lBaNC7",
+          "gen-1786518584-tlPN0cr5vSfOvfHaSTvB"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "8e2c4f2b7161c67aaecb0514496a19800219bf900d495e445a44c261131ea37c",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 83,
+        "prompt_tokens": 800
+      }
+    },
+    {
+      "case_id": "sbov1-policy_interpretation-01::dense_semantic_shift",
+      "category": "policy_interpretation",
+      "deliverable": {
+        "approval_required": true,
+        "cited_clauses": [
+          "CLAUSE-01-1"
+        ],
+        "determination": "The scenario is not applicable under the policy interpretation.",
+        "mission_id": "sbov1-policy_interpretation-01",
+        "uncertainty": "high"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "policy-grounding"
+        ]
+      },
+      "prompt_sha256": "f9c3e1870403fd9812885264c71ce177af2bd328a54c666a61d5db834365918a",
+      "recorded_at": "2026-08-12T07:08:30.084163+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518557-phB8lB0gyxEC2zHWSluq",
+          "gen-1786518560-gp7oBC4FcTpjBDTJPOls"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "0abc5428864ad00a9758945fe2140c8d9cd01a30a98172367c563638cb0adc69",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 89,
+        "prompt_tokens": 949
+      }
+    },
+    {
+      "case_id": "sbov1-policy_interpretation-01::dense_semantic_shift",
+      "category": "policy_interpretation",
+      "deliverable": {
+        "approval_required": false,
+        "cited_clauses": [
+          "CLAUSE-01-1"
+        ],
+        "determination": "The scenario is not applicable according to the case facts.",
+        "mission_id": "sbov1-policy_interpretation-01",
+        "uncertainty": []
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "policy-grounding"
+        ]
+      },
+      "prompt_sha256": "94ce66fa90295a2f53c43c470994cb72fb0bb8f3aa933495334f7a6242880e7d",
+      "recorded_at": "2026-08-12T07:09:23.700417+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518611-KRJKz4bZJ6WwE0OAhLo7",
+          "gen-1786518613-IqmjYJsUMesEnTILkaZV"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "0abc5428864ad00a9758945fe2140c8d9cd01a30a98172367c563638cb0adc69",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 88,
+        "prompt_tokens": 1043
+      }
+    },
+    {
+      "case_id": "sbov1-policy_interpretation-01::dense_semantic_shift",
+      "category": "policy_interpretation",
+      "deliverable": {
+        "approval_required": false,
+        "cited_clauses": [
+          "CLAUSE-01-1"
+        ],
+        "determination": "Clause-grounded-answer is governed by the policy clause CLAUSE-01-1 under the applicable operator family guidelines.",
+        "mission_id": "sbov1-policy_interpretation-01",
+        "uncertainty": [
+          "Scenario is marked as not applicable, requiring careful adherence strictly to the supplied fictional clauses without external assumptions."
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "policy-grounding"
+        ]
+      },
+      "prompt_sha256": "8de6a597a95ff1d71ae1602b551dcae2401a2310d1828c0f8a1fdf9cd3a0d03f",
+      "recorded_at": "2026-08-12T07:09:49.697363+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518636-YXlFif0mq4VW3lWgInml",
+          "gen-1786518639-qGKZOfNglcjhveD6cc1j"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "0abc5428864ad00a9758945fe2140c8d9cd01a30a98172367c563638cb0adc69",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 129,
+        "prompt_tokens": 1055
+      }
+    },
+    {
+      "case_id": "sbov1-policy_interpretation-01::dense_semantic_shift",
+      "category": "policy_interpretation",
+      "deliverable": {
+        "approval_required": true,
+        "cited_clauses": [
+          "CLAUSE-01-1"
+        ],
+        "determination": "Inconclusive due to non-applicable scenario; clause-grounded-answer requires further review under policy clauses.",
+        "mission_id": "sbov1-policy_interpretation-01",
+        "uncertainty": [
+          "Scenario is marked as not applicable",
+          "Dense non-applicable context clauses require filtration"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "policy-grounding"
+        ]
+      },
+      "prompt_sha256": "cb56f2207cb87a8da4a2311b0dd78f2dde77969d88e19f0a644871f73cc424fe",
+      "recorded_at": "2026-08-12T07:08:57.335965+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518584-gh9QsEo69pcJ394X2gik",
+          "gen-1786518587-GUN2cFzIsERflK10io7U"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "0abc5428864ad00a9758945fe2140c8d9cd01a30a98172367c563638cb0adc69",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 125,
+        "prompt_tokens": 1027
+      }
+    },
+    {
+      "case_id": "sbov1-policy_interpretation-01::semantic_shift",
+      "category": "policy_interpretation",
+      "deliverable": {
+        "approval_required": true,
+        "cited_clauses": [
+          "CLAUSE-01-1"
+        ],
+        "determination": "The supplied fictional clauses do not make the scenario applicable; therefore, clause-grounded-answer does not apply.",
+        "mission_id": "sbov1-policy_interpretation-01",
+        "uncertainty": "The applicability is explicitly stated as false in the scenario facts, introducing uncertainty regarding how clause-grounded-answer could apply without further policy expansion."
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "policy-grounding"
+        ]
+      },
+      "prompt_sha256": "cc1a0b55f06f585224a34b314dff1293bdecdb3f6bdb5ea911c9dba91ea14bbf",
+      "recorded_at": "2026-08-12T07:08:29.372702+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518556-8wph4jlPXLzIvHUw6rxw",
+          "gen-1786518559-ACkQ2BOW4qrBakjbMgRZ"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "2b0a41a6908652555f958527b305d84ccdf3f53f18c8d8c7f548c6ef3399b8d9",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 129,
+        "prompt_tokens": 735
+      }
+    },
+    {
+      "case_id": "sbov1-policy_interpretation-01::semantic_shift",
+      "category": "policy_interpretation",
+      "deliverable": {
+        "approval_required": false,
+        "cited_clauses": [
+          "CLAUSE-01-1"
+        ],
+        "determination": "The policy clause governs clause-grounded-answer by applying synthetic policy standards as indicated in the text.",
+        "mission_id": "sbov1-policy_interpretation-01",
+        "uncertainty": [
+          "Applicability to actual scenarios is explicitly marked as false in the case facts."
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "policy-grounding"
+        ]
+      },
+      "prompt_sha256": "01bc34385885035ccb57c38ab445a944a4611e08025976227fb0879e5a3ebf7e",
+      "recorded_at": "2026-08-12T07:09:23.060797+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518610-JzLJve89MIe08D0616as",
+          "gen-1786518612-HuDNgPVqdrxQnbN8dVyS"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "2b0a41a6908652555f958527b305d84ccdf3f53f18c8d8c7f548c6ef3399b8d9",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 119,
+        "prompt_tokens": 829
+      }
+    },
+    {
+      "case_id": "sbov1-policy_interpretation-01::semantic_shift",
+      "category": "policy_interpretation",
+      "deliverable": {
+        "approval_required": false,
+        "cited_clauses": [
+          "CLAUSE-01-1"
+        ],
+        "determination": "Not applicable",
+        "mission_id": "sbov1-policy_interpretation-01",
+        "uncertainty": [
+          "Scenario applicable is false"
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "policy-grounding"
+        ]
+      },
+      "prompt_sha256": "e217715bd1c5cdf6848749fd69b3b7d19586f9c878536b53b892d54f03719ee4",
+      "recorded_at": "2026-08-12T07:09:48.859082+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518636-yWcaU2KeCfexkmhggOta",
+          "gen-1786518638-fflyCnPXLD83JAMoSEMu"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "2b0a41a6908652555f958527b305d84ccdf3f53f18c8d8c7f548c6ef3399b8d9",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 91,
+        "prompt_tokens": 841
+      }
+    },
+    {
+      "case_id": "sbov1-policy_interpretation-01::semantic_shift",
+      "category": "policy_interpretation",
+      "deliverable": {
+        "approval_required": true,
+        "cited_clauses": [
+          "CLAUSE-01-1"
+        ],
+        "determination": "The supplied policy clause CLAUSE-01-1 governs clause-grounded-answer, but the scenario is marked as not applicable under the current facts, requiring human review.",
+        "mission_id": "sbov1-policy_interpretation-01",
+        "uncertainty": [
+          "Applicability of the scenario is false, requiring preservation of uncertainty regarding practical application."
+        ]
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "policy-grounding"
+        ]
+      },
+      "prompt_sha256": "cc1cafee28653a6bb61ee7933002c72b83ea9665935546c57dcd4b0e9edadcf7",
+      "recorded_at": "2026-08-12T07:08:56.471995+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518583-RC11DDR1yw2QFve5gta7",
+          "gen-1786518586-VlwdnjZFRYMTQh3i265F"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "2b0a41a6908652555f958527b305d84ccdf3f53f18c8d8c7f548c6ef3399b8d9",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 135,
+        "prompt_tokens": 813
+      }
+    },
+    {
+      "case_id": "sbov1-quality_verification-03::dense_semantic_shift",
+      "category": "quality_verification",
+      "deliverable": {
+        "corrective_action": "Isolate artifact-03, document all matched token defects (DEFECT-03, EXTRA, DENSE-DEFECT-1, DENSE-DEFECT-3, DENSE-DEFECT-5), and route for quality remediation.",
+        "defects": [
+          "DEFECT-03",
+          "EXTRA",
+          "DENSE-DEFECT-1",
+          "DENSE-DEFECT-3",
+          "DENSE-DEFECT-5"
+        ],
+        "evidence": [
+          "Synthetic declared-rule-qa artifact contains DEFECT-03. EXTRA DENSE-DEFECT-1 DENSE-DEFECT-3 DENSE-DEFECT-5"
+        ],
+        "mission_id": "sbov1-quality_verification-03",
+        "qa_checklist": [
+          "check-03",
+          "semantic-input-check",
+          "dense-check-1",
+          "dense-check-2",
+          "dense-check-3",
+          "dense-check-4",
+          "dense-check-5",
+          "dense-check-6"
+        ],
+        "severity": "high"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "quality-defect-completeness"
+        ]
+      },
+      "prompt_sha256": "384162319675290f4bf3424a9cb2c87891304df26a471a316515ca89b1b59f53",
+      "recorded_at": "2026-08-12T07:08:34.255702+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518561-5ahqhl75EO28JEID0kd1",
+          "gen-1786518563-x2AlNa5hBdutD4O1WVQx"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "0a39c68e98882d879008e52ae3c4669803151dbe2f4b5834757a4628345e9535",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 192,
+        "prompt_tokens": 989
+      }
+    },
+    {
+      "case_id": "sbov1-quality_verification-03::dense_semantic_shift",
+      "category": "quality_verification",
+      "deliverable": {
+        "corrective_action": "Remove all detected token-defect matches from the synthetic artifact.",
+        "defects": [
+          "DEFECT-03",
+          "EXTRA",
+          "DENSE-DEFECT-1",
+          "DENSE-DEFECT-3",
+          "DENSE-DEFECT-5"
+        ],
+        "evidence": [
+          "Synthetic declared-rule-qa artifact contains DEFECT-03. EXTRA DENSE-DEFECT-1 DENSE-DEFECT-3 DENSE-DEFECT-5"
+        ],
+        "mission_id": "sbov1-quality_verification-03",
+        "qa_checklist": [
+          "check-03",
+          "semantic-input-check",
+          "dense-check-1",
+          "dense-check-2",
+          "dense-check-3",
+          "dense-check-4",
+          "dense-check-5",
+          "dense-check-6"
+        ],
+        "severity": "high"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "quality-defect-completeness"
+        ]
+      },
+      "prompt_sha256": "28cce3ecc6985817170da8f3f7174645103a95d8a2c47b8a9d5c19298d9cba26",
+      "recorded_at": "2026-08-12T07:09:27.437844+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518614-pAjbtFcBn3QbS3OHCEOS",
+          "gen-1786518617-HVS1X3kcDXyPlivEAZEI"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "0a39c68e98882d879008e52ae3c4669803151dbe2f4b5834757a4628345e9535",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 152,
+        "prompt_tokens": 1105
+      }
+    },
+    {
+      "case_id": "sbov1-quality_verification-03::dense_semantic_shift",
+      "category": "quality_verification",
+      "deliverable": {
+        "corrective_action": "Reject artifact and log identified defects from rule checks.",
+        "defects": [
+          "DEFECT-03",
+          "EXTRA",
+          "DENSE-DEFECT-1",
+          "DENSE-DEFECT-3",
+          "DENSE-DEFECT-5"
+        ],
+        "evidence": [
+          "Synthetic declared-rule-qa artifact contains DEFECT-03. EXTRA DENSE-DEFECT-1 DENSE-DEFECT-3 DENSE-DEFECT-5"
+        ],
+        "mission_id": "sbov1-quality_verification-03",
+        "qa_checklist": [
+          {
+            "check_id": "check-03",
+            "passed": false
+          },
+          {
+            "check_id": "semantic-input-check",
+            "passed": false
+          },
+          {
+            "check_id": "dense-check-1",
+            "passed": false
+          },
+          {
+            "check_id": "dense-check-2",
+            "passed": true
+          },
+          {
+            "check_id": "dense-check-3",
+            "passed": false
+          },
+          {
+            "check_id": "dense-check-4",
+            "passed": true
+          },
+          {
+            "check_id": "dense-check-5",
+            "passed": false
+          },
+          {
+            "check_id": "dense-check-6",
+            "passed": true
+          }
+        ],
+        "severity": "high"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "quality-defect-completeness"
+        ]
+      },
+      "prompt_sha256": "95754669f03869a4dc85b59bf4e094a339c978e196a6af3089e493006dce80b1",
+      "recorded_at": "2026-08-12T07:09:53.845433+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518640-P3rHwL7HzvLvzuvMh5Bs",
+          "gen-1786518643-z075G7wqSb2YmD9vEL00"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "0a39c68e98882d879008e52ae3c4669803151dbe2f4b5834757a4628345e9535",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 283,
+        "prompt_tokens": 1155
+      }
+    },
+    {
+      "case_id": "sbov1-quality_verification-03::dense_semantic_shift",
+      "category": "quality_verification",
+      "deliverable": {
+        "corrective_action": "Reject artifact and log token defects for all matched checklist items.",
+        "defects": [
+          "DEFECT-03",
+          "EXTRA",
+          "DENSE-DEFECT-1",
+          "DENSE-DEFECT-3",
+          "DENSE-DEFECT-5"
+        ],
+        "evidence": [
+          "DEFECT-03",
+          "EXTRA",
+          "DENSE-DEFECT-1",
+          "DENSE-DEFECT-3",
+          "DENSE-DEFECT-5"
+        ],
+        "mission_id": "sbov1-quality_verification-03",
+        "qa_checklist": [
+          "check-03",
+          "semantic-input-check",
+          "dense-check-1",
+          "dense-check-2",
+          "dense-check-3",
+          "dense-check-4",
+          "dense-check-5",
+          "dense-check-6"
+        ],
+        "severity": "high"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "quality-defect-completeness"
+        ]
+      },
+      "prompt_sha256": "805f693ef90017a5a67d3309284b7bd58367e64e220740af85d0a308efabd708",
+      "recorded_at": "2026-08-12T07:09:00.962526+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518588-qrpStEyxPAvFBoXcavJT",
+          "gen-1786518590-qs0FVqZhEoDQ9WdlWl5X"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "0a39c68e98882d879008e52ae3c4669803151dbe2f4b5834757a4628345e9535",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 136,
+        "prompt_tokens": 1081
+      }
+    },
+    {
+      "case_id": "sbov1-quality_verification-03::semantic_shift",
+      "category": "quality_verification",
+      "deliverable": {
+        "corrective_action": "Remove the seeded defects DEFECT-03 and EXTRA from the artifact.",
+        "defects": [
+          "DEFECT-03",
+          "EXTRA"
+        ],
+        "evidence": [
+          "Synthetic declared-rule-qa artifact contains DEFECT-03. EXTRA"
+        ],
+        "mission_id": "sbov1-quality_verification-03",
+        "qa_checklist": [
+          "check-03",
+          "semantic-input-check"
+        ],
+        "severity": "medium"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "quality-defect-completeness"
+        ]
+      },
+      "prompt_sha256": "5dff9e7d086ee432b8477d6c6e939af088629c5570eaea9284fc2ec283e21dc3",
+      "recorded_at": "2026-08-12T07:08:33.030409+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518560-GKbCRW6KwArsvKPYdaPA",
+          "gen-1786518562-8bKEGh7HCjfrAgKIXJaF"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "cd70e056653b0e281287c33827ffa257eed28399d257ffa737761ea96fac0fcf",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 144,
+        "prompt_tokens": 748
+      }
+    },
+    {
+      "case_id": "sbov1-quality_verification-03::semantic_shift",
+      "category": "quality_verification",
+      "deliverable": {
+        "corrective_action": "Remove the seeded defects from the synthetic artifact.",
+        "defects": [
+          "token-defect",
+          "token-defect"
+        ],
+        "evidence": [
+          "DEFECT-03",
+          "EXTRA"
+        ],
+        "mission_id": "sbov1-quality_verification-03",
+        "qa_checklist": [
+          "check-03",
+          "semantic-input-check"
+        ],
+        "severity": "high"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "quality-defect-completeness"
+        ]
+      },
+      "prompt_sha256": "9c2fe48c059b860d226ef7bde13d53e139f6e5772438065ed21cfc13ed852010",
+      "recorded_at": "2026-08-12T07:09:26.383526+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518614-coIlQebZ9tJHXwhRChJg",
+          "gen-1786518616-O6jW6U46v75Jdy3fwHMu"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "cd70e056653b0e281287c33827ffa257eed28399d257ffa737761ea96fac0fcf",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 133,
+        "prompt_tokens": 864
+      }
+    },
+    {
+      "case_id": "sbov1-quality_verification-03::semantic_shift",
+      "category": "quality_verification",
+      "deliverable": {
+        "corrective_action": "Remove invalid semantic shifts and tokens",
+        "defects": [
+          "DEFECT-03",
+          "EXTRA"
+        ],
+        "evidence": [
+          "Synthetic declared-rule-qa artifact contains DEFECT-03. EXTRA"
+        ],
+        "mission_id": "sbov1-quality_verification-03",
+        "qa_checklist": [
+          {
+            "check_id": "check-03",
+            "passed": false
+          },
+          {
+            "check_id": "semantic-input-check",
+            "passed": false
+          }
+        ],
+        "severity": "high"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "quality-defect-completeness"
+        ]
+      },
+      "prompt_sha256": "d4ba83947188fb76452603862b19bc472daa903a4a43c4589f3e7ce0e779a0d7",
+      "recorded_at": "2026-08-12T07:09:52.489852+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518640-WsEt8uA7Teuk9sLBIRTM",
+          "gen-1786518642-Nx5UKMT1LpMgDlCnHHAI"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "cd70e056653b0e281287c33827ffa257eed28399d257ffa737761ea96fac0fcf",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 146,
+        "prompt_tokens": 914
+      }
+    },
+    {
+      "case_id": "sbov1-quality_verification-03::semantic_shift",
+      "category": "quality_verification",
+      "deliverable": {
+        "corrective_action": "Remove unauthorized extra tokens and resolve DEFECT-03 according to local validation rules.",
+        "defects": [
+          "DEFECT-03",
+          "EXTRA"
+        ],
+        "evidence": [
+          "DEFECT-03",
+          "EXTRA"
+        ],
+        "mission_id": "sbov1-quality_verification-03",
+        "qa_checklist": [
+          "check-03",
+          "semantic-input-check"
+        ],
+        "severity": "high"
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "quality-defect-completeness"
+        ]
+      },
+      "prompt_sha256": "2f6948b59f6a437f243301a8bd9509f19dda3fb28485e5d51f575e1c4107b8f7",
+      "recorded_at": "2026-08-12T07:08:59.966615+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518588-o4syrarGWaDZWK83hphG",
+          "gen-1786518589-ZLCTm0rWid6wtr22vOsg"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "cd70e056653b0e281287c33827ffa257eed28399d257ffa737761ea96fac0fcf",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 141,
+        "prompt_tokens": 840
+      }
+    },
+    {
+      "case_id": "sbov1-record_preparation-03::dense_semantic_shift",
+      "category": "record_preparation",
+      "deliverable": {
+        "completeness_flags": {
+          "all_parts_typed": true,
+          "provenance_mapped": true,
+          "ready_status": true
+        },
+        "mission_id": "sbov1-record_preparation-03",
+        "provenance": {
+          "activity_id": "953163bfaefabd5acb624c15c8dba366",
+          "source_parts": [
+            [
+              "source",
+              "record",
+              "03"
+            ]
+          ]
+        },
+        "required_fields": [
+          "category_code",
+          "record_parts",
+          "status_code"
+        ],
+        "structured_record": {
+          "category_code": "category|changed-category",
+          "record_parts": [
+            "record",
+            "03"
+          ],
+          "status_code": "status|ready"
+        }
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "staged-record-values"
+        ]
+      },
+      "prompt_sha256": "4171cc40b8775a56121f26b25f1976e21c82e83d5bca1be286d2d46f4853f06e",
+      "recorded_at": "2026-08-12T07:08:36.220034+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518562-H2H5fWy9NyZQz1x7XM4k",
+          "gen-1786518565-oWS8jI9NA1DCbNAwYYgw"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "f3eae8486b7d00ac5ed7bda28c7e538ef12d4184de9c855dc68b8f560d9715a6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 717
+      }
+    },
+    {
+      "case_id": "sbov1-record_preparation-03::dense_semantic_shift",
+      "category": "record_preparation",
+      "deliverable": {
+        "completeness_flags": [
+          true
+        ],
+        "mission_id": "sbov1-record_preparation-03",
+        "provenance": [
+          "source",
+          "record",
+          "03"
+        ],
+        "required_fields": [
+          "category_code",
+          "record_parts",
+          "source_parts",
+          "status_code"
+        ],
+        "structured_record": {
+          "category_code": "category|changed-category",
+          "record_parts": [
+            "record",
+            "03"
+          ],
+          "source_parts": [
+            [
+              "source",
+              "record",
+              "03"
+            ]
+          ],
+          "status_code": "status|ready"
+        }
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "staged-record-values"
+        ]
+      },
+      "prompt_sha256": "2e83f7771614ff30fde66d80cdb18b376b823c468d45bef5bce5b42462d1d73d",
+      "recorded_at": "2026-08-12T07:09:29.270682+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518615-ZTz53yUKLl2ZbVHK0v9Z",
+          "gen-1786518619-7qpjW6H6JDttHZC1fjxY"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "f3eae8486b7d00ac5ed7bda28c7e538ef12d4184de9c855dc68b8f560d9715a6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 204,
+        "prompt_tokens": 825
+      }
+    },
+    {
+      "case_id": "sbov1-record_preparation-03::dense_semantic_shift",
+      "category": "record_preparation",
+      "deliverable": {
+        "completeness_flags": [
+          "typed",
+          "record",
+          "staging"
+        ],
+        "mission_id": "sbov1-record_preparation-03",
+        "provenance": [
+          "source",
+          "record",
+          "03"
+        ],
+        "required_fields": [
+          "category",
+          "record_id",
+          "status"
+        ],
+        "structured_record": {
+          "category": "category|changed-category",
+          "record_id": "record-03",
+          "status": "status|ready"
+        }
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "staged-record-values"
+        ]
+      },
+      "prompt_sha256": "9de65e82abc53ec0a55c4daf336310528d59bd0832cbb1481d5a9aec4dba2ff9",
+      "recorded_at": "2026-08-12T07:09:55.528308+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518641-74albIecyplk5fVp7Pnq",
+          "gen-1786518645-MEuSsDIaTnG5D9Fc38TP"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "f3eae8486b7d00ac5ed7bda28c7e538ef12d4184de9c855dc68b8f560d9715a6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 159,
+        "prompt_tokens": 891
+      }
+    },
+    {
+      "case_id": "sbov1-record_preparation-03::dense_semantic_shift",
+      "category": "record_preparation",
+      "deliverable": {
+        "completeness_flags": [
+          "complete",
+          "typed"
+        ],
+        "mission_id": "sbov1-record_preparation-03",
+        "provenance": [
+          "source",
+          "record",
+          "03"
+        ],
+        "required_fields": [
+          "category_code",
+          "record_parts",
+          "source_parts",
+          "status_code"
+        ],
+        "structured_record": {
+          "category_code": "category|changed-category",
+          "record_parts": [
+            "record",
+            "03"
+          ],
+          "source_parts": [
+            [
+              "source",
+              "record",
+              "03"
+            ]
+          ],
+          "status_code": "status|ready"
+        }
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "staged-record-values"
+        ]
+      },
+      "prompt_sha256": "8af604437a6dc11936e676da34580be998790094c1be91b18b075b9d234c4f43",
+      "recorded_at": "2026-08-12T07:09:02.802786+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518589-r5FUxPFE5eTUIeeRn3jy",
+          "gen-1786518592-Pvip9Ao6ofo5xuWaCLcu"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "f3eae8486b7d00ac5ed7bda28c7e538ef12d4184de9c855dc68b8f560d9715a6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 211,
+        "prompt_tokens": 797
+      }
+    },
+    {
+      "case_id": "sbov1-record_preparation-03::semantic_shift",
+      "category": "record_preparation",
+      "deliverable": {
+        "completeness_flags": {
+          "all_parts_present": true,
+          "exact_provenance_mapped": true
+        },
+        "mission_id": "sbov1-record_preparation-03",
+        "provenance": {
+          "source_parts": [
+            [
+              "source",
+              "record",
+              "03"
+            ]
+          ]
+        },
+        "required_fields": [
+          "category_code",
+          "record_parts",
+          "status_code"
+        ],
+        "structured_record": {
+          "category_code": "category|changed-category",
+          "record_parts": [
+            "record",
+            "03"
+          ],
+          "status_code": "status|ready"
+        }
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "staged-record-values"
+        ]
+      },
+      "prompt_sha256": "8ddeb1538247384026721a68faa11896086f8863fce442b54da483441c622bb3",
+      "recorded_at": "2026-08-12T07:08:35.192731+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518561-eS2LL3zvpAi2SLXdfMXM",
+          "gen-1786518564-TxMJq1yLakqGdvHqATOg"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "fields_only",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "f3eae8486b7d00ac5ed7bda28c7e538ef12d4184de9c855dc68b8f560d9715a6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 200,
+        "prompt_tokens": 713
+      }
+    },
+    {
+      "case_id": "sbov1-record_preparation-03::semantic_shift",
+      "category": "record_preparation",
+      "deliverable": {
+        "completeness_flags": [
+          "mapped",
+          "exact_provenance",
+          "complete"
+        ],
+        "mission_id": "sbov1-record_preparation-03",
+        "provenance": [
+          "source",
+          "record",
+          "03"
+        ],
+        "required_fields": [
+          "category_code",
+          "record_parts",
+          "source_parts",
+          "status_code"
+        ],
+        "structured_record": {
+          "category_code": "category|changed-category",
+          "record_parts": [
+            "record",
+            "03"
+          ],
+          "source_parts": [
+            [
+              "source",
+              "record",
+              "03"
+            ]
+          ],
+          "status_code": "status|ready"
+        }
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "staged-record-values"
+        ]
+      },
+      "prompt_sha256": "ad173475f90baf66b7915a007e4072e2aff16a45894b4c988c88b9a5eb2d4784",
+      "recorded_at": "2026-08-12T07:09:28.345051+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518615-KMBciFlRZOHI1SQ0oOp6",
+          "gen-1786518618-A0FYSIP2uwx7cvGwJ1UZ"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "partial_recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "f3eae8486b7d00ac5ed7bda28c7e538ef12d4184de9c855dc68b8f560d9715a6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 219,
+        "prompt_tokens": 821
+      }
+    },
+    {
+      "case_id": "sbov1-record_preparation-03::semantic_shift",
+      "category": "record_preparation",
+      "deliverable": {
+        "completeness_flags": [
+          "typed",
+          "record",
+          "staging"
+        ],
+        "mission_id": "sbov1-record_preparation-03",
+        "provenance": [
+          "source",
+          "record",
+          "03"
+        ],
+        "required_fields": [
+          "category",
+          "record_id",
+          "status"
+        ],
+        "structured_record": {
+          "category": "category|changed-category",
+          "record_id": "03",
+          "status": "status|ready"
+        }
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "staged-record-values"
+        ]
+      },
+      "prompt_sha256": "1109317c881b1d514c2e8ae4d934931be2cc0bab8caa2c9bf28c5c5b64445408",
+      "recorded_at": "2026-08-12T07:09:54.731177+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518641-DOyrqcV1XxkyBFJYuT2X",
+          "gen-1786518644-pzBEBPTEXQNZIV8BZdAc"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "recursive_shape",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "f3eae8486b7d00ac5ed7bda28c7e538ef12d4184de9c855dc68b8f560d9715a6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 157,
+        "prompt_tokens": 887
+      }
+    },
+    {
+      "case_id": "sbov1-record_preparation-03::semantic_shift",
+      "category": "record_preparation",
+      "deliverable": {
+        "completeness_flags": [
+          "complete",
+          "typed",
+          "staged"
+        ],
+        "mission_id": "sbov1-record_preparation-03",
+        "provenance": [
+          [
+            "source",
+            "record",
+            "03"
+          ]
+        ],
+        "required_fields": [
+          "category_code",
+          "record_parts",
+          "source_parts",
+          "status_code"
+        ],
+        "structured_record": {
+          "category_code": "category|changed-category",
+          "record_parts": [
+            "record",
+            "03"
+          ],
+          "source_parts": [
+            [
+              "source",
+              "record",
+              "03"
+            ]
+          ],
+          "status_code": "status|ready"
+        }
+      },
+      "model_id": "google/gemini-3.5-flash-lite",
+      "outcome": {
+        "conformant": false,
+        "failed_invariants": [
+          "staged-record-values"
+        ]
+      },
+      "prompt_sha256": "f48d722822e5a3f277ebcb37826de5420a4ab1f9530f938a4d6f17e951fab51b",
+      "recorded_at": "2026-08-12T07:09:01.877591+00:00",
+      "route_receipt": {
+        "models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ],
+        "platforms": [
+          "openrouter",
+          "openrouter"
+        ],
+        "providers": [
+          "Google AI Studio",
+          "Google AI Studio"
+        ],
+        "response_ids": [
+          "gen-1786518588-Hq0aXr8YtGqYXqj5x1yw",
+          "gen-1786518591-IBCX2h3tAxLt6JOREZLv"
+        ],
+        "routed_models": [
+          "google/gemini-3.5-flash-lite",
+          "google/gemini-3.5-flash-lite"
+        ]
+      },
+      "scaffold": "top_level_types",
+      "status": "answered",
+      "tool_receipt": {
+        "arguments": {},
+        "calls": 1,
+        "input_sha256": "f3eae8486b7d00ac5ed7bda28c7e538ef12d4184de9c855dc68b8f560d9715a6",
+        "name": "read_case"
+      },
+      "usage": {
+        "completion_tokens": 223,
+        "prompt_tokens": 793
+      }
+    }
+  ],
+  "schema_version": "alljobs.predictive-validity-successor-pilot.v1",
+  "selected_scaffold": null,
+  "usage": {
+    "completion_tokens": 11746,
+    "estimated_cost_usd": 0.0520474,
+    "prompt_tokens": 75608,
+    "requests": 160
+  }
+}

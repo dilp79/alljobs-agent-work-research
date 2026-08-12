@@ -1,0 +1,121 @@
+mission_id,category,activity_id,activity_title,proposed_split,stability_subset,risk_class
+sbov1-intake_classification-01,intake_classification,4ab22e6a3536ae28d64024a0fcf4c8d5,"Examine, evaluate, or process loan applications.",development,true,approval_required
+sbov1-intake_classification-02,intake_classification,b9879342a97f2b630eee0460238f367f,"Classify goods according to tariff coding system.",development,false,low
+sbov1-intake_classification-03,intake_classification,f8015756f4c1ee683a6a1f88ce4c2ddb,"Process and record new insurance policies and claims.",development,false,approval_required
+sbov1-intake_classification-04,intake_classification,ee4d0e04cf708f44069b256acc12637c,"Process orders for goods requested in correspondence.",held_out,true,low
+sbov1-intake_classification-05,intake_classification,1d7e5ed59b543f58c67c3cf5e59611ef,"Determine clients' eligibility for financial assistance.",held_out,false,approval_required
+sbov1-intake_classification-06,intake_classification,19d8a12f1060a2cee15d32a1bfd15fce,"Pay and process claims within designated authority level.",held_out,false,low
+sbov1-intake_classification-07,intake_classification,ff05f0efbaaa4c9e2d72f91cc8f84609,"Review grant applications or make funding recommendations.",held_out,false,low
+sbov1-intake_classification-08,intake_classification,50ddbc767beba817d998b371c79e73eb,"Classify and catalog items according to content and purpose.",held_out,false,low
+sbov1-intake_classification-09,intake_classification,81323f76f21023ff57aa18c1a5ab0888,"Prepare and process medical insurance claim forms and records.",held_out,false,approval_required
+sbov1-intake_classification-10,intake_classification,1e3e604323d315def48a5880f7f51f69,"Provide advice on the resolution of classification and salary complaints.",held_out,false,low
+sbov1-intake_classification-11,intake_classification,29b16c4c073f8f74fff320cad64ebecc,"Prepare occupational classifications, job descriptions, and salary scales.",ood,true,low
+sbov1-intake_classification-12,intake_classification,1d5b90e8edb8daf5c5da6708e2c76d21,"Consult classification manuals to locate information about disease processes.",ood,false,low
+sbov1-information_retrieval-01,information_retrieval,3ddccf2e1c1d15e3562889dccf87de69,"Research information requested by farmers.",development,true,low
+sbov1-information_retrieval-02,information_retrieval,0b846b7568695943c78b3ad52db0e7f4,"Obtain credit records from reporting agencies.",development,false,low
+sbov1-information_retrieval-03,information_retrieval,3834b0f993a43f276fe294ac86b0cbf6,"Identify and report problems in obtaining valid data.",development,false,low
+sbov1-information_retrieval-04,information_retrieval,1153e54282166d7a33a9873cda07af27,"Obtain credit information about prospective customers.",held_out,true,low
+sbov1-information_retrieval-05,information_retrieval,b048322efd24dcab370081f5e86f33d2,"Contact customers to obtain or relay account information.",held_out,false,low
+sbov1-information_retrieval-06,information_retrieval,a389388a262c9f78fb77a89386b12c11,"Gather and organize information on problems or procedures.",held_out,false,low
+sbov1-information_retrieval-07,information_retrieval,f670577fd38aa81a365ca3cce7f9465a,"Conduct research to gather information about survey topics.",held_out,false,low
+sbov1-information_retrieval-08,information_retrieval,b43bbb9f86af8e5ec3bbcf034dda7cd1,"File and retrieve corporate documents, records, and reports.",held_out,false,low
+sbov1-information_retrieval-09,information_retrieval,a57e14123ac5c21389fb330a7085ac6e,"Locate and obtain existing geographic information databases.",held_out,false,low
+sbov1-information_retrieval-10,information_retrieval,b6333f6c21041e0c075de5bce79bf95b,"Attend press conferences to gather information for broadcast.",held_out,false,low
+sbov1-information_retrieval-11,information_retrieval,977a4d9897261e155b1b176aaee25819,"Conduct field surveillance to gather case-related information.",ood,true,low
+sbov1-information_retrieval-12,information_retrieval,373a135eacb6c51e5d2b390b5921fa9d,"Obtain credit information from banks and other credit services.",ood,false,low
+sbov1-data_reconciliation-01,data_reconciliation,a7895db34096b3841001c7d312a5aa20,"Reconcile records of bank transactions.",development,true,low
+sbov1-data_reconciliation-02,data_reconciliation,dd854fe1f64551d9323e71ddd6515423,"Resolve discrepancies in accounting records.",development,false,low
+sbov1-data_reconciliation-03,data_reconciliation,ae5009a7a6668746125761ddf59e67fa,"Reconcile daily summaries of transactions to balance books.",development,false,low
+sbov1-data_reconciliation-04,data_reconciliation,2362f7d1c987176f32a406f797068de5,"Reconcile or note and report discrepancies found in records.",held_out,true,low
+sbov1-data_reconciliation-05,data_reconciliation,1054e41c2c6b558e0a61dc393dfc38f8,"Review accounts for discrepancies and reconcile differences.",held_out,false,low
+sbov1-data_reconciliation-06,data_reconciliation,bf4e5ccc5b9e1d765b1f5cf0883c183a,"Compare existing energy consumption levels to normative data.",held_out,false,low
+sbov1-data_reconciliation-07,data_reconciliation,2bc349b8b62a28dc8cc9eebd01c5b3ed,"Resolve problems or discrepancies concerning customers' accounts.",held_out,false,low
+sbov1-data_reconciliation-08,data_reconciliation,d33cb6ea1ea38dd71235f84b03d2899a,"Match order forms with invoices, and record the necessary information.",held_out,false,low
+sbov1-data_reconciliation-09,data_reconciliation,a59e0bda7c6bbb2d6fc9d9239f4e15c9,"Count funds and reconcile daily summaries of transactions to balance books.",held_out,false,low
+sbov1-data_reconciliation-10,data_reconciliation,acc13cd62cef1c600239731a194a89f7,"Compare survey computations with applicable standards to determine adequacy of data.",held_out,false,low
+sbov1-data_reconciliation-11,data_reconciliation,c30eb7399c531c61cae9c927a7950aa1,"Prepare and balance period-end reports, and reconcile issued payrolls to bank statements.",ood,true,low
+sbov1-data_reconciliation-12,data_reconciliation,49791adc9e2ed34f258a495c78e90ecc,"Calculate total payments received during a time period, and reconcile this with total sales.",ood,false,low
+sbov1-policy_interpretation-01,policy_interpretation,e4661ab039f8ef3807dd07cba661871f,"Explain rental fees, policies, and procedures.",development,true,approval_required
+sbov1-policy_interpretation-02,policy_interpretation,1d4afa3ba65bc7dce7c869d7dd2d6ab1,"Review insurance policy to determine coverage.",development,false,approval_required
+sbov1-policy_interpretation-03,policy_interpretation,7ad096606d9921f7832489eb45ec4edc,"Explain and enforce safety rules and regulations.",development,false,approval_required
+sbov1-policy_interpretation-04,policy_interpretation,8d5d11cb8ffcc20dc003e13af26b9f22,"Explain economic impact of policies to the public.",held_out,true,approval_required
+sbov1-policy_interpretation-05,policy_interpretation,6974517ac61396a3ef0bf48cb31cd906,"Review and revise sustainability proposals or policies.",held_out,false,approval_required
+sbov1-policy_interpretation-06,policy_interpretation,f4e130862b640f826c12a41d9e7278cb,"Explain goals, policies, or procedures to staff members.",held_out,false,approval_required
+sbov1-policy_interpretation-07,policy_interpretation,fd581d56f0bac8601d54191b8c66be78,"Study and interpret religious laws, doctrines, or traditions.",held_out,false,approval_required
+sbov1-policy_interpretation-08,policy_interpretation,3730ce0e9939d01057b2631fd612fc52,"Clean work areas to ensure compliance with safety regulations.",held_out,false,approval_required
+sbov1-policy_interpretation-09,policy_interpretation,5f83c303b291c0db44ce95366e2a4f8a,"Develop and interpret organizational goals, policies, and procedures.",held_out,false,approval_required
+sbov1-policy_interpretation-10,policy_interpretation,7f5d51f0012b2d0be115a8c33fb612f7,"Develop or advise on social policy or assist in community development.",held_out,false,approval_required
+sbov1-policy_interpretation-11,policy_interpretation,0a8170535ddca5de72fa1403f6e863c0,"Develop or advise on social policy and assist in community development.",ood,true,approval_required
+sbov1-policy_interpretation-12,policy_interpretation,178e6128d9e28254ccfa98520ea9c591,"Interpret laws, rulings and regulations for individuals and businesses.",ood,false,approval_required
+sbov1-draft_generation-01,draft_generation,c56e294e23843d5348ebd42d4b9291fa,"Document penetration test findings.",development,true,low
+sbov1-draft_generation-02,draft_generation,c14d4b5c15132af587303e47cc7cbdd5,"Prepare library statistics reports.",development,false,low
+sbov1-draft_generation-03,draft_generation,5c1fc38c7287c2f270a42eb6b22811bf,"Prepare progress or technical reports.",development,false,low
+sbov1-draft_generation-04,draft_generation,74a562f41ecbaf72033aa157906f9db2,"Prepare written reports on investigations.",held_out,true,low
+sbov1-draft_generation-05,draft_generation,e71420797519702c076984bff34a63c1,"Document findings of physical examinations.",held_out,false,low
+sbov1-draft_generation-06,draft_generation,982422955608478cda15e3f7ae6d94ae,"Prepare detailed reports on audit findings.",held_out,false,low
+sbov1-draft_generation-07,draft_generation,c6682c65d61ab577909d05cf775f312c,"Write and send letters of thanks to donors.",held_out,false,low
+sbov1-draft_generation-08,draft_generation,e74f3410c865d437f77a8ed095cd9213,"Write technical documentation for products.",held_out,false,low
+sbov1-draft_generation-09,draft_generation,5967da041e74de782ca096d4e5cda954,"Prepare purchase orders and expense reports.",held_out,false,low
+sbov1-draft_generation-10,draft_generation,002f9212b88f92951c9da408d22ea1c0,"Write letters of recommendation for students.",held_out,false,low
+sbov1-draft_generation-11,draft_generation,ed088a2fda2a830d3a820bb5ef993147,"Write reports describing offenders' progress.",ood,false,approval_required
+sbov1-draft_generation-12,draft_generation,dd4cbddb1476ecfd1ad7ec4a84e4b4bb,"Write technical summaries to report findings.",ood,false,low
+sbov1-escalation_preparation-01,escalation_preparation,b470d9dd6a44fd629ae78c03738b402c,"Notify supervisors of mechanical malfunctions.",development,true,approval_required
+sbov1-escalation_preparation-02,escalation_preparation,790b69f81b93d51015c635006d021f9d,"Refer guest problems or complaints to supervisors.",development,false,approval_required
+sbov1-escalation_preparation-03,escalation_preparation,dcc99def52efb63168f76e52f48e9b7a,"Report any mechanical problems encountered with vehicles.",development,false,approval_required
+sbov1-escalation_preparation-04,escalation_preparation,4859e73a5e7ffae2819f664c390468c0,"Notify supervisors or mechanics of equipment malfunctions.",held_out,true,approval_required
+sbov1-escalation_preparation-05,escalation_preparation,976d1697cdc433d676c093a912077343,"Submit reports and review reports or problems with superior.",held_out,false,approval_required
+sbov1-escalation_preparation-06,escalation_preparation,05253d0b27ccbd37b65b8ec7665c1457,"Notify supervisors or other personnel of production problems.",held_out,false,approval_required
+sbov1-escalation_preparation-07,escalation_preparation,9ef9d029483739d08248468f12843567,"Recommend personnel actions related to programs and services.",held_out,false,approval_required
+sbov1-escalation_preparation-08,escalation_preparation,627e7b2b4abe4820e2f6ac6546a7a4ef,"Notify supervisors when extruded filaments fail to meet standards.",held_out,false,approval_required
+sbov1-escalation_preparation-09,escalation_preparation,005dde9264c5defe58b953b6716a09b6,"Consult with supervisor concerning programs for individual families.",held_out,false,approval_required
+sbov1-escalation_preparation-10,escalation_preparation,e2e89e5aa9fd1be1ed11b738e09a1365,"Recommend necessary corrective actions, based on inspection results.",held_out,false,approval_required
+sbov1-escalation_preparation-11,escalation_preparation,73c66879f75516ff5dc5c907cafa120c,"Contact housekeeping or maintenance staff when guests report problems.",ood,false,approval_required
+sbov1-escalation_preparation-12,escalation_preparation,9c5f2784b475081d47ba163dd146d5db,"Report law or regulation violations to appropriate boards or agencies.",ood,false,approval_required
+sbov1-followup_scheduling-01,followup_scheduling,8736d7ff3526b5d10d7417461497d7c4,"Schedule appointments with clients.",development,true,low
+sbov1-followup_scheduling-02,followup_scheduling,b7075c551b2db4426b52ff929f90f599,"Schedule or facilitate project meetings.",development,false,low
+sbov1-followup_scheduling-03,followup_scheduling,d089a060af5ca633df70af1a0bf5e12c,"Answer telephones and schedule appointments.",development,false,low
+sbov1-followup_scheduling-04,followup_scheduling,6330bbae83937215c3450e289e64a20d,"Schedule client appointments and accept payments.",held_out,true,low
+sbov1-followup_scheduling-05,followup_scheduling,f822f6c6a0f77179ebe04ae83856c85e,"Coordinate judges' meeting and appointment schedules.",held_out,false,low
+sbov1-followup_scheduling-06,followup_scheduling,41e0db610d91ceffccd2e27929930173,"Set up appointments for parties to meet for mediation.",held_out,false,approval_required
+sbov1-followup_scheduling-07,followup_scheduling,d7bf52c3f59b08841de6b90cf82214ac,"Arrange meetings concerning issues involving their clients.",held_out,false,low
+sbov1-followup_scheduling-08,followup_scheduling,1f9b7e5655d58e440ae7c3a3865d76e4,"Contact residents or building owners to schedule appointments.",held_out,false,low
+sbov1-followup_scheduling-09,followup_scheduling,99b978833d28ebb4ca54bee145a35fe1,"Schedule tutoring appointments with students or their parents.",held_out,false,low
+sbov1-followup_scheduling-10,followup_scheduling,30d5c6a6938f7063d924d4a962d44563,"Place telephone calls or arrange conference calls as instructed.",held_out,false,low
+sbov1-followup_scheduling-11,followup_scheduling,f87b24c16db013ea93dffdccba07c295,"Complete work schedules, manage calendars, and arrange appointments.",ood,false,low
+sbov1-followup_scheduling-12,followup_scheduling,025eef91efc2124772b17ca8793c27df,"Schedule appointments and maintain and update appointment calendars.",ood,false,low
+sbov1-exception_handling-01,exception_handling,7e57261f4803673cb8194d9614cd259a,"Diagnose and resolve media system problems.",development,true,low
+sbov1-exception_handling-02,exception_handling,1dd7a40b2acd0a9595b17e07ec51c88c,"Receive and respond to customer complaints.",development,false,low
+sbov1-exception_handling-03,exception_handling,f164db81a1f5b3f293febce8fec89486,"Respond to and resolve patrons' complaints.",development,false,low
+sbov1-exception_handling-04,exception_handling,4e8f7398b2466455b8e71d1ff6c24587,"Respond to public inquiries and complaints.",held_out,true,low
+sbov1-exception_handling-05,exception_handling,e22742d0fb0bfc261e36962dd7c173c1,"Calculate corrections for refractive errors.",held_out,false,low
+sbov1-exception_handling-06,exception_handling,5672477c04b0954a3ae8b04c2bb6f7df,"Respond to customer inquiries or complaints.",held_out,false,low
+sbov1-exception_handling-07,exception_handling,f0e4a2d03ea64b45fc776b876d9e1df4,"Respond to public suggestions and complaints.",held_out,false,low
+sbov1-exception_handling-08,exception_handling,ce36351b51ce2343e625c73c5ca09b68,"Investigate complaints regarding safety violations.",held_out,false,approval_required
+sbov1-exception_handling-09,exception_handling,d17a1e5ac6f343611769724b19f85b2c,"Resolve customer complaints regarding food service.",held_out,false,low
+sbov1-exception_handling-10,exception_handling,d5d50e36b136cc2502ba8b2d6e0373f0,"Collect fines and respond to complaints about fines.",held_out,false,approval_required
+sbov1-exception_handling-11,exception_handling,199bcb416d1d5e43450cceb4a5cd746e,"Make emergency visits to resolve equipment problems.",ood,false,low
+sbov1-exception_handling-12,exception_handling,3816dfd9ea0d8abb9ce70b3f274584c4,"Contact insurance companies to resolve billing issues.",ood,false,approval_required
+sbov1-record_preparation-01,record_preparation,202f108327f9f49c2c2e79f6d99edcdd,"Build and update digital databases.",development,true,low
+sbov1-record_preparation-02,record_preparation,f86ca07545ebbea555bff403a8c22549,"Prepare diagnostic and treatment records.",development,false,low
+sbov1-record_preparation-03,record_preparation,5646e78a1a4aaf577888aa0d5107e799,"Compile scores and other athletic records.",development,false,low
+sbov1-record_preparation-04,record_preparation,470c4891afcc9d664fda43c105baa5ca,"Enter logistics-related data into databases.",held_out,true,low
+sbov1-record_preparation-05,record_preparation,99d4cf080fae19704bdd98e7bd9d69e9,"Enter and update patrons' records on computers.",held_out,false,low
+sbov1-record_preparation-06,record_preparation,01ee47a9d8d11261bb08ef98e01fb935,"Prepare records for shipment by certified mail.",held_out,false,low
+sbov1-record_preparation-07,record_preparation,93d1146de2f9704f1039b2a9346cce5b,"Track, compile, and analyze Web site usage data.",held_out,false,low
+sbov1-record_preparation-08,record_preparation,8868fa74ddfd7af7b62d0555f2be3b7e,"Maintain customer records using automated systems.",held_out,false,low
+sbov1-record_preparation-09,record_preparation,a89280913b4ac72fab88ffd7399469bd,"Maintain customer records, using automated systems.",held_out,false,low
+sbov1-record_preparation-10,record_preparation,dc1cb9301b0968f573cf805323a1e600,"Prepare, organize, and maintain inspection records.",held_out,false,low
+sbov1-record_preparation-11,record_preparation,f1079abb6296c39a9eafb88c8d4ba74e,"Prepare or maintain inventory or production records.",held_out,false,low
+sbov1-record_preparation-12,record_preparation,1428a290e4ab59cfa9da0285e48f5225,"Compile and maintain non-monetary reports and records.",ood,false,low
+sbov1-quality_verification-01,quality_verification,727fb7e64999cc76c8b95c709ffdebd6,"Verify accuracy of materials lists.",development,true,low
+sbov1-quality_verification-02,quality_verification,a0f4a01a8b6e77fe940b041d684187ec,"Proofread, edit, and revise translated materials.",development,false,low
+sbov1-quality_verification-03,quality_verification,e9e1774c83a5e8ae1166ea74ca080485,"Check the quantity and quality of received products.",development,false,low
+sbov1-quality_verification-04,quality_verification,745836b8bb7a9ac52a7652754978d0af,"Proofread transcripts for correct spelling of words.",held_out,true,low
+sbov1-quality_verification-05,quality_verification,7d1ca937d191e670ca9be16d29ac3fb9,"Review event bills for accuracy and approve payment.",held_out,false,low
+sbov1-quality_verification-06,quality_verification,d6098991ea205ef0944d44d4e5622313,"Review computer-processed digital images for quality.",held_out,false,low
+sbov1-quality_verification-07,quality_verification,1caf4152a10be2540e74eddaf92b9d8e,"Check source data to verify completeness and accuracy.",held_out,false,low
+sbov1-quality_verification-08,quality_verification,7d3b657d4dee864721adc2ce8a0a30fb,"Verify accuracy of billing data and revise any errors.",held_out,false,low
+sbov1-quality_verification-09,quality_verification,e352712edf59e9a0f1f61f55091ef8b3,"Provide test specifications to quality assurance staff.",held_out,false,low
+sbov1-quality_verification-10,quality_verification,8c7bb52fbad4adedfd7afd737414990a,"Proofread and perform quality control of text and images.",held_out,false,low
+sbov1-quality_verification-11,quality_verification,3b6b6fd9d34288683f10c03a52ae9ca9,"Review and approve quality plans submitted by contractors.",held_out,false,low
+sbov1-quality_verification-12,quality_verification,30aba2ff238a0a9a240b9a35109c995f,"Examine products to verify conformance to quality standards.",ood,false,low

@@ -1,0 +1,291 @@
+{
+  "base": {
+    "external_audit_sha256": "0496e34d119a8dde5d71e0d76b3ff61b2827b3db1c0041572dd0005b61370850",
+    "frozen_registry_sha256": "0acb9ccdc1d4021a696308c63def790b5ffd60d0d5bff010efa13ecff77eac97",
+    "receipts": [
+      {
+        "authority": "current_local_source",
+        "bytes": 4839959,
+        "path": "workforce-graph/data/work_mode/corpus.jsonl",
+        "role": "alljobs_activity_corpus",
+        "sha256": "3e362cb34596d5238ef36f12afcd67099903057479539db9fddc6d0f62343bab"
+      },
+      {
+        "authority": "frozen_model_judgment_not_task_requirement",
+        "bytes": 8313735,
+        "path": "workforce-graph/data/work_mode/work_mode_final_2026-08-12.json",
+        "role": "work_mode_model_judgments",
+        "sha256": "3c79b4bf6e2f3141d512505511774b9b8c93d744293d62f9dfb67ecd4b5a21c4"
+      },
+      {
+        "authority": "current_study_authority",
+        "bytes": 22516,
+        "path": "workforce-graph/data/evidence/registry.json",
+        "role": "frozen_evidence_registry",
+        "sha256": "0acb9ccdc1d4021a696308c63def790b5ffd60d0d5bff010efa13ecff77eac97"
+      },
+      {
+        "authority": "current_dated_audit",
+        "bytes": 5608,
+        "path": "docs/audits/2026-08-11-computer-use-evidence-update.md",
+        "role": "external_evidence_audit",
+        "sha256": "0496e34d119a8dde5d71e0d76b3ff61b2827b3db1c0041572dd0005b61370850"
+      },
+      {
+        "authority": "historical_local_extract",
+        "bytes": 553034,
+        "path": "workforce-graph/data/raw/workbank/v1/task_statement_with_metadata.csv",
+        "role": "workbank_onet_source_row",
+        "sha256": "25d67da26125b2c4008c9e9f1590ed4769969f8e19656043bf48be6ef4700d24"
+      }
+    ],
+    "repository_commit_before_successor": "8a7274fe74451e6b6875b07a80afb33e62837c52"
+  },
+  "candidate_alljobs_activity": {
+    "activity_id": "23d778e73061800ae3732b1f34a750c5",
+    "activity_row_sha256": "f421d2acab0feafa2d8b20077eb27f65b00f62f4beb0746f33f5d08d26c4c36f",
+    "activity_title": "Process and prepare documents, such as business or government forms and expense reports.",
+    "importance": 3.82,
+    "mandatory_component_analysis": {
+      "authoritative_components": [],
+      "exact_statement_spans": [
+        {
+          "interpretation": "broad compound action, not a complete component decomposition",
+          "span": "Process and prepare documents"
+        },
+        {
+          "interpretation": "illustrative examples introduced by 'such as', not mandatory exhaustive objects",
+          "span": "business or government forms and expense reports"
+        }
+      ],
+      "status": "missing_independent_component_authority"
+    },
+    "occupation_title": "Office Clerks, General",
+    "source_identity": {
+      "onet_soc_code": "43-9061.00",
+      "task_id": "838"
+    },
+    "task_channel": {
+      "independent_requirement": "unknown",
+      "model_judgment": "screen",
+      "model_judgment_authorises_gate": false
+    }
+  },
+  "claim_ceiling": {
+    "allowed": "one exact public OSWorld trajectory and one AllJobs activity were reviewed; current authority cannot admit a directed transfer witness",
+    "not_a_finding_of_inability": true,
+    "prohibited": [
+      "OSWorld task 010 bounds the AllJobs activity",
+      "the reported 1.0 proves faithful task completion",
+      "the review estimates a workforce share or production reliability",
+      "absence of a witness is evidence that an agent cannot do the work"
+    ]
+  },
+  "decision": "HOLD_SOURCE_OR_AUTHORITY_GAP",
+  "gates": {
+    "all_passed": false,
+    "failed": [
+      "gated_task_class_bytes_missing",
+      "task_hash_manifest_bytes_missing",
+      "pinned_task_assets_missing",
+      "trajectory_redistribution_licence_not_declared",
+      "exact_task_success_criterion_unavailable",
+      "reported_pass_is_known_evaluator_false_positive",
+      "independent_task_channel_authority_missing",
+      "mandatory_component_authority_missing",
+      "task_permission_and_failure_semantics_authority_missing"
+    ],
+    "passed": [
+      "exact_code_release_manifest_and_tag_bound",
+      "task_010_listed_in_pinned_task_repository_metadata",
+      "public_trajectory_files_hash_bound",
+      "reported_score_and_checkpoint_reproduced_from_public_records",
+      "alljobs_activity_and_onet_source_identity_bound",
+      "frozen_registry_still_authorises_zero_bounds"
+    ]
+  },
+  "item_outcome_receipt": null,
+  "payload_sha256": "03811cfafcd60464253407e46f03599488994fde1d8cda70812725af6e347aee",
+  "reported_benchmark_outcome": {
+    "admission_status": "not_admitted_evaluator_false_positive_and_task_authority_missing",
+    "evidence_tier": "BENCHMARK",
+    "known_misalignment": "the public analysis reports a wrong required budget code and a full score because the evaluator did not inspect table cells",
+    "model": "MiniMax-M3",
+    "score": 1.0,
+    "step": 248
+  },
+  "schema_version": "alljobs.osworld2-transfer-review.v1",
+  "source_pack": {
+    "acquisition": {
+      "code": "git clone --depth 1 --branch v2026.06.24 https://github.com/xlang-ai/OSWorld-V2.git",
+      "task_class": "accept the gated xlangai/osworld_v2_tasks terms, authenticate with hf, then download task_010.py at v2026.06.24",
+      "trajectory_base_url": "https://huggingface.co/datasets/xlangai/osworld2.0-trajectory/resolve/458824aec9f07ffbe504f3b9306d941695387b00/website_demo/MiniMax-M3/tasks/010"
+    },
+    "licence_disposition": {
+      "code_and_task_metadata": "apache-2.0",
+      "trajectory": "not_declared_receipts_only_no_redistributed_bytes"
+    },
+    "release": "osworld-v2-2026.06.24",
+    "selection_rule": "task 010 selected before AllJobs retrieval because it has a public complete demo trajectory and a binary final result",
+    "source_facts": {
+      "code_commit": "2b9b7b4eb73243d557bdbf2998fe18d8e18e19c6",
+      "code_tag": "v2026.06.24",
+      "manifest_task_count": 108,
+      "provider_ami": "ami-01017272139e01feb",
+      "reported_final_score": 1.0,
+      "reported_step_150_score": 0.0,
+      "task_class_git_oid": "7435437f07e25192e7e12e13717e1b34b5f71ec4",
+      "task_class_listed_bytes": 6633,
+      "task_class_resolve_http_status": 401,
+      "task_hash_manifest_expected_sha256": "3312a7df40dbd004c300804f71c57d5a23a083d6c675082fcc34c60a37f9a76c",
+      "task_repository_commit": "e7996f4cc850be108e510bd8433c63ee7b8303dd",
+      "trajectory_observed_repository_commit": "f94fa61bfeaf7b49da9816ddee83c80494cc4a31",
+      "trajectory_selected_file_commit": "458824aec9f07ffbe504f3b9306d941695387b00"
+    },
+    "source_receipts": [
+      {
+        "authority": "official_release",
+        "bytes": 11343,
+        "path": "code-license",
+        "role": "code_license",
+        "sha256": "a8d1d88a0f9cce3cdbff73b03a80dc5e5d69e3ba2443946c268815a550c9e0ec",
+        "source_locator": "https://github.com/xlang-ai/OSWorld-V2/blob/2b9b7b4eb73243d557bdbf2998fe18d8e18e19c6/LICENSE"
+      },
+      {
+        "authority": "official_release",
+        "bytes": 41,
+        "path": "code-revision.txt",
+        "role": "code_revision",
+        "sha256": "c0c704e5f7074673cbe4e13a661405c810a682886faf3bd7e30bcff4e6f62fc2",
+        "source_locator": "https://github.com/xlang-ai/OSWorld-V2/tree/2b9b7b4eb73243d557bdbf2998fe18d8e18e19c6"
+      },
+      {
+        "authority": "official_release",
+        "bytes": 1454,
+        "path": "release-manifest.json",
+        "role": "release_manifest",
+        "sha256": "d8f9fb126d5f930fffdd6b4f74f7f3da9c81f4118175ccd5c10d1d411d46460e",
+        "source_locator": "https://github.com/xlang-ai/OSWorld-V2/blob/2b9b7b4eb73243d557bdbf2998fe18d8e18e19c6/benchmark_releases/osworld-v2-2026.06.24.json"
+      },
+      {
+        "authority": "public_trajectory_or_access_receipt",
+        "bytes": 1188,
+        "path": "task-class-http-status.txt",
+        "role": "task_class_http_status",
+        "sha256": "8f0842047c584476e71a82481ab85f107b407689609e81fc92204c49fd0376bd",
+        "source_locator": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/v2026.06.24/task_010.py"
+      },
+      {
+        "authority": "official_release",
+        "bytes": 4351,
+        "path": "task-repository.json",
+        "role": "task_repository_metadata",
+        "sha256": "81f5596552352e80f7b1fd0849da50824c3432e88f15482ea3f389d11b4f5a44",
+        "source_locator": "https://huggingface.co/api/datasets/xlangai/osworld_v2_tasks"
+      },
+      {
+        "authority": "official_release",
+        "bytes": 24810,
+        "path": "task-tree.json",
+        "role": "task_tree_metadata",
+        "sha256": "1e1600ddcb68bd8c9991e1c7aae609d8449e3b42c88c34b3966af548c9262d37",
+        "source_locator": "https://huggingface.co/api/datasets/xlangai/osworld_v2_tasks/tree/e7996f4cc850be108e510bd8433c63ee7b8303dd?recursive=true"
+      },
+      {
+        "authority": "public_trajectory_or_access_receipt",
+        "bytes": 8409,
+        "path": "analysis_task_010.md",
+        "role": "trajectory_analysis",
+        "sha256": "6ec050790b544d8689c7a24499bd98cd5f06003cc4366629a787f70694b51a13",
+        "source_locator": "https://huggingface.co/datasets/xlangai/osworld2.0-trajectory/resolve/458824aec9f07ffbe504f3b9306d941695387b00/website_demo/MiniMax-M3/tasks/010/analysis_task_010.md"
+      },
+      {
+        "authority": "public_trajectory_or_access_receipt",
+        "bytes": 123538,
+        "path": "api_usage.json",
+        "role": "trajectory_api_usage",
+        "sha256": "181bb9c949438d9ff0a4e1fbca16edce936254da39de67e113a73c42a2f5a986",
+        "source_locator": "https://huggingface.co/datasets/xlangai/osworld2.0-trajectory/resolve/458824aec9f07ffbe504f3b9306d941695387b00/website_demo/MiniMax-M3/tasks/010/api_usage.json"
+      },
+      {
+        "authority": "public_trajectory_or_access_receipt",
+        "bytes": 295,
+        "path": "checkpoint_results.json",
+        "role": "trajectory_checkpoints",
+        "sha256": "9392fe797533959dd12807899e44f34a25128a26ea3cf13bf04a9c34b3e9bbf4",
+        "source_locator": "https://huggingface.co/datasets/xlangai/osworld2.0-trajectory/resolve/458824aec9f07ffbe504f3b9306d941695387b00/website_demo/MiniMax-M3/tasks/010/checkpoint_results.json"
+      },
+      {
+        "authority": "public_trajectory_or_access_receipt",
+        "bytes": 1322704,
+        "path": "eval.log",
+        "role": "trajectory_eval_log",
+        "sha256": "7fababec8c82786c27124328abe1c78cbf443d91024a604ebd806a65532a5d7e",
+        "source_locator": "https://huggingface.co/datasets/xlangai/osworld2.0-trajectory/resolve/458824aec9f07ffbe504f3b9306d941695387b00/website_demo/MiniMax-M3/tasks/010/eval.log"
+      },
+      {
+        "authority": "public_trajectory_or_access_receipt",
+        "bytes": 8831593,
+        "path": "trajectory-repository.json",
+        "role": "trajectory_repository_metadata",
+        "sha256": "70f518b25fcb350b20efbf6622f76502242a3ac5a9a37f1498d3ad8d8d141a77",
+        "source_locator": "https://huggingface.co/api/datasets/xlangai/osworld2.0-trajectory"
+      },
+      {
+        "authority": "public_trajectory_or_access_receipt",
+        "bytes": 215,
+        "path": "result.json",
+        "role": "trajectory_result",
+        "sha256": "62dfa2f2b6d2e0723a703907e2de1ef0056034f69346d9505b3f7a4900e4e5fd",
+        "source_locator": "https://huggingface.co/datasets/xlangai/osworld2.0-trajectory/resolve/458824aec9f07ffbe504f3b9306d941695387b00/website_demo/MiniMax-M3/tasks/010/result.json"
+      },
+      {
+        "authority": "public_trajectory_or_access_receipt",
+        "bytes": 165022,
+        "path": "runtime.log",
+        "role": "trajectory_runtime_log",
+        "sha256": "773b54adc8fafaf49dc04c5759adf894fbaf6175f14e29f7707e75cfdf99f2f1",
+        "source_locator": "https://huggingface.co/datasets/xlangai/osworld2.0-trajectory/resolve/458824aec9f07ffbe504f3b9306d941695387b00/website_demo/MiniMax-M3/tasks/010/runtime.log"
+      }
+    ],
+    "status": "PARTIAL_SOURCE_PACK_GATED_TASK_CLASS",
+    "workflow_id": "010"
+  },
+  "transfer_edge": {
+    "component_id": null,
+    "differences": [
+      "OSWorld is a specific reimbursement-checklist instance; the AllJobs statement is broad and illustrative",
+      "OSWorld uses Thunderbird, Writer, spreadsheets, PDF tooling and a named AWS image",
+      "the reported evaluator omits decisive table-cell fields and accepted a wrong budget code"
+    ],
+    "provenance": "codex successor review 2026-08-12; source receipts embedded",
+    "rationale": "lexical and operational similarity is sufficient for a candidate review only; missing task bytes, independent task requirements and evaluator adequacy block admission",
+    "result_id": "r_osworld_v2_minimax_m3_task_010_public_demo",
+    "scope": "contextual",
+    "similarities": [
+      "both concern preparing a document/form from supplied information",
+      "the OSWorld workflow includes an expense/reimbursement document"
+    ],
+    "status": "unresolved",
+    "task_id": "23d778e73061800ae3732b1f34a750c5",
+    "unknowns": [
+      "exact gated task-class bytes and full success criterion",
+      "pinned asset bytes",
+      "independent AllJobs channel, permissions, failure semantics and mandatory components"
+    ]
+  },
+  "workflow": {
+    "environment": {
+      "apps": [
+        "Thunderbird",
+        "Writer",
+        "spreadsheet",
+        "PDF tooling"
+      ],
+      "provider_ami": "ami-01017272139e01feb",
+      "step_limit_contour": "public demo finished at step 248; paper primary contour is 500 steps"
+    },
+    "id": "010",
+    "summary": "read a reimbursement email and local office files, complete a checklist document, and save it under the required desktop filename"
+  }
+}

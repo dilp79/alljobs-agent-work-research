@@ -1,0 +1,1171 @@
+{
+  "claim_ceiling": "clean research release; evidence tiers and historical report qualifiers unchanged; no production, customer-ROI, workforce-share or job-automation claim",
+  "file_count": 232,
+  "files": [
+    {
+      "bytes": 168,
+      "path": ".gitignore",
+      "sha256": "316b6c9e2b253343ba4f6c933bed039f4d2ae6d48b5cafdfe8017108640b519f"
+    },
+    {
+      "bytes": 11357,
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "bytes": 997,
+      "path": "PUBLIC_RELEASE.md",
+      "sha256": "2c7328359eef28f3e3c34c240c6ca36919e8475d0f889b7a6e558019c66a2f2b"
+    },
+    {
+      "bytes": 3735,
+      "path": "README.md",
+      "sha256": "bda1a063cd003d2b30752f111656bf7932a5ad88175bc9782313978353c2c54a"
+    },
+    {
+      "bytes": 1437,
+      "path": "THIRD_PARTY_DATA.md",
+      "sha256": "bfe8595c146039392a17ca729521ea7dcd6e7cb6c01ae064106b98c8bf3d695a"
+    },
+    {
+      "bytes": 5608,
+      "path": "docs/audits/2026-08-11-computer-use-evidence-update.md",
+      "sha256": "0496e34d119a8dde5d71e0d76b3ff61b2827b3db1c0041572dd0005b61370850"
+    },
+    {
+      "bytes": 4726,
+      "path": "docs/audits/2026-08-11-historical-authority-recovery.md",
+      "sha256": "4e7d0de3a1e13d832ba8f5400c65db25c5ea3e7eb75443c2190d58132d880c18"
+    },
+    {
+      "bytes": 3700,
+      "path": "docs/contracts/item-outcome-transfer-witness-v1.md",
+      "sha256": "0a55be0f5fae99597afa2beb18fe85fbaa066a3408b452b8d3a2c4f6ff067b68"
+    },
+    {
+      "bytes": 3936,
+      "path": "docs/contracts/osworld-transfer-review-v1.md",
+      "sha256": "0067771d5d994eaabfc77b593256281fba140c148b309049f2cb92f41aa32800"
+    },
+    {
+      "bytes": 4424,
+      "path": "docs/contracts/predictive-validity-successor-v1.md",
+      "sha256": "9f6cf3fec13c55d00334e13fb73c5c0542061f3419a36a0d6bbd8ebb97c03a1f"
+    },
+    {
+      "bytes": 2504,
+      "path": "docs/contracts/predictive-validity-successor-v2.md",
+      "sha256": "4edaee37124a5c1ea45fea3c20945cb9b52e2ba6f231f92e074c833728e1e769"
+    },
+    {
+      "bytes": 3492,
+      "path": "docs/contracts/predictive-validity-successor-v3.md",
+      "sha256": "c0278817090b43d4b656596a7143d8559c7fe121093938e24126c311c4ac4c1a"
+    },
+    {
+      "bytes": 2954,
+      "path": "docs/contracts/public-release-v1.md",
+      "sha256": "c9213b69061cf7bdf5fab665e528c03d38dc5ec9eda9ddb84faf2d3011076306"
+    },
+    {
+      "bytes": 5679,
+      "path": "docs/contracts/research-completion-report-v1.md",
+      "sha256": "0af786d7aeee85b30bec87ba1b23f8a4622dda0d411197cd3aee00966b55bd49"
+    },
+    {
+      "bytes": 23688,
+      "path": "docs/reports/2026-08-12-business-outcome-RU.md",
+      "sha256": "68d6e3ab83bf26f01864e6f964bd06ef7512e27e40fc72205b45524e1cf18f00"
+    },
+    {
+      "bytes": 5845,
+      "path": "docs/reports/2026-08-12-predictive-validity-successor.md",
+      "sha256": "aada2d4f6a8af177846328b56e06d05f957a9e44b756d3844b4259ad380571d3"
+    },
+    {
+      "bytes": 11111,
+      "path": "docs/reports/2026-08-12-research-completion.md",
+      "sha256": "a8164cbde2d866d5cdef98f44f8b9b0de06f109c02e4be5158625fb9de278886"
+    },
+    {
+      "bytes": 5,
+      "path": "workforce-graph/.python-version",
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "bytes": 2278,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/README.md",
+      "sha256": "a603947b3a330a823cffb9dc021753302d16b6b98e1cd84fce67e7cbde009c0b"
+    },
+    {
+      "bytes": 19679,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/candidate_bindings.csv",
+      "sha256": "ff095ac8ba96013ad5e954f878a08aed31af2b3920d8df16fe38bf6bcfcbe4af"
+    },
+    {
+      "bytes": 1023,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/configurations/c0_fixture.json",
+      "sha256": "85be69f737267c59c8b8e43cc2e6a9f8ef52cffcf6f26470f1e6acfecab0f65d"
+    },
+    {
+      "bytes": 1082,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/configurations/c1_fixture.json",
+      "sha256": "77a2041cb908c39321b0ddb17ed076e2084c4d064ecb13dfabae6f2434b5546c"
+    },
+    {
+      "bytes": 1307,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/configurations/c2_fixture.json",
+      "sha256": "f5edfe308fd4f7d5e13a4090e1cb97125dd3f24d8f8432d048cefe3bef9a58e0"
+    },
+    {
+      "bytes": 2184,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/configurations/stability_model_fixture.json",
+      "sha256": "1ddb0893e5ae42f93b6a2e15cd14a7c68d163600745186b4cd130b2ff5d2aeab"
+    },
+    {
+      "bytes": 80264,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/fixtures/expected_outputs.jsonl",
+      "sha256": "0b4ca27b67a0f72a6180b41ff38186ed2afc96da63a796007f37a75c33ad5a04"
+    },
+    {
+      "bytes": 73681,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/fixtures/inputs.jsonl",
+      "sha256": "0e1b90e45ab25ad641418f42aa18507cc541cd9c9c2debe57291accd9a9771de"
+    },
+    {
+      "bytes": 2653,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/manifest.json",
+      "sha256": "c39022e74026ba21f8353bb34142c69ce665e9ce99a52525368d1398231fcb21"
+    },
+    {
+      "bytes": 36134,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/data_reconciliation.jsonl",
+      "sha256": "2751732248356a22a0991f68ea32ef272bc278f3489742bc727f8ccbf2fefe23"
+    },
+    {
+      "bytes": 35450,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/draft_generation.jsonl",
+      "sha256": "4ccc9efe5bceb077244ecbec41d747667987048857f28d020b2e8a47f3193efa"
+    },
+    {
+      "bytes": 37032,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/escalation_preparation.jsonl",
+      "sha256": "ed290e740ccab1e7aec5d5b4992359563daea581958f0d8d8644473c038290d5"
+    },
+    {
+      "bytes": 35890,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/exception_handling.jsonl",
+      "sha256": "8bb77f402ae14a8ab3480c917c8856936aa59b3792cb1db5a7b67bb3e46cb51c"
+    },
+    {
+      "bytes": 36039,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/followup_scheduling.jsonl",
+      "sha256": "26d983a78154c937f8e2b50d8b6673a1400aa183d6c559babcc2eb2291a0abda"
+    },
+    {
+      "bytes": 36299,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/information_retrieval.jsonl",
+      "sha256": "fc6fbdb67863dd2a71597b0c30768b7103ac594a115cbd1d605c0b29f85b9761"
+    },
+    {
+      "bytes": 36520,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/intake_classification.jsonl",
+      "sha256": "5bcb214047d01f35d1d567b1b174c1e569dc7684985ab156292f0b1b17f0e49d"
+    },
+    {
+      "bytes": 36858,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/policy_interpretation.jsonl",
+      "sha256": "49cf4e14cd9a34f02740adbc3dbba2eed533ed175ad8d57d05cc9a613b3cf032"
+    },
+    {
+      "bytes": 36117,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/quality_verification.jsonl",
+      "sha256": "3b9aaaa20f6b29fd7fcdec6064c131b28a2b4857b2db8a25a6c67da34b9674e0"
+    },
+    {
+      "bytes": 35760,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/drafts/v1/missions/record_preparation.jsonl",
+      "sha256": "2074ac6c7604fdbd6af061162ea2a0fe3c573eb4279bab89cffc80ebe2f5f278"
+    },
+    {
+      "bytes": 57470,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/effective_candidate_bindings.csv",
+      "sha256": "8ab85234d091379d20c1a0989f6bc5d86f7868ddf258963f8c672d32d67c9357"
+    },
+    {
+      "bytes": 90948,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/fixtures/expected_outputs.jsonl",
+      "sha256": "ec5f52c069c092b89b064a062f45ec81d0ad78692cf0c9e2087a77447535e058"
+    },
+    {
+      "bytes": 177828,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/fixtures/inputs.jsonl",
+      "sha256": "5e1e376f5a9650788db3cdc95095918a27f5e52a74097d64e7a254ffa6e64973"
+    },
+    {
+      "bytes": 3172,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/mission-review-application.json",
+      "sha256": "e0cc1e8112921b73fe3feeec73e84c319d5a99dde022e5a09d02bb9f19d95e6c"
+    },
+    {
+      "bytes": 62810,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/data_reconciliation.jsonl",
+      "sha256": "509a345226d659125cfc41a669ecd47c3285a46730ed65c4e780a8836dc0a915"
+    },
+    {
+      "bytes": 62138,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/draft_generation.jsonl",
+      "sha256": "d03228993ee704f5bce896531eaae78a196fc75032898dc94eea27d0cf0066be"
+    },
+    {
+      "bytes": 63998,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/escalation_preparation.jsonl",
+      "sha256": "49bfc9a65f95f469b6c89c8538368f31604f3117d3fb145f85a9e88e258ee7b8"
+    },
+    {
+      "bytes": 62697,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/exception_handling.jsonl",
+      "sha256": "24dc92811d862fb9e6ca1a24d373137a4b2b76735672c0104e74d45bd751f415"
+    },
+    {
+      "bytes": 62272,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/followup_scheduling.jsonl",
+      "sha256": "3e4bbd6cd14b1f71b9c586d01b2aaddbb3c1ecae4015274d039d78c959798066"
+    },
+    {
+      "bytes": 63144,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/information_retrieval.jsonl",
+      "sha256": "ea10f99c1e752dfd8f2d871e28288db871dcad7686e4ab767dd129f04757155a"
+    },
+    {
+      "bytes": 63343,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/intake_classification.jsonl",
+      "sha256": "5942686332da106f15f6e66f6e5514fea8029ac9adebc3b940eff66a46475e3f"
+    },
+    {
+      "bytes": 63754,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/policy_interpretation.jsonl",
+      "sha256": "f6f2dd864a30a6bc07d13c5d0fda4ae9b45883a00d624f5644f6b15184645fef"
+    },
+    {
+      "bytes": 62905,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/quality_verification.jsonl",
+      "sha256": "6deb8f8d198aad8ecddfe63a09de481e090a03d338a3ceec9141bb91a34991f0"
+    },
+    {
+      "bytes": 62512,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/missions/record_preparation.jsonl",
+      "sha256": "e01ad057e491f068c4403b16916dadda6e3d53fe3ee2c6333bb075e488beceeb"
+    },
+    {
+      "bytes": 84318,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/candidate_supersessions.jsonl",
+      "sha256": "3c463ad6a7c15e5f8e4e75e5a53802dcfe896c160bc73b51b1005daf785e82ea"
+    },
+    {
+      "bytes": 527,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/founder-approval.json",
+      "sha256": "b639c2dbb64bbb33d594e2b8dd1d40af365d70dc55d1e37fc9f34bab05b8fa57"
+    },
+    {
+      "bytes": 164793,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/mission-product-review-decisions.jsonl",
+      "sha256": "8a10504e0b52959734186632f9bb6b803ddd5c11ce909bf7b62a1aa7c049c303"
+    },
+    {
+      "bytes": 134566,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/mission-product-review-request.jsonl",
+      "sha256": "47ed90cccd4cda1971f6475e7a11f9de4be7b309b2fe3c6bcc3bccc81c762626"
+    },
+    {
+      "bytes": 60354,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/mission-review-freeze.json",
+      "sha256": "c4667dfc3f7d638dc49cac9dfdf545b88324e58ae2e48f06deb2cc2385d14d9e"
+    },
+    {
+      "bytes": 7149,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-01-001.json",
+      "sha256": "ed78eb30c2e6447b14218d0b78cb28cc287f9ee73e35fa4a046dc788a2f95a3a"
+    },
+    {
+      "bytes": 12920,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-02-001.json",
+      "sha256": "d419352aeb3472faf060a3bd18ad8a9ffff5456fe7f0ff19cf02f1125ebeda1b"
+    },
+    {
+      "bytes": 13038,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-03-001.json",
+      "sha256": "1d945c1db329b7a7223c9b8c44ae890d65809442d39833a0186cb47f675f7d8f"
+    },
+    {
+      "bytes": 12894,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-04-001.json",
+      "sha256": "1f4ae20ab4b010115bb7d64d96c55ef03f6d505228be09ffdf5c8da460f8e1c7"
+    },
+    {
+      "bytes": 12668,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-05-001.json",
+      "sha256": "61aafa497311d04e949f5dcd047bb24af9597bc0d80760e0a2222608b262b086"
+    },
+    {
+      "bytes": 13882,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-06-001.json",
+      "sha256": "42e8c5836428d56c39887129ac30efdc46ff9fd4e9530f81010ae24d9f60c2c3"
+    },
+    {
+      "bytes": 13008,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-07-001.json",
+      "sha256": "4fbd56befb3ae4a7dacef24e88682deb69a7e7e3980c46f11cb2d6904cd73c6d"
+    },
+    {
+      "bytes": 12699,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-08-001.json",
+      "sha256": "21fa4ac3368ddcba3df6ffb9ec46cfd3a1d0110514745cec373d0b35aed9391e"
+    },
+    {
+      "bytes": 12880,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-09-001.json",
+      "sha256": "235d52f751bbd8fad8c1a173b426408d693f4eb682e43584b4266a3657662550"
+    },
+    {
+      "bytes": 13069,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-10-001.json",
+      "sha256": "8f46b3767f97d646de7df5192137fac631b42805e4ac80dc51993ce3711b767d"
+    },
+    {
+      "bytes": 12901,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-11-001.json",
+      "sha256": "f8ec039e6e5375cee8060c77041d5d217466b3c7693ea5977c914ace43140f6a"
+    },
+    {
+      "bytes": 13102,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-data_reconciliation-12-001.json",
+      "sha256": "856a478b581cca9c124dc68240f044c9166e328a5a05915510d350d600a39410"
+    },
+    {
+      "bytes": 13532,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-01-001.json",
+      "sha256": "b0dbc17db35e6982a50acb40302253a9e875e6c820295208f30e9d37e0d41d3c"
+    },
+    {
+      "bytes": 13381,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-02-001.json",
+      "sha256": "14aad71cfc96e2973ea36c0058468d210c3657dad4aa08214c6cc827bdba4210"
+    },
+    {
+      "bytes": 13153,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-03-001.json",
+      "sha256": "b0ea5082fc281617fad8f5b61930901f5def1813771f01031ee42078d1832edd"
+    },
+    {
+      "bytes": 13031,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-04-001.json",
+      "sha256": "c2da3bb06ef3d1e2f30aafcaae9f7e267c57914aafb90e3eb5e61fe71e3b1a59"
+    },
+    {
+      "bytes": 6875,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-05-001.json",
+      "sha256": "6301079e818296e4f640908addc937b774e4cd351065e6960ac27ad5f0e29adb"
+    },
+    {
+      "bytes": 12990,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-06-001.json",
+      "sha256": "7ad6f8d98ab08cc0a6fb12ba41cdad574e521bc0a5df45f9330147a9dfadaeb5"
+    },
+    {
+      "bytes": 12865,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-07-001.json",
+      "sha256": "d7af542bd581ee4c265624e8724401b17f0dbb8ff985abd324bd325bb0566c34"
+    },
+    {
+      "bytes": 12857,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-08-001.json",
+      "sha256": "3b4a317ab910b44cfb0b210f4cdea86f59b587d33fd0b07b1e6ed472da6478a4"
+    },
+    {
+      "bytes": 12895,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-09-001.json",
+      "sha256": "fca2121ef91ce642a65cbaeca2c8f6096fa910dbebb0bea66f7f02aabc5eb21f"
+    },
+    {
+      "bytes": 12719,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-10-001.json",
+      "sha256": "3d2d70ac772d2a428abe34f3b9407b9691923cbfb396d5efc93cf2d8f70697aa"
+    },
+    {
+      "bytes": 12946,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-11-001.json",
+      "sha256": "02e25baba988e42425a2003dcac4aa8e1cdbf26121f108241e09608ad3219e0e"
+    },
+    {
+      "bytes": 12899,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-draft_generation-12-001.json",
+      "sha256": "7f8ac12524a01e1a70be821755b7cd118251b667ec5b379ed8f1148e152ba7ae"
+    },
+    {
+      "bytes": 12892,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-01-001.json",
+      "sha256": "4d52aa13200edb04230f3b5e52e952a38b11fd054f34e3878c9e1455402d294b"
+    },
+    {
+      "bytes": 13074,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-02-001.json",
+      "sha256": "427f1a01f820d2620c0371e46206124a5b24e66169d6087311148bc41374f356"
+    },
+    {
+      "bytes": 12923,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-03-001.json",
+      "sha256": "53d1a5a351e08a1bd491060deaebd6fb58cc92cf4e5f9e956bcac686d60d2e5e"
+    },
+    {
+      "bytes": 13194,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-04-001.json",
+      "sha256": "fe5b4387fdf03f4e94134498d53f98d5c8916f40b017a5f2f575105e0fc73a95"
+    },
+    {
+      "bytes": 13155,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-05-001.json",
+      "sha256": "0ad7d22728efac00b4399c1eeba172c4bbb6eb200b055968226b9b1e4aa89b8e"
+    },
+    {
+      "bytes": 13060,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-06-001.json",
+      "sha256": "6d9f746daea7d03ccec8aacbac08d56cbae1fa142c1539b4a897b85a9de9a5e2"
+    },
+    {
+      "bytes": 13134,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-07-001.json",
+      "sha256": "1e16c9814bbcb7ccf13cd5510cb7e1c2ad534ca4f2b6d115f5ef6fca4654d002"
+    },
+    {
+      "bytes": 13020,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-08-001.json",
+      "sha256": "5cecd62564ed37b657c3c7015b24f55795d736f471b25db0f07bc785260f96d1"
+    },
+    {
+      "bytes": 12824,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-09-001.json",
+      "sha256": "b8d32af726ef0fbdfc07d156e280cb0064bdb0de7cc2d562764cda09f46bc812"
+    },
+    {
+      "bytes": 12973,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-10-001.json",
+      "sha256": "f5f95bf91c7db477b077671fea85426e496d54003766d1da8137427e73ae5cf2"
+    },
+    {
+      "bytes": 7143,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-11-001.json",
+      "sha256": "1337309b24714b413a6f78f1a6006e45484d590792dd72403d9bccc5d813a215"
+    },
+    {
+      "bytes": 13229,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-escalation_preparation-12-001.json",
+      "sha256": "1b13631ae4106775694df5b3613cbcbffcedeeb7956917760515211a3e731fe7"
+    },
+    {
+      "bytes": 12978,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-01-001.json",
+      "sha256": "7b96e3f16eccbd80bfd10813950667bca724b1f37d05b0f450c75a906d4e6bde"
+    },
+    {
+      "bytes": 12973,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-02-001.json",
+      "sha256": "1260aa7245f330e1b60e981a60b436ea692a5a9bf7d41cecb8ee0e872f061161"
+    },
+    {
+      "bytes": 12921,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-03-001.json",
+      "sha256": "89c3428f579a4b89a215bc4ee14d2be7b4f8defad5d92aed465da76387506436"
+    },
+    {
+      "bytes": 12860,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-04-001.json",
+      "sha256": "f1566f01f58dbfe9f58ef424e77493ccac0e4b18602a9e31b2c4789454b885ae"
+    },
+    {
+      "bytes": 13074,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-05-001.json",
+      "sha256": "9c505b17a101271f8465a1ddce4771e3c8a9fbfe4f08a8c2aae2f6822fae5557"
+    },
+    {
+      "bytes": 12873,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-06-001.json",
+      "sha256": "77214495faa8bd3fb2d9d4258efed50e8c626b9e389c1f8ea3afc48b9ca9b898"
+    },
+    {
+      "bytes": 13170,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-07-001.json",
+      "sha256": "4fd6d4e7942833d884132cb64187679040a883396daaaaa9ccec672b88393e67"
+    },
+    {
+      "bytes": 7067,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-08-001.json",
+      "sha256": "2b4f215c3609409ede6df06e521261016f46e82511b83c8f1d892e0443b7e8cb"
+    },
+    {
+      "bytes": 12732,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-09-001.json",
+      "sha256": "3ad87be33d39bd91097f69765dc033edcd5d3617c78d53a73ccfb1c01e5ff350"
+    },
+    {
+      "bytes": 12923,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-10-001.json",
+      "sha256": "41df4d4ef90e3881968fd5707b090a716843048a662276ca3933d0b88357b80e"
+    },
+    {
+      "bytes": 13290,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-11-001.json",
+      "sha256": "64d5f9556060a0db694cd6bd2f313a75eecdd1fe63fffd63b5178636950b50d3"
+    },
+    {
+      "bytes": 12897,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-exception_handling-12-001.json",
+      "sha256": "1c2374714c8edb497b07352e01cc71d6c32a2cd2885b81d71d7780410e44cf94"
+    },
+    {
+      "bytes": 13388,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-01-001.json",
+      "sha256": "9cd68a67ae7fd23b8c2c352070efbc997a3b7b1c77ee1576a2c97396f4749519"
+    },
+    {
+      "bytes": 14069,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-02-001.json",
+      "sha256": "073dd413d27a56f23798f611732b3bad5e606c21937836ece1c5268abe588133"
+    },
+    {
+      "bytes": 14087,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-03-001.json",
+      "sha256": "c7f3f083ec9a0310921be5287554267ce9d77175f8983b2334aa53c9cbe60f4e"
+    },
+    {
+      "bytes": 14122,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-04-001.json",
+      "sha256": "778e786bf019b0b07d7c7210cc4a0cb31c505bfc407ac7239928f8ce5ce70780"
+    },
+    {
+      "bytes": 6964,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-05-001.json",
+      "sha256": "65dbb0b03fce64bb4932e228ea2152c118f8ca15f11b02827fafdf2dfe7f2c5b"
+    },
+    {
+      "bytes": 13334,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-06-001.json",
+      "sha256": "1b9763f0baa8622dcd220b313c9d6cc4e4f75bb19f50822e91973fc449813db5"
+    },
+    {
+      "bytes": 14790,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-07-001.json",
+      "sha256": "ff0303a6b38837565fb7b0f6139496cb522045df16c0ad4655f8db8cca488423"
+    },
+    {
+      "bytes": 13125,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-08-001.json",
+      "sha256": "bfdc044d4fa7d2875b88244cc8c2752c5ee9c4477acf9033837208b1bf09a8a8"
+    },
+    {
+      "bytes": 13153,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-09-001.json",
+      "sha256": "882a237066a1d1bdd6bc14b7015a58c67750064c806a4d1dd314ab9751065f47"
+    },
+    {
+      "bytes": 13510,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-10-001.json",
+      "sha256": "5f5163fa6b9b378647554d110acde519c99117c303c289acda24bab346f1e20e"
+    },
+    {
+      "bytes": 13517,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-11-001.json",
+      "sha256": "9e817964cc4cc7c5e56cb9233e4ddc5cf83482e6587cbd845cd2537f7bc09486"
+    },
+    {
+      "bytes": 14506,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-followup_scheduling-12-001.json",
+      "sha256": "97c58966ed1f36e11b615b17abd3a3711ae7c00c4a1963d41e087a3f742b6a22"
+    },
+    {
+      "bytes": 12695,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-01-001.json",
+      "sha256": "25658b1fdd8bf94bff6f9b6d07beae13b7250981ca76c0433c15088b7b4453b9"
+    },
+    {
+      "bytes": 7057,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-02-001.json",
+      "sha256": "d641fda3c142a5fe06d3af7d02eda832b72d5f1bf2125ef024bf01a29855c7b1"
+    },
+    {
+      "bytes": 12956,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-03-001.json",
+      "sha256": "d0830a18ade7ecbba06baa3430151bca8a6506ddbb13fbd4eff5ae0e5e9222b0"
+    },
+    {
+      "bytes": 13011,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-04-001.json",
+      "sha256": "93a49fe3e63988eaf03a30749239cbe38670727e70010851409e3f7226f7a2a2"
+    },
+    {
+      "bytes": 12853,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-05-001.json",
+      "sha256": "031bf6559919823f8a3c80b52755711f1a9fb9c30d6a90945122621eaf78a96e"
+    },
+    {
+      "bytes": 12848,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-06-001.json",
+      "sha256": "70c05f2bc8cdb72e0e1fdd92b28e8d3933e7c8e964536c0916c15b4e83efd395"
+    },
+    {
+      "bytes": 12859,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-07-001.json",
+      "sha256": "f2bfd289cd4a089fc16d17a36bd8226aa6bc995b0f016b2310c5583ed4f2d718"
+    },
+    {
+      "bytes": 12825,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-08-001.json",
+      "sha256": "3d13ca7ef5166acd435d1c6d0d6b95b26eedbddc826d61edb26b5006203261f3"
+    },
+    {
+      "bytes": 12967,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-09-001.json",
+      "sha256": "9fc26c688fdd2f2ac196876e432db97f18fe4a539817c44f44cea380fb53ea69"
+    },
+    {
+      "bytes": 12656,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-10-001.json",
+      "sha256": "ae5d2d9c050550195a318da95a6d9ee3fe1f6a0e02361ba3ae4a3d462db1febe"
+    },
+    {
+      "bytes": 12818,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-11-001.json",
+      "sha256": "ae740477a01827d9d8f16d8dc62b2c241f787b1174e4402a5ee2e721a03738d0"
+    },
+    {
+      "bytes": 14016,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-information_retrieval-12-001.json",
+      "sha256": "95409bd471decdb6e761de986fad607037f4f356a5d95ebc7ce11730e8157cf2"
+    },
+    {
+      "bytes": 13021,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-01-001.json",
+      "sha256": "1d59865b50e5c0bcd61e2c49632241aa48aaee5107d72c3451886d9d519ff9d8"
+    },
+    {
+      "bytes": 12983,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-02-001.json",
+      "sha256": "b06ded866190e4325c694e3ec7cd9cfac212876ccfca6179d100ef6621bad0f9"
+    },
+    {
+      "bytes": 12739,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-03-001.json",
+      "sha256": "4bf5beb571c786b3688cfead9486ae08b2a45b1f6967f60653d1a5026f3afb69"
+    },
+    {
+      "bytes": 12733,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-04-001.json",
+      "sha256": "fd72d237ea1fa9492de884854c4be9d1ef3c43941a6031d8bca71ea012f7e73f"
+    },
+    {
+      "bytes": 12786,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-05-001.json",
+      "sha256": "3f51767d5ae68626f004c40550496e3209fa27ff1a5fbe4a25ed74e3e0cc07e6"
+    },
+    {
+      "bytes": 12845,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-06-001.json",
+      "sha256": "0d2e165515abc314104543a3f27bf714be8a3cc76f5892f0fa8708ab378b96ec"
+    },
+    {
+      "bytes": 12926,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-07-001.json",
+      "sha256": "37775aac3e14384a2788d5ff2a9c5c5199a83b2337d00c8cae83ffe53582f0f2"
+    },
+    {
+      "bytes": 12747,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-08-001.json",
+      "sha256": "5ad254dcf78821d1a58424e3c49ec50f7413a6935135fed81a73e61e4d821f1f"
+    },
+    {
+      "bytes": 12966,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-09-001.json",
+      "sha256": "ce5cd2ed571e32baed93f3e8dd93c9997c7681dcd7a247aa28b1e3d32c912be3"
+    },
+    {
+      "bytes": 13168,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-10-001.json",
+      "sha256": "28117a6e537e71e9d41bdd9b3e29bd0cadb6be55a6d8b7d7fc7201b6858a2f70"
+    },
+    {
+      "bytes": 7195,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-11-001.json",
+      "sha256": "16498cf8b20495918e04bbb7b0684eb650f0d9e0622bb066c3aae48780965f39"
+    },
+    {
+      "bytes": 12530,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-intake_classification-12-001.json",
+      "sha256": "8788cc92b74dadebb0d7e741d426820ac5f7cd1fb781abcdc13afb5aa4fe6a07"
+    },
+    {
+      "bytes": 13139,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-01-001.json",
+      "sha256": "28d45b834ab20e02c8ff4a93e3295bcf8e0c88edf5983cb7c6dd1ea881d17135"
+    },
+    {
+      "bytes": 12947,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-02-001.json",
+      "sha256": "a7bf20f0d4a6155ff6fa874e2a2b37fff471cb8cd5117ddd3a3c801c0f16c13d"
+    },
+    {
+      "bytes": 13140,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-03-001.json",
+      "sha256": "0391149a4607d737e51efe45be5feceac6f82db9b4a42f1e23603566073d2088"
+    },
+    {
+      "bytes": 12838,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-04-001.json",
+      "sha256": "6166c073323e6f8f64fa22ebe0af7e8eb794685946de08e72331bde7d1e33c37"
+    },
+    {
+      "bytes": 13006,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-05-001.json",
+      "sha256": "69e47facb7a1832a0510ccea62cf40b34c30646a546330f6e5689229ce467678"
+    },
+    {
+      "bytes": 14268,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-06-001.json",
+      "sha256": "77bd349c9154e67c7e614b27a4eb24b06d8f1296a29451c908bfe04781e7e619"
+    },
+    {
+      "bytes": 13191,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-07-001.json",
+      "sha256": "371ed6724ac05c07f1266adfaba067172fdc6207ae2759f7ad04b3a6308abf96"
+    },
+    {
+      "bytes": 7193,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-08-001.json",
+      "sha256": "2241e1db98ee0fde8d797f9f836a5e86558f0c868bb040d5bf88a644181535f1"
+    },
+    {
+      "bytes": 12873,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-09-001.json",
+      "sha256": "9b9bb65c5e8c09f9208839239a54ddbcc9fa9b18a8c5f29b278ddf6a22222923"
+    },
+    {
+      "bytes": 12871,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-10-001.json",
+      "sha256": "beb72bd22b48558ceaf76f1bf5743a3ab0aa0ecc7ce01d32a4cd55d501d43ad5"
+    },
+    {
+      "bytes": 12941,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-11-001.json",
+      "sha256": "e26c65ae8d2bff720bded6e82b7a7bd6bc76b4c4491469b9dcb4f37ffad294c2"
+    },
+    {
+      "bytes": 13102,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-policy_interpretation-12-001.json",
+      "sha256": "31fa8a954dc9ed75964f04631ef5bb11e18e1e4e8562185351c246ba5d56214f"
+    },
+    {
+      "bytes": 12546,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-01-001.json",
+      "sha256": "09d7d8ee0dfd9959e6ff0d0989020ce6e4c488107b8969df9df42956b12eaa16"
+    },
+    {
+      "bytes": 12910,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-02-001.json",
+      "sha256": "f606df9f803445258ea1112c26502c3352ce55e3c0d5533e68c21730de3e1a82"
+    },
+    {
+      "bytes": 12950,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-03-001.json",
+      "sha256": "59c89b2cfd4e9ee42e5a6e63cbbe63503b8d80d27ac6eb18dae7843b824087cb"
+    },
+    {
+      "bytes": 12872,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-04-001.json",
+      "sha256": "74537e79110cc18a4fe3d753492f11d3fc76e1fc11051ea64636074da9269826"
+    },
+    {
+      "bytes": 12999,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-05-001.json",
+      "sha256": "876148af5a331e9bb20b055472f0a38f3702c6808b8ec365840695570d83cfc4"
+    },
+    {
+      "bytes": 7579,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-06-001.json",
+      "sha256": "23f2707d6b74364ba07b77af7bf394e769351ed8d97681cb0a5783f187db8797"
+    },
+    {
+      "bytes": 12638,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-07-001.json",
+      "sha256": "31ba7b3e3f6c20412ede825212b9a3fbd0234f5988f866b5031ad7ceaf1db3ff"
+    },
+    {
+      "bytes": 12659,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-08-001.json",
+      "sha256": "c93e2f1f24d9445f67794cc5c314a109cea9a3b0bc70fd68af49889136b9a626"
+    },
+    {
+      "bytes": 12610,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-09-001.json",
+      "sha256": "62a739dcb8718be028c19f6aca6d3ed42fb416918eb1119c7f5416604c82f37a"
+    },
+    {
+      "bytes": 12706,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-10-001.json",
+      "sha256": "9bee3076266f09f217a3d9e07c8d699ce36070b0739dfbe3aaf3732ae0577434"
+    },
+    {
+      "bytes": 12631,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-11-001.json",
+      "sha256": "5d9a2ec3e43fb322da12d36ef9f7e398e42068dbeba8a5795b6cf9059b472c13"
+    },
+    {
+      "bytes": 12521,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-quality_verification-12-001.json",
+      "sha256": "bc11765e2473034e5765aa62bef5c22c5a4affb2f01e7b598b240d98f41d45cc"
+    },
+    {
+      "bytes": 13404,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-01-001.json",
+      "sha256": "cdb0ccc4576ae39448cbfd370e29465962eb9391a17c8b96fb7ecc9f2148d374"
+    },
+    {
+      "bytes": 14343,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-02-001.json",
+      "sha256": "69a9b5faba266de9bb1a0825f3a278aecd6cd2d1eddfef715875be2db7af8a6a"
+    },
+    {
+      "bytes": 12653,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-03-001.json",
+      "sha256": "d0fe7d3795c4d18d7333f4464f7fbb8f5af9ac02590044c7654616c44e095d11"
+    },
+    {
+      "bytes": 13289,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-04-001.json",
+      "sha256": "c764118ebc8e120369495fc32c3e5de8e2a40fc08e9a4dd48a9386fb3221b8a2"
+    },
+    {
+      "bytes": 13327,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-05-001.json",
+      "sha256": "2eb5f2fc392d3e89ea8605e12a76f4a0521fa73402d04a79de29b210205f1602"
+    },
+    {
+      "bytes": 13293,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-06-001.json",
+      "sha256": "c46ac4e0a44c09b9d4dc7d918a328023e41911382a9ba6c4162ce05a841b8361"
+    },
+    {
+      "bytes": 13215,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-07-001.json",
+      "sha256": "f10b874cdd7730d05bbcec12854ba45c2b6b77ea1fcd80015623d0c7858fc89d"
+    },
+    {
+      "bytes": 14109,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-08-001.json",
+      "sha256": "e88663acf5d0b2220613bc00fed58f13cb1077d8dc334b29e98d92149bf09bdb"
+    },
+    {
+      "bytes": 7283,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-09-001.json",
+      "sha256": "b59e7bd34b41c79087b57e78132a5b47b7b1056e44fb8ac1d0ed40d716910dea"
+    },
+    {
+      "bytes": 15471,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-10-001.json",
+      "sha256": "5b648acf75af59b72b9381948587c9b44fa43718a25fab980468fb42e12ff4cb"
+    },
+    {
+      "bytes": 13618,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-11-001.json",
+      "sha256": "5bf83d44de47c945f674c11d31735ea1a88272939354b45da9cc9981890cc962"
+    },
+    {
+      "bytes": 14693,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-proposals/proposal-sbov1-record_preparation-12-001.json",
+      "sha256": "be8b928e145fab017124c2054b7acfe87a3ed3ccf346a5f2edc9b5e4267f0aa2"
+    },
+    {
+      "bytes": 93840,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/replacement-selection-decisions.jsonl",
+      "sha256": "3911e8070369985234a42c00d2bbe66eae67039b4f488812b50dce6829f04ddf"
+    },
+    {
+      "bytes": 630,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/reviews/reviewer-registry.json",
+      "sha256": "d1a63fd064e957f5de421cb55535e1e5c63f133720174938546a78d60ba5fada"
+    },
+    {
+      "bytes": 3819,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/splits.json",
+      "sha256": "32b11b1effc6a20f4960ac7600df098d0003a2d4ac57ee92e0db59918a14cad6"
+    },
+    {
+      "bytes": 762,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/stability_ids.json",
+      "sha256": "e04733280b7872bfbf160c5b8c2174c6ee74f89e28d0137ee09eb7ed55894604"
+    },
+    {
+      "bytes": 787,
+      "path": "workforce-graph/benchmark/support_backoffice/v1/suite.yaml",
+      "sha256": "eae677bee3e57dda9f7caf06f690d6650c6235a1f8f365862f9da73d68bb57f9"
+    },
+    {
+      "bytes": 629855,
+      "path": "workforce-graph/data/benchmark_relevance/layer_two_freeze.json",
+      "sha256": "bfc797d06de65e36dc48e11e2458db60d6cb3ad7567cae13ca4793d0ed31e5b2"
+    },
+    {
+      "bytes": 22516,
+      "path": "workforce-graph/data/evidence/registry.json",
+      "sha256": "0acb9ccdc1d4021a696308c63def790b5ffd60d0d5bff010efa13ecff77eac97"
+    },
+    {
+      "bytes": 13633,
+      "path": "workforce-graph/data/evidence/successors/osworld-v2-2026.06.24/010__23d778e73061800ae3732b1f34a750c5/review.json",
+      "sha256": "3914952e2d4340ba62993b566aa9a3fd894e9507d768fee2100e439fd229945b"
+    },
+    {
+      "bytes": 402077,
+      "path": "workforce-graph/data/predictive_validity/successor_2026-08-12-v2/frame.json",
+      "sha256": "4eb2f895596e247de7e2733fa277b3a382a8ed9e490d578850b6041770f507eb"
+    },
+    {
+      "bytes": 156138,
+      "path": "workforce-graph/data/predictive_validity/successor_2026-08-12-v2/pilot.json",
+      "sha256": "7073efab4301ff08cea5313f01483307337e8525b067eaae56b5eb62972ad8d3"
+    },
+    {
+      "bytes": 1244,
+      "path": "workforce-graph/data/predictive_validity/successor_2026-08-12-v3/analysis.json",
+      "sha256": "69b8954d4d67e271bad71aedcc8afc3e29e4fd13f30425256b058d7f81294578"
+    },
+    {
+      "bytes": 436136,
+      "path": "workforce-graph/data/predictive_validity/successor_2026-08-12-v3/frame.json",
+      "sha256": "e55c8a047ba47cf177a70c47915266d6cb934239f6f68c6674b63a2dc8a93a26"
+    },
+    {
+      "bytes": 152251,
+      "path": "workforce-graph/data/predictive_validity/successor_2026-08-12-v3/main.json",
+      "sha256": "fcd503ae28274c6c092e20060ff89be2c96c393048861fd8285997d14cbb801e"
+    },
+    {
+      "bytes": 75047,
+      "path": "workforce-graph/data/predictive_validity/successor_2026-08-12-v3/pilot.json",
+      "sha256": "4249bf671c4612615eb79fdcbeb29ed7d4354ddeebf089cd57e01ee8b1e9a5be"
+    },
+    {
+      "bytes": 402388,
+      "path": "workforce-graph/data/predictive_validity/successor_2026-08-12/frame.json",
+      "sha256": "959667fcc584936dd345c1eeb0d200c8915f926223dca02b86b666520d38faea"
+    },
+    {
+      "bytes": 1127,
+      "path": "workforce-graph/data/predictive_validity/successor_2026-08-12/v1-stop.json",
+      "sha256": "c360d21ed319b6f3ad2d6d891ab222dc516aa8563cd5d4a01f9754c73c4329db"
+    },
+    {
+      "bytes": 6936,
+      "path": "workforce-graph/data/ru/employment_by_okz2.csv",
+      "sha256": "9c3a38fef192e96f6a8599119cc8949a940cfd07083a050733b2beb3916b2627"
+    },
+    {
+      "bytes": 380,
+      "path": "workforce-graph/data/ru/employment_by_okz2.meta.json",
+      "sha256": "6058bc33b33c29130025a407ef0654a9385e943a4b0b6ffb1e57c4af28f2152b"
+    },
+    {
+      "bytes": 170206,
+      "path": "workforce-graph/data/ru/onet_to_okz2.csv",
+      "sha256": "494ce0b0d8ca5cec6c090fff58d285fd3dba3aab4c300f58b5c6544dff65978a"
+    },
+    {
+      "bytes": 352,
+      "path": "workforce-graph/data/ru/onet_to_okz2.meta.json",
+      "sha256": "86dc96d9b5212f6d680b681e9a4073c9e8cd4346f42c017d8c6cb91063b3c516"
+    },
+    {
+      "bytes": 15471,
+      "path": "workforce-graph/data/work_mode/corrected_result_full_glm_2026-08-11_incomplete-third-rater.json",
+      "sha256": "54f4d03fa39a4c6df3273dec6053e65fd22e747e2d78f7172d6a0049b7f51507"
+    },
+    {
+      "bytes": 343134,
+      "path": "workforce-graph/data/work_mode/corrected_result_full_glm_2026-08-12_final-collection.json",
+      "sha256": "474ea91d35f540679e6f1333dfd9af785a054509b145b6c225d5e8ad2984e29c"
+    },
+    {
+      "bytes": 8078423,
+      "path": "workforce-graph/data/work_mode/work_mode_baseline_2026-08-11_incomplete-third-rater.json",
+      "sha256": "8030717b904553ed3fe4be32c3350d51bbaa6e0df6f1c748886039512b55161a"
+    },
+    {
+      "bytes": 8313735,
+      "path": "workforce-graph/data/work_mode/work_mode_final_2026-08-12.json",
+      "sha256": "3c79b4bf6e2f3141d512505511774b9b8c93d744293d62f9dfb67ecd4b5a21c4"
+    },
+    {
+      "bytes": 957,
+      "path": "workforce-graph/pyproject.toml",
+      "sha256": "b6d074dc438eb928b9ec69fef3107179f891499679fb9bae65d4accd4cc56884"
+    },
+    {
+      "bytes": 361793,
+      "path": "workforce-graph/research/authorities/content_27_hh.2026-04-12.logical-slice.v1.json",
+      "sha256": "9c31852440e6bd49dbabd3cc1ae7e0e36213c970cba35a181d369d8846304001"
+    },
+    {
+      "bytes": 3617,
+      "path": "workforce-graph/research/authorities/rli-15row-canonical.json",
+      "sha256": "07203de074a2733dd4667a35025dd70a51764dcda2c5938b0e4833c19008c419"
+    },
+    {
+      "bytes": 13439,
+      "path": "workforce-graph/scripts/analyze_predictive_validity_successor.py",
+      "sha256": "0eae54476199bf4ee20461fd8a8ce8be2f1681c03a6509f4b72eec1873501b85"
+    },
+    {
+      "bytes": 27444,
+      "path": "workforce-graph/scripts/build_osworld_transfer_successor.py",
+      "sha256": "d852b5b8feb404423fa40548950eb551c76f36a26c54996fbf7e2a1a8cd089c0"
+    },
+    {
+      "bytes": 34990,
+      "path": "workforce-graph/scripts/build_predictive_validity_successor.py",
+      "sha256": "9f454357af6c3037f2748c8f62eb5b546f52fb7b4d1d26e94a7c10225f11fe9f"
+    },
+    {
+      "bytes": 13124,
+      "path": "workforce-graph/scripts/build_public_release.py",
+      "sha256": "e09a2765af673c46beb1f27d1766d66b553bcb02ddcae3c777ffbda2c1ff3133"
+    },
+    {
+      "bytes": 53845,
+      "path": "workforce-graph/scripts/build_research_completion_report.py",
+      "sha256": "13d22f76c07a6815a0479b5e94249a611e9e7df1d5393832c1c2eb8274f30123"
+    },
+    {
+      "bytes": 32770,
+      "path": "workforce-graph/scripts/classify_work_mode.py",
+      "sha256": "ea1664e0e87d4b46106cdd9a1d0a7c4633338f236a343fc9aa21f02a77a70454"
+    },
+    {
+      "bytes": 42728,
+      "path": "workforce-graph/scripts/correct_for_uncertainty.py",
+      "sha256": "e8c434e5dcef5d51d70411d6f25aed60ef9dc8ee9a467a91a36f65f4015b593f"
+    },
+    {
+      "bytes": 39280,
+      "path": "workforce-graph/scripts/freeze_layer_two.py",
+      "sha256": "4d147c26f32b45a6ed45c9253984494588cfaa8195def7541934aec3e9741723"
+    },
+    {
+      "bytes": 36696,
+      "path": "workforce-graph/scripts/freeze_work_mode_snapshot.py",
+      "sha256": "bdecdd0cbf3f65825905889554468649655dd9056a0bc3dd2fd5a9396b96d996"
+    },
+    {
+      "bytes": 48658,
+      "path": "workforce-graph/scripts/run_missions.py",
+      "sha256": "45695a54993e9ef397eaff80f545886e257ea2175decce346d7e8bcb31761d54"
+    },
+    {
+      "bytes": 27017,
+      "path": "workforce-graph/scripts/run_predictive_validity_successor.py",
+      "sha256": "d9ad5bb218bf98572c1e0cfda405db1f7964edc7aaecfcbcc9bc4737e05c1ee1"
+    },
+    {
+      "bytes": 22922,
+      "path": "workforce-graph/scripts/semantic_match.py",
+      "sha256": "9f52e5650d6f834d3ce093144f65332f60d65ae2f3c8d23e7545fb9a11fe1b9a"
+    },
+    {
+      "bytes": 3597,
+      "path": "workforce-graph/scripts/verify_public_release.py",
+      "sha256": "720c9600ce46bcf0e27822ea7b6f144a0c8155e219ca191615159cbe6b92e8c6"
+    },
+    {
+      "bytes": 13019,
+      "path": "workforce-graph/scripts/weight_work_mode_by_employment.py",
+      "sha256": "9f87fe4e6d649b71af507b2382509c63ef959dd1fdd670f2900f601cb9b72b10"
+    },
+    {
+      "bytes": 73,
+      "path": "workforce-graph/src/workforce_graph/__init__.py",
+      "sha256": "d247fec2e089e3a0ba7cafa3600a39d6cd70d57acb69553afea9d30c5d4bf65d"
+    },
+    {
+      "bytes": 846,
+      "path": "workforce-graph/src/workforce_graph/config.py",
+      "sha256": "35690317e79d93427050649a31494d5d271addc92cbccf81606f62cd8017521f"
+    },
+    {
+      "bytes": 77,
+      "path": "workforce-graph/src/workforce_graph/evidence/__init__.py",
+      "sha256": "fe76d1776e79ab7c4722173cf32097e8b245f65af3eaf48093df9263e626fa86"
+    },
+    {
+      "bytes": 101646,
+      "path": "workforce-graph/src/workforce_graph/evidence/task4_phase2b_operators.py",
+      "sha256": "27a22fefb5775cde113f083417102f51fba931cbe5b10e624e63ac05283c5269"
+    },
+    {
+      "bytes": 12797,
+      "path": "workforce-graph/src/workforce_graph/evidence/task4_phase2b_profiles.py",
+      "sha256": "b2dae18b91c4cb5578c2a3642171a6a253ad3d186ebe1c49f61eaff5a8bd1bb2"
+    },
+    {
+      "bytes": 0,
+      "path": "workforce-graph/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2436,
+      "path": "workforce-graph/tests/test_analyze_predictive_validity_successor.py",
+      "sha256": "e06d86ec2a858b00c36c2f353284d0e4748fbce65f29da4f675b1ae521a35cfa"
+    },
+    {
+      "bytes": 5115,
+      "path": "workforce-graph/tests/test_freeze_layer_two.py",
+      "sha256": "ae538513b4b9361232fd17f856fa809caa218905a6163d9c5244c680e7d355f6"
+    },
+    {
+      "bytes": 8576,
+      "path": "workforce-graph/tests/test_osworld_transfer_successor.py",
+      "sha256": "5f0c062fa88ed587fefb72163f9be91628b9282154e1cb5860c37e88d8852be3"
+    },
+    {
+      "bytes": 5431,
+      "path": "workforce-graph/tests/test_predictive_validity_successor.py",
+      "sha256": "d5e70f97cc7cb92f732ea40bdca0088278c89c1f0321128e83dc4e063ba66419"
+    },
+    {
+      "bytes": 21918,
+      "path": "workforce-graph/tests/test_research_completion_report.py",
+      "sha256": "5e7b6827c6b7380619dcdc697a42ab1af1f4bdaca3a0a542ff58ded7d581a9a7"
+    },
+    {
+      "bytes": 10844,
+      "path": "workforce-graph/tests/test_run_missions.py",
+      "sha256": "4d906e70b002981c90eeced81efd8d6e168b88ca8727e90f2da34c145068ce62"
+    },
+    {
+      "bytes": 4976,
+      "path": "workforce-graph/tests/test_run_predictive_validity_successor.py",
+      "sha256": "688a29db4394b91c6baaa48128202ad53ecfcac8c2aa5e91b46e5778349ea944"
+    },
+    {
+      "bytes": 3671,
+      "path": "workforce-graph/tests/test_semantic_match.py",
+      "sha256": "9c2937396f13ad4eb9575ef1db8431f44c927ee23e0c45f22929f63c180e98ab"
+    },
+    {
+      "bytes": 154226,
+      "path": "workforce-graph/uv.lock",
+      "sha256": "24251f8a1d958229206b8b837e210063950a6c8864b1a06db9bb97eb6bcb9966"
+    }
+  ],
+  "licence": "Apache-2.0 for original code and documentation only",
+  "public_repository": "https://github.com/dilp79/alljobs-agent-work-research",
+  "release_payload_sha256": "74613894a08c83a0e9368475b1ed43b31b57b2b6f951c485e54e438c0def23a5",
+  "schema_version": "alljobs.public-release/v1",
+  "source_commit": "d17bf2b8c75e451117e5657a2c68453641f86768"
+}

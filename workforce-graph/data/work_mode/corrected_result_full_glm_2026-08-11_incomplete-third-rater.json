@@ -1,0 +1,470 @@
+{
+  "caveat": "The top-level range retains unknown outcomes of lost attempts and unsettled corpus labels. Sampling and arm transport have separate ceilings; none upgrades this to a CI.",
+  "component_separation": "sampling and arm transport are reported beside, not fused into, the top-level partial-identification range",
+  "components": {
+    "arm_transport": {
+      "changed_activity_ids": [
+        "032f1a239c1bff58badc9d09e28958c7",
+        "06c6580b5a0510d7b9abd604ea012e23",
+        "1fb1971491e6ed7a6436bf12545b6c06",
+        "26199431713ba22718a680cb4548f552",
+        "2ac8c082e9b3c01301ace5a273bdfe5a",
+        "2d539d3c580921e15f358e9ffb0d7db6",
+        "2f1cf85ff8dbc1d1ef8a535408f51848",
+        "312984582d590b02b9931472757a3622",
+        "3f20acc5667751fc32a1df6d9349250f",
+        "41f779b2e8901aad830f478e8f4e69ce",
+        "484522c999049bb74efb6752cac785b1",
+        "497936dd50b708db5f40797006f88131",
+        "5f3d8157d607fb50ac7f1dc1ec58a3a4",
+        "64890a3daec54fffebfbb6fd176429ca",
+        "6eb54402420dea3d69cf74a948087c49",
+        "89bcf0afb55ceb8348480618cb5ecb73",
+        "8d51d29033776105dae6e09f956bb914",
+        "a4ca0e2094387f69bd4e01be89942449",
+        "c88ca157aa20a1920217df9288d1a9a9",
+        "d9cac84fc7ce68092b65d2c4aaba64ec",
+        "f0a65b6243613e6fabed86fdfac7af49",
+        "f95c9ffabed33d615a6fe728df02b773",
+        "fc6f62c5301a1f6e9538d5c68844a1d9"
+      ],
+      "changed_unique_activities": 23,
+      "coverage_ceiling": "none",
+      "current_rederived_arm_rates": {
+        "arms": {
+          "contested": {
+            "answered": 1261,
+            "attempted": 1516,
+            "declined": 222,
+            "lost": 255,
+            "missingness_rate_bounds": [
+              0.14643799472295516,
+              0.31464379947229554
+            ]
+          },
+          "control": {
+            "answered": 312,
+            "attempted": 377,
+            "declined": 7,
+            "lost": 65,
+            "missingness_rate_bounds": [
+              0.01856763925729443,
+              0.1909814323607427
+            ]
+          }
+        },
+        "rows_without_arm": 0
+      },
+      "employment_weighted_material_effect": {
+        "current_rederived_arm_policy": {
+          "digital_share_generous": [
+            0.34662121988679306,
+            0.6740714302358182
+          ],
+          "digital_share_strict": [
+            0.29571237324405253,
+            0.6231625835930776
+          ]
+        },
+        "delta_current_minus_historical": {
+          "digital_share_generous": [
+            0.0041673041410510425,
+            -0.0038752375367232528
+          ],
+          "digital_share_strict": [
+            0.0013477260473995223,
+            -0.006694815630374773
+          ]
+        },
+        "historical_arm_policy": {
+          "digital_share_generous": [
+            0.342453915745742,
+            0.6779466677725414
+          ],
+          "digital_share_strict": [
+            0.294364647196653,
+            0.6298573992234524
+          ]
+        }
+      },
+      "historical_arm_rates": {
+        "arms": {
+          "contested": {
+            "answered": 1240,
+            "attempted": 1493,
+            "declined": 219,
+            "lost": 253,
+            "missingness_rate_bounds": [
+              0.14668452779638314,
+              0.3161419959812458
+            ]
+          },
+          "control": {
+            "answered": 333,
+            "attempted": 400,
+            "declined": 10,
+            "lost": 67,
+            "missingness_rate_bounds": [
+              0.025,
+              0.1925
+            ]
+          }
+        },
+        "rows_without_arm": 0
+      },
+      "material_delta_current_minus_historical": {
+        "contested": {
+          "high_delta": -0.001498196508950278,
+          "low_delta": -0.00024653307342797914
+        },
+        "control": {
+          "high_delta": -0.0015185676392573122,
+          "low_delta": -0.006432360742705572
+        }
+      },
+      "missing_from_current_partition": [],
+      "range_kind": "historical-to-current arm transport diagnostic; not a confidence interval",
+      "rows": 1893,
+      "status": "computed",
+      "transition_counts": {
+        "historical_contested__current_contested": 1493,
+        "historical_control__current_contested": 23,
+        "historical_control__current_control": 377
+      },
+      "unique_historical_activities": 1893
+    },
+    "directional_not_triple_rated_forced_contested": {
+      "activities_changed_to_contested": 4876,
+      "all_not_triple_rated_activities": 5081,
+      "assumption": "every activity with fewer than three successful bulk raters is contested",
+      "base": {
+        "digital_share_generous": [
+          0.342453915745742,
+          0.6779466677725414
+        ],
+        "digital_share_strict": [
+          0.294364647196653,
+          0.6298573992234524
+        ]
+      },
+      "coverage_ceiling": "none",
+      "forced_contested": {
+        "digital_share_generous": [
+          0.3264957050547031,
+          0.681163752672301
+        ],
+        "digital_share_strict": [
+          0.2792939221658965,
+          0.6339619697834944
+        ]
+      },
+      "impact_forced_minus_base": {
+        "digital_share_generous": [
+          -0.01595821069103892,
+          0.0032170848997595813
+        ],
+        "digital_share_strict": [
+          -0.015070725030756515,
+          0.004104570560041987
+        ]
+      },
+      "range_kind": "directional partition sensitivity; not a confidence interval",
+      "settled_not_triple_rated_activities": 4243
+    },
+    "missingness_partial_identification": {
+      "coverage_ceiling": "none; no stochastic coverage claim",
+      "decline_rates_high": {
+        "contested/mixed": 0.32253521126760565,
+        "contested/physical": 0.22535211267605634,
+        "contested/screen": 0.3826291079812207,
+        "control/mixed": 0.25,
+        "control/physical": 0.17587939698492464,
+        "control/screen": 0.19642857142857142
+      },
+      "decline_rates_low": {
+        "contested/mixed": 0.15352112676056337,
+        "contested/physical": 0.10140845070422536,
+        "contested/screen": 0.17370892018779344,
+        "control/mixed": 0.09375,
+        "control/physical": 0.010050251256281407,
+        "control/screen": 0.02976190476190476
+      },
+      "digital_share_generous": [
+        0.342453915745742,
+        0.6779466677725414
+      ],
+      "digital_share_strict": [
+        0.294364647196653,
+        0.6298573992234524
+      ],
+      "range_kind": "partial-identification bounds for unanswered experiment attempts; not a confidence interval"
+    },
+    "sampling_answered_attempts": {
+      "confidence_level": 0.95,
+      "coverage_ceiling": "95.0% marginal per fitted rate cell conditional on answered attempts and selected backoff; no simultaneous/headline coverage claim",
+      "decline_rate_high": {
+        "contested/mixed": 0.21806543383161134,
+        "contested/physical": 0.1560929267030337,
+        "contested/screen": 0.2668061440908514,
+        "control/mixed": 0.2805780081827982,
+        "control/physical": 0.042858994284081214,
+        "control/screen": 0.080877470411056
+      },
+      "decline_rate_low": {
+        "contested/mixed": 0.15550474306585158,
+        "contested/physical": 0.08479484933756304,
+        "contested/screen": 0.17868384807754006,
+        "control/mixed": 0.03852034828309843,
+        "control/physical": 0.003310291325815406,
+        "control/screen": 0.015349715646256056
+      },
+      "digital_share_generous": [
+        0.3871355378583709,
+        0.6273928353347782
+      ],
+      "digital_share_strict": [
+        0.3381133481461289,
+        0.5783706456225363
+      ],
+      "method": "two-sided Wilson score interval",
+      "range_kind": "sampling sensitivity envelope from marginal Wilson intervals among answered attempts; separate from missingness; not a headline confidence interval"
+    }
+  },
+  "corpus_size": 18796,
+  "coverage_ceiling": "none; deterministic extrema conditional on inputs and mapping",
+  "decline_evidence": {
+    "contested/ALL": {
+      "answered": 1238,
+      "attempted": 1491,
+      "declined": 219,
+      "lost": 253
+    },
+    "contested/mixed": {
+      "answered": 590,
+      "attempted": 710,
+      "declined": 109,
+      "lost": 120
+    },
+    "contested/physical": {
+      "answered": 311,
+      "attempted": 355,
+      "declined": 36,
+      "lost": 44
+    },
+    "contested/screen": {
+      "answered": 337,
+      "attempted": 426,
+      "declined": 74,
+      "lost": 89
+    },
+    "control/ALL": {
+      "answered": 333,
+      "attempted": 399,
+      "declined": 10,
+      "lost": 66
+    },
+    "control/mixed": {
+      "answered": 27,
+      "attempted": 32,
+      "declined": 3,
+      "lost": 5
+    },
+    "control/physical": {
+      "answered": 166,
+      "attempted": 199,
+      "declined": 2,
+      "lost": 33
+    },
+    "control/screen": {
+      "answered": 140,
+      "attempted": 168,
+      "declined": 5,
+      "lost": 28
+    }
+  },
+  "decline_rates_high": {
+    "contested/mixed": 0.32253521126760565,
+    "contested/physical": 0.22535211267605634,
+    "contested/screen": 0.3826291079812207,
+    "control/mixed": 0.25,
+    "control/physical": 0.17587939698492464,
+    "control/screen": 0.19642857142857142
+  },
+  "decline_rates_low": {
+    "contested/mixed": 0.15352112676056337,
+    "contested/physical": 0.10140845070422536,
+    "contested/screen": 0.17370892018779344,
+    "control/mixed": 0.09375,
+    "control/physical": 0.010050251256281407,
+    "control/screen": 0.02976190476190476
+  },
+  "digital_share_generous": [
+    0.342453915745742,
+    0.6779466677725414
+  ],
+  "digital_share_strict": [
+    0.294364647196653,
+    0.6298573992234524
+  ],
+  "employment_mapping_share": 0.992298,
+  "experiment_arm_policy": "historical",
+  "experiment_input_binding": {
+    "binding_verified": true,
+    "byte_length": 1231872,
+    "line_count": 1893,
+    "sha256": "3286a35f81b054380c3ee756694c3f1e732fe725a417eb80d063a0124a829292",
+    "snapshot_input_path": "data/work_mode/UNCLEAR_glm-5.2.jsonl"
+  },
+  "experiment_rows_excluded_for_missing_prior_label": [
+    "6fbe8b14572b24aae71f5cb891b93a6a",
+    "69ab0ce7b61b74f3b9d360caa9f24434",
+    "9b76e55e11fd36cb1ee6c9a46f55d527"
+  ],
+  "experiment_rows_excluded_for_missing_selected_arm": [],
+  "fully_settled_group_employment_share": 0.0,
+  "groups_fully_settled": 0,
+  "incomplete": true,
+  "label_source": {
+    "adjudicated": 2059,
+    "fewer_than_two_raters": 837,
+    "split_awaiting_adjudication": 478,
+    "unanimous_at_least_two": 15422
+  },
+  "lost_attempts": {
+    "contested": 253,
+    "control": 66
+  },
+  "range_kind": "partial-identification sensitivity range under missing-attempt extrema and unsettled-label extrema; not a confidence interval",
+  "rater_of_the_experiment": "glm-5.2",
+  "result_payload_sha256": "69b0d58c778e3994070fffd8b364b728e5d691c796c6bb8993822c970bc4a787",
+  "route_receipt": {
+    "minimum_rows": 100,
+    "refused_substitutions_retained_as_lost_attempts": {
+      "deepseek/deepseek-v4-flash": 51,
+      "google/gemini-3-flash-preview": 12
+    },
+    "requested_model_ids": {
+      "glm-5.2": 1893
+    },
+    "requested_rater": "glm-5.2",
+    "route_guard_passed": true,
+    "rows": 1893,
+    "served_backends": {
+      "deepseek/deepseek-v4-flash": 51,
+      "google/gemini-3-flash-preview": 12,
+      "ollama/glm-5.2": 1675
+    }
+  },
+  "schema": "alljobs.work-mode-corrected-result/v1",
+  "settled_labels": 17481,
+  "settled_statement_index_share": 0.8370448627340541,
+  "state_snapshot_payload_sha256": "8abab689d258c045e679f4c3658cf1a554fb7a04c50937339e003567bb6b12ca",
+  "state_snapshot_status": {
+    "claim_ceiling": "interim hash-bound baseline; not final work-mode evidence",
+    "third_rater": "gemini-3.5-flash-lite",
+    "third_rater_complete": false,
+    "third_rater_status": "incomplete at baseline; unique successful labels below 18,796"
+  },
+  "thin_cells_backed_off": [],
+  "transition_audit": {
+    "activity_inventory": {
+      "added": [],
+      "baseline": 18796,
+      "common": 18796,
+      "final": 18796,
+      "removed": []
+    },
+    "audit_payload_sha256": "55ddea202ff8f7c3a5a33eeccc8d86a0c82b47274bc5c8efa1aba3105e0882b9",
+    "baseline_snapshot_payload_sha256": "8abab689d258c045e679f4c3658cf1a554fb7a04c50937339e003567bb6b12ca",
+    "coverage_ceiling": "none",
+    "final_snapshot_payload_sha256": "8abab689d258c045e679f4c3658cf1a554fb7a04c50937339e003567bb6b12ca",
+    "label_changes": [],
+    "previously_settled_to_split_awaiting_adjudication": 0,
+    "range_kind": "deterministic snapshot transition audit; not a confidence interval",
+    "range_under_each": {
+      "baseline": {
+        "coverage_ceiling": "none; deterministic extrema over unsettled activity labels",
+        "denominator": 18796,
+        "employment_weighted_partial_identification": {
+          "digital_share_generous": [
+            0.342453915745742,
+            0.6779466677725414
+          ],
+          "digital_share_strict": [
+            0.294364647196653,
+            0.6298573992234524
+          ]
+        },
+        "generous_screen_or_mixed": [
+          0.5374547776122579,
+          0.6074164715896999
+        ],
+        "range_kind": "unweighted activity-share partial-identification diagnostic; not the employment-weighted headline and not a confidence interval",
+        "strict_screen": [
+          0.45844860608640137,
+          0.5284103000638434
+        ]
+      },
+      "final": {
+        "coverage_ceiling": "none; deterministic extrema over unsettled activity labels",
+        "denominator": 18796,
+        "employment_weighted_partial_identification": {
+          "digital_share_generous": [
+            0.342453915745742,
+            0.6779466677725414
+          ],
+          "digital_share_strict": [
+            0.294364647196653,
+            0.6298573992234524
+          ]
+        },
+        "generous_screen_or_mixed": [
+          0.5374547776122579,
+          0.6074164715896999
+        ],
+        "range_kind": "unweighted activity-share partial-identification diagnostic; not the employment-weighted headline and not a confidence interval",
+        "strict_screen": [
+          0.45844860608640137,
+          0.5284103000638434
+        ]
+      }
+    },
+    "schema": "alljobs.work-mode-transition-audit/v1",
+    "settlement_2x2": {
+      "baseline_settled__final_settled": 17481,
+      "baseline_settled__final_unsettled": 0,
+      "baseline_unsettled__final_settled": 0,
+      "baseline_unsettled__final_unsettled": 1315
+    },
+    "stratum_2x2": {
+      "baseline_contested__final_contested": 2537,
+      "baseline_contested__final_control": 0,
+      "baseline_control__final_contested": 0,
+      "baseline_control__final_control": 16189
+    },
+    "stratum_2x2_excluded": {
+      "unobserved->unobserved": 70
+    },
+    "stratum_changes": []
+  },
+  "uncertainty_not_included": [
+    "sampling uncertainty of decline-rate estimates",
+    "transport from the current to the final contested/control partition"
+  ],
+  "weighted_after_correction": {
+    "high": {
+      "mixed": 0.048089268549089015,
+      "physical": 0.3220533322274585,
+      "screen": 0.294364647196653,
+      "unknown": 0.17253761476085355,
+      "unsettled": 0.1629551372659459
+    },
+    "low": {
+      "mixed": 0.05871850439245211,
+      "physical": 0.3860389909273718,
+      "screen": 0.3596639000958201,
+      "unknown": 0.032623467318409975,
+      "unsettled": 0.1629551372659459
+    }
+  }
+}

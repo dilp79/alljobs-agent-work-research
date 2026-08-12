@@ -1,0 +1,30 @@
+{
+  "claim_ceiling": {
+    "allowed": "predictive validity of frozen model-vote doses for deterministic conformance in one synthetic read-only tool harness under one exact model route",
+    "causal_effect_identified": false,
+    "mission_success_measured": false,
+    "not_osworld_or_gui_computer_use": true,
+    "not_workforce_share_or_production_reliability": true
+  },
+  "decision": "NO_DETECTED_INCREMENTAL_ASSOCIATION",
+  "frame_payload_sha256": "10e4864476c5ef7700961f4b7f0258040bd6573956fb8d39eb053700e3b1d76e",
+  "main_payload_sha256": "e6260496b2afd33917a6adb0b383580e067e5bb93ae5f84d7d5cf94f256d1dfa",
+  "payload_sha256": "63055d4377a3a9b5cbac3c6ff348b21ea0360f51cbf4d2725a293d6d56dd476d",
+  "result": {
+    "decision": "NO_DETECTED_INCREMENTAL_ASSOCIATION",
+    "failure_count": 26,
+    "predictive_analysis": {
+      "augmented_log_loss": 0.5197189980700662,
+      "baseline_log_loss": 0.43625738430047883,
+      "blocked_permutation_exceedances": 1952,
+      "blocked_permutation_p_one_sided": 0.9765,
+      "held_out_log_loss_improvement": -0.08346161376958733,
+      "permutations": 1999
+    },
+    "target_failure_count": [
+      14,
+      28
+    ]
+  },
+  "schema_version": "alljobs.predictive-validity-successor-analysis.v1"
+}

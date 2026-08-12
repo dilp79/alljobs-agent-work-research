@@ -1,0 +1,156 @@
+{
+  "schema_id": "alljobs.rli.ordered-tsv-canonical.v1",
+  "metadata": {
+    "creator": "codex",
+    "purpose": "Preserve the complete 15-row canonical projection behind the accepted RLI leaderboard diagnostic digest.",
+    "why": "Make the dated leaderboard evidence independently reproducible offline without treating a moving page as an official immutable release.",
+    "version": "2026-07-15.1",
+    "updated": "2026-07-15"
+  },
+  "authority": {
+    "research_snapshot_id": "rli.leaderboard.2026-07-15T005644Z",
+    "accepted_snapshot_accessed_at": "2026-07-15T00:56:44Z",
+    "official_url": "https://labs.scale.com/leaderboard/rli",
+    "publisher": "Scale AI",
+    "evidence_class": "BENCHMARK",
+    "leaderboard_version": null
+  },
+  "recovery_verification": {
+    "retrieved_at": "2026-07-15T02:42:10.000Z",
+    "status": "EXACT_CANONICAL_MATCH",
+    "raw_capture_retained": false,
+    "raw_capture_sha256": null
+  },
+  "canonicalization": {
+    "algorithm_id": "rli-ordered-tsv-v1",
+    "row_order": "serialized source entries array order",
+    "field_order": [
+      "model",
+      "version",
+      "rank",
+      "score",
+      "createdAt"
+    ],
+    "row_representation": "Each row is a five-element JSON string array in field_order.",
+    "normalization": {
+      "model": "Exact serialized source string.",
+      "version": "Exact serialized source string; empty for every retained row.",
+      "rank": "Base-10 integer text with no padding.",
+      "score": "Exact serialized base-10 number token converted to text with no added zero padding or rounding.",
+      "createdAt": "Exact serialized source string, including the .000Z suffix."
+    },
+    "field_separator": "U+0009 TAB",
+    "record_terminator": "U+000A LF after every row, including the final row",
+    "encoding": "UTF-8 without BOM"
+  },
+  "row_count": 15,
+  "canonical_tsv_bytes": 784,
+  "canonical_tsv_sha256": "dc12a3179b56860e22d34e6d522e94bd6b18d0064a0e92adfb62839a61325b33",
+  "rows": [
+    [
+      "Fable-5",
+      "",
+      "1",
+      "15.8",
+      "2026-07-01T17:01:34.000Z"
+    ],
+    [
+      "Opus 4.8",
+      "",
+      "2",
+      "8.33",
+      "2026-07-01T17:01:39.000Z"
+    ],
+    [
+      "Codex GPT 5.5",
+      "",
+      "3",
+      "6.25",
+      "2026-07-01T17:01:41.000Z"
+    ],
+    [
+      "claude-opus-4-6 (CoWork)",
+      "",
+      "4",
+      "4.17",
+      "2026-03-05T22:16:54.000Z"
+    ],
+    [
+      "claude-opus-4-5-20251101-thinking",
+      "",
+      "5",
+      "3.75",
+      "2026-01-09T18:49:54.000Z"
+    ],
+    [
+      "Manus_1.6 (Max)",
+      "",
+      "6",
+      "2.92",
+      "2026-03-05T22:16:21.000Z"
+    ],
+    [
+      "gpt-5.2-2025-12-11 (medium)",
+      "",
+      "7",
+      "2.502",
+      "2026-01-29T17:03:48.000Z"
+    ],
+    [
+      "Manus 1.5",
+      "",
+      "7",
+      "2.501",
+      "2025-11-21T19:18:06.000Z"
+    ],
+    [
+      "Manus 1.0",
+      "",
+      "7",
+      "2.5",
+      "2025-10-27T15:29:13.000Z"
+    ],
+    [
+      "claude-4-5-Sonnet",
+      "",
+      "10",
+      "2.08",
+      "2025-10-27T15:29:30.000Z"
+    ],
+    [
+      "gpt-5.2-2025-12-11 (default)",
+      "",
+      "10",
+      "2.08",
+      "2026-01-09T18:50:47.000Z"
+    ],
+    [
+      "gpt-5-2025-08-07",
+      "",
+      "11",
+      "1.67",
+      "2025-10-27T15:29:30.000Z"
+    ],
+    [
+      "ChatGPT agent",
+      "",
+      "12",
+      "1.25",
+      "2025-10-27T15:29:30.000Z"
+    ],
+    [
+      "gemini-3-pro-preview",
+      "",
+      "12",
+      "1.25",
+      "2025-12-09T16:51:03.000Z"
+    ],
+    [
+      "gemini-2.5-pro-preview-06-05",
+      "",
+      "14",
+      "0.83",
+      "2025-10-27T15:29:30.000Z"
+    ]
+  ]
+}

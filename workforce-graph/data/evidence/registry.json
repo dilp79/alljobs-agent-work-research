@@ -1,0 +1,620 @@
+{
+  "schema_version": "evidence/1",
+  "built_from": "docs/audits/2026-08-04-benchmark-anchor-inventory.md",
+  "source_updates": [
+    "docs/audits/2026-08-11-computer-use-evidence-update.md"
+  ],
+  "edges_converted_from": "prd.md 9.3a capability table",
+  "profile_counts": {
+    "collected_profiles": 8,
+    "wired_capability_anchors": 5
+  },
+  "wired_capability_anchor_ids": [
+    "claw_swe_bench",
+    "gdpval_aa_v2",
+    "harness_bench",
+    "healthagentbench",
+    "tau3_bench"
+  ],
+  "channel_mismatch_guard": {
+    "status": "dormant",
+    "reason": "no_independent_task_channel_requirement",
+    "production_coverage": false
+  },
+  "profiles": [
+    {
+      "id": "gdpval_aa_v2",
+      "name": "GDPval-AA v2",
+      "version": "v2",
+      "date": "2026-06-15",
+      "unit": "gold task producing a real professional deliverable",
+      "granularity": "suite_aggregate_only",
+      "channel": [
+        "document"
+      ],
+      "interface": "browser",
+      "authority": "write",
+      "episode_scope": "multi_step_episode",
+      "success_criterion": "Blind pairwise comparison aggregated to Elo against a human baseline of 1000. Comparative preference, not task verification.",
+      "has_absolute_threshold": false,
+      "human_intervention": "none",
+      "source_url": "https://artificialanalysis.ai/evaluations/gdpval-aa"
+    },
+    {
+      "id": "healthagentbench",
+      "name": "HealthAgentBench",
+      "version": "v1",
+      "date": "2026-06-30",
+      "unit": "task, 54 across 7 clinical categories",
+      "granularity": "subfamily",
+      "channel": [
+        "document",
+        "image"
+      ],
+      "interface": "command_line",
+      "authority": "write",
+      "episode_scope": "multi_step_episode",
+      "success_criterion": "Binary pass/fail, no partial credit; per-category thresholds up to AUROC/F1 >= 0.90.",
+      "has_absolute_threshold": true,
+      "human_intervention": "none",
+      "source_url": "https://arxiv.org/abs/2606.31179"
+    },
+    {
+      "id": "claw_swe_bench",
+      "name": "Claw-SWE-Bench",
+      "version": "v1",
+      "date": "2026-06-10",
+      "unit": "GitHub issue-resolution instance, 350 across 43 repos",
+      "granularity": "suite_aggregate_only",
+      "channel": [
+        "terminal"
+      ],
+      "interface": "repository_tools",
+      "authority": "write",
+      "episode_scope": "multi_step_episode",
+      "success_criterion": "Pass@1 end-to-end; the patch must satisfy the repository's own tests.",
+      "has_absolute_threshold": true,
+      "human_intervention": "not_published",
+      "source_url": "https://arxiv.org/abs/2606.12344"
+    },
+    {
+      "id": "harness_bench",
+      "name": "Harness-Bench",
+      "version": "v1",
+      "date": "2026-05-27",
+      "unit": "sandboxed offline task, 106 across 8 categories",
+      "granularity": "subfamily",
+      "channel": [
+        "unknown"
+      ],
+      "interface": "unspecified",
+      "authority": "write",
+      "episode_scope": "multi_step_episode",
+      "success_criterion": "Composite Security x Completion x Process; a permission violation zeroes the score.",
+      "has_absolute_threshold": false,
+      "human_intervention": "absent_from_source",
+      "source_url": "https://arxiv.org/abs/2605.27922"
+    },
+    {
+      "id": "terminal_bench_v2_1",
+      "name": "Terminal-Bench v2.1",
+      "version": "v2.1",
+      "date": "2026-05-06",
+      "unit": "curated command-line task, 89",
+      "granularity": "suite_aggregate_only",
+      "channel": [
+        "terminal"
+      ],
+      "interface": "command_line",
+      "authority": "write",
+      "episode_scope": "multi_step_episode",
+      "success_criterion": "Task-specific verification suites, binary end-to-end.",
+      "has_absolute_threshold": true,
+      "human_intervention": "not_published",
+      "source_url": "https://artificialanalysis.ai/evaluations/terminalbench-v2-1"
+    },
+    {
+      "id": "aa_coding_agent_index",
+      "name": "Artificial Analysis Coding Agent Index",
+      "version": "absent_from_source",
+      "date": "2026-05-11",
+      "unit": "model+harness stack across 3 component benchmarks",
+      "granularity": "suite_aggregate_only",
+      "channel": [
+        "terminal",
+        "text"
+      ],
+      "interface": "repository_tools",
+      "authority": "write",
+      "episode_scope": "multi_step_episode",
+      "success_criterion": "Binary per component; a clean run still scores zero if it fails its verifier.",
+      "has_absolute_threshold": true,
+      "human_intervention": "not_published",
+      "source_url": "https://artificialanalysis.ai/agents/coding-agents"
+    },
+    {
+      "id": "tau3_bench",
+      "name": "tau3-bench",
+      "version": "absent_from_source",
+      "date": "2026-03-18",
+      "unit": "customer-service task verified by backend state change",
+      "granularity": "subfamily",
+      "channel": [
+        "text",
+        "voice"
+      ],
+      "interface": "api",
+      "authority": "write",
+      "episode_scope": "multi_step_episode",
+      "success_criterion": "End-to-end, verified by the backend database reaching the correct state.",
+      "has_absolute_threshold": true,
+      "human_intervention": "absent_from_source",
+      "source_url": "https://sierra.ai/blog/bench-advancing-agent-benchmarking-to-knowledge-and-voice"
+    },
+    {
+      "id": "osworld_v2_paper_v2",
+      "name": "OSWorld 2.0",
+      "version": "osworld-v2-2026.06.24 / arXiv v2",
+      "date": "2026-07-13",
+      "unit": "long-horizon computer-use workflow, 108 across 7 professional domains",
+      "granularity": "item_level",
+      "channel": [
+        "gui"
+      ],
+      "interface": "real_desktop",
+      "authority": "write",
+      "episode_scope": "multi_step_episode",
+      "success_criterion": "Binary completion requires every task-specific checkpoint to pass; partial reward averages 27.25 checkpoints per task. Functional evaluation is preferred, with model-based evaluation contributing 11.53% of the total score.",
+      "has_absolute_threshold": true,
+      "human_intervention": "none during the run; bounded simulated-user interaction is part of some tasks",
+      "source_url": "https://arxiv.org/abs/2606.29537v2"
+    }
+  ],
+  "results": [
+    {
+      "id": "r_gdpval_opus5",
+      "profile_id": "gdpval_aa_v2",
+      "model": "Claude Opus 5",
+      "harness": "Stirrup",
+      "score": "Elo 1852",
+      "metric": "Elo vs 1000 human baseline",
+      "attempts": "not_published",
+      "uncertainty": "-24/+24",
+      "granularity": "suite_aggregate_only"
+    },
+    {
+      "id": "r_hab_gpt55_codex",
+      "profile_id": "healthagentbench",
+      "model": "GPT-5.5",
+      "harness": "Codex",
+      "score": "42%",
+      "metric": "end-to-end task success",
+      "attempts": "not_published",
+      "uncertainty": "not_published",
+      "granularity": "suite_aggregate_only"
+    },
+    {
+      "id": "r_hab_gpt55_copilot",
+      "profile_id": "healthagentbench",
+      "model": "GPT-5.5",
+      "harness": "Copilot-CLI",
+      "score": "35%",
+      "metric": "end-to-end task success",
+      "attempts": "not_published",
+      "uncertainty": "not_published",
+      "granularity": "suite_aggregate_only"
+    },
+    {
+      "id": "r_hab_opus48_copilot",
+      "profile_id": "healthagentbench",
+      "model": "Claude Opus-4.8",
+      "harness": "Copilot-CLI",
+      "score": "36%",
+      "metric": "end-to-end task success",
+      "attempts": "not_published",
+      "uncertainty": "not_published",
+      "granularity": "suite_aggregate_only"
+    },
+    {
+      "id": "r_hab_opus48_cc",
+      "profile_id": "healthagentbench",
+      "model": "Claude Opus-4.8",
+      "harness": "Claude Code",
+      "score": "32%",
+      "metric": "end-to-end task success",
+      "attempts": "not_published",
+      "uncertainty": "not_published",
+      "granularity": "suite_aggregate_only"
+    },
+    {
+      "id": "r_claw_glm51_minimal",
+      "profile_id": "claw_swe_bench",
+      "model": "GLM 5.1",
+      "harness": "OpenClaw + minimal direct-diff adapter",
+      "score": "19.1% Pass@1",
+      "metric": "Pass@1",
+      "attempts": "not_published",
+      "uncertainty": "not_published",
+      "granularity": "suite_aggregate_only"
+    },
+    {
+      "id": "r_claw_glm51_full",
+      "profile_id": "claw_swe_bench",
+      "model": "GLM 5.1",
+      "harness": "OpenClaw + full adapter",
+      "score": "73.4% Pass@1",
+      "metric": "Pass@1",
+      "attempts": "not_published",
+      "uncertainty": "not_published",
+      "granularity": "suite_aggregate_only"
+    },
+    {
+      "id": "r_hb_nanobot",
+      "profile_id": "harness_bench",
+      "model": "aggregate over 8 backends",
+      "harness": "NanoBot",
+      "score": "81.6%",
+      "metric": "completion rate",
+      "attempts": "one per pair per task",
+      "uncertainty": "not_published",
+      "granularity": "subfamily"
+    },
+    {
+      "id": "r_hb_openclaw",
+      "profile_id": "harness_bench",
+      "model": "aggregate over 8 backends",
+      "harness": "OpenClaw",
+      "score": "60.0%",
+      "metric": "completion rate",
+      "attempts": "one per pair per task",
+      "uncertainty": "not_published",
+      "granularity": "subfamily"
+    },
+    {
+      "id": "r_tb_gpt55_codex",
+      "profile_id": "terminal_bench_v2_1",
+      "model": "GPT-5.5",
+      "harness": "Codex CLI",
+      "score": "83.4%",
+      "metric": "pass@1",
+      "attempts": "pass@1 over 3 repeats",
+      "uncertainty": "not_published",
+      "granularity": "suite_aggregate_only"
+    },
+    {
+      "id": "r_tb_gpt55_terminus",
+      "profile_id": "terminal_bench_v2_1",
+      "model": "GPT-5.5",
+      "harness": "Terminus 2",
+      "score": "78.2%",
+      "metric": "pass@1",
+      "attempts": "pass@1 over 3 repeats",
+      "uncertainty": "not_published",
+      "granularity": "suite_aggregate_only"
+    },
+    {
+      "id": "r_tau_banking_normal",
+      "profile_id": "tau3_bench",
+      "model": "GPT-5.2 high reasoning",
+      "harness": "normal retrieval from 698-doc KB",
+      "score": "~25%",
+      "metric": "tau-Banking success",
+      "attempts": "not_published",
+      "uncertainty": "not_published",
+      "granularity": "subfamily"
+    },
+    {
+      "id": "r_tau_banking_perfect",
+      "profile_id": "tau3_bench",
+      "model": "GPT-5.2 high reasoning",
+      "harness": "perfect information supplied",
+      "score": "40%",
+      "metric": "tau-Banking success",
+      "attempts": "not_published",
+      "uncertainty": "not_published",
+      "granularity": "subfamily"
+    },
+    {
+      "id": "r_osworld_v2_opus48_batched",
+      "profile_id": "osworld_v2_paper_v2",
+      "model": "Claude Opus 4.8",
+      "harness": "OSWorld 2.0, max thinking, batched actions, 500-step budget, release v2026.06.24",
+      "score": "20.6% binary completion; 54.8% partial reward",
+      "metric": "strict binary completion and checkpoint-weighted partial reward",
+      "attempts": "one published 500-step evaluation over each of 108 tasks",
+      "uncertainty": "not_published",
+      "granularity": "item_level"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_text_customer_conversation_with_state_change__r_tau_banking_normal",
+      "result_id": "r_tau_banking_normal",
+      "task_id": "text_customer_conversation_with_state_change",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "text",
+      "similarities": [
+        "customer contact, order, return, disputed transaction"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: customer contact, order, return, disputed transaction",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_text_customer_conversation_with_state_change__r_tau_banking_perfect",
+      "result_id": "r_tau_banking_perfect",
+      "task_id": "text_customer_conversation_with_state_change",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "text",
+      "similarities": [
+        "customer contact, order, return, disputed transaction"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: customer contact, order, return, disputed transaction",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_live_duplex_voice_conversation__r_tau_banking_normal",
+      "result_id": "r_tau_banking_normal",
+      "task_id": "live_duplex_voice_conversation",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "voice",
+      "similarities": [
+        "call with interruptions and pauses; the same tasks fall from ~73% to 26-38%"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: call with interruptions and pauses; the same tasks fall from ~73% to 26-38%",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_live_duplex_voice_conversation__r_tau_banking_perfect",
+      "result_id": "r_tau_banking_perfect",
+      "task_id": "live_duplex_voice_conversation",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "voice",
+      "similarities": [
+        "call with interruptions and pauses; the same tasks fall from ~73% to 26-38%"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: call with interruptions and pauses; the same tasks fall from ~73% to 26-38%",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_retrieval_from_a_document_base__r_tau_banking_normal",
+      "result_id": "r_tau_banking_normal",
+      "task_id": "retrieval_from_a_document_base",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "text",
+      "similarities": [
+        "answer from a regulation, catalogue or product base; retrieval quality is worth 15pp"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: answer from a regulation, catalogue or product base; retrieval quality is worth 15pp",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_retrieval_from_a_document_base__r_tau_banking_perfect",
+      "result_id": "r_tau_banking_perfect",
+      "task_id": "retrieval_from_a_document_base",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "text",
+      "similarities": [
+        "answer from a regulation, catalogue or product base; retrieval quality is worth 15pp"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: answer from a regulation, catalogue or product base; retrieval quality is worth 15pp",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_workplace_tool_operation__r_hb_nanobot",
+      "result_id": "r_hb_nanobot",
+      "task_id": "workplace_tool_operation",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "unknown",
+      "similarities": [
+        "files, applications, artefact production"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: files, applications, artefact production",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_workplace_tool_operation__r_hb_openclaw",
+      "result_id": "r_hb_openclaw",
+      "task_id": "workplace_tool_operation",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "unknown",
+      "similarities": [
+        "files, applications, artefact production"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: files, applications, artefact production",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_professional_document_production__r_gdpval_opus5",
+      "result_id": "r_gdpval_opus5",
+      "task_id": "professional_document_production",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "document",
+      "similarities": [
+        "report, plan, teaching material, proposal"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: report, plan, teaching material, proposal",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_medical_records_work__r_hab_gpt55_codex",
+      "result_id": "r_hab_gpt55_codex",
+      "task_id": "medical_records_work",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "document",
+      "similarities": [
+        "conversion, audit, matching against criteria"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: conversion, audit, matching against criteria",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_medical_records_work__r_hab_gpt55_copilot",
+      "result_id": "r_hab_gpt55_copilot",
+      "task_id": "medical_records_work",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "document",
+      "similarities": [
+        "conversion, audit, matching against criteria"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: conversion, audit, matching against criteria",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_medical_records_work__r_hab_opus48_copilot",
+      "result_id": "r_hab_opus48_copilot",
+      "task_id": "medical_records_work",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "document",
+      "similarities": [
+        "conversion, audit, matching against criteria"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: conversion, audit, matching against criteria",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_medical_records_work__r_hab_opus48_cc",
+      "result_id": "r_hab_opus48_cc",
+      "task_id": "medical_records_work",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "document",
+      "similarities": [
+        "conversion, audit, matching against criteria"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: conversion, audit, matching against criteria",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_code_work__r_claw_glm51_minimal",
+      "result_id": "r_claw_glm51_minimal",
+      "task_id": "code_work",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "terminal",
+      "similarities": [
+        "five entries of the SWE family"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: five entries of the SWE family",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    },
+    {
+      "id": "e_code_work__r_claw_glm51_full",
+      "result_id": "r_claw_glm51_full",
+      "task_id": "code_work",
+      "component_id": null,
+      "scope": "contextual",
+      "channel_scenario": "terminal",
+      "similarities": [
+        "five entries of the SWE family"
+      ],
+      "differences": [],
+      "unknowns": [
+        "the prose mapping recorded no differences; whether any exist has not been assessed"
+      ],
+      "rationale": "converted from the capability table in prd.md 9.3a: five entries of the SWE family",
+      "provenance": "prd.md/9.3a table, converted 2026-08-07",
+      "status": "unresolved",
+      "schema_version": "evidence/1"
+    }
+  ],
+  "no_anchor_found": [
+    "avatar_and_video_presence"
+  ],
+  "edges_authorising_a_bound": 0
+}

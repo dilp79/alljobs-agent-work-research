@@ -1,0 +1,26 @@
+schema_version: 1.0.0
+suite_id: support-backoffice-v1
+version: 1.0.0
+status: candidate_roster_frozen
+release_id: alljobs-evidence-core-2026.07.1
+candidate_bindings:
+  path: candidate_bindings.csv
+  sha256: ff095ac8ba96013ad5e954f878a08aed31af2b3920d8df16fe38bf6bcfcbe4af
+splits:
+  path: splits.json
+  sha256: 32b11b1effc6a20f4960ac7600df098d0003a2d4ac57ee92e0db59918a14cad6
+stability_ids:
+  path: stability_ids.json
+  sha256: e04733280b7872bfbf160c5b8c2174c6ee74f89e28d0137ee09eb7ed55894604
+categories:
+  - data_reconciliation
+  - draft_generation
+  - escalation_preparation
+  - exception_handling
+  - followup_scheduling
+  - information_retrieval
+  - intake_classification
+  - policy_interpretation
+  - quality_verification
+  - record_preparation
+future_missions_glob: missions/*.jsonl

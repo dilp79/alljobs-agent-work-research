@@ -1,0 +1,12 @@
+{
+  "direction": "labels aggregate UP to the ОКЗ 2-digit group; employment is never spread down",
+  "onet_ids_mapped": 940,
+  "okz_groups_total": 40,
+  "okz_groups_reached": 39,
+  "employment_total": 74445532.97603138,
+  "employment_covered": 73872112.21693039,
+  "employment_covered_share": 0.992297445713961,
+  "groups_unreached": [
+    "63"
+  ]
+}

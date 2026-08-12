@@ -1,0 +1,23 @@
+{
+  "claim_ceiling": {
+    "agent_outcomes_observed": 0,
+    "model_responses_observed": 0,
+    "token_or_cost_authority": "unknown_from_http_401_receipts",
+    "transport_failure_is_not_agent_failure": true
+  },
+  "decision": "HOLD_TRANSPORT_AUTHENTICATION_MISMATCH",
+  "frame_file_sha256": "959667fcc584936dd345c1eeb0d200c8915f926223dca02b86b666520d38faea",
+  "frame_payload_sha256": "57ce0cd6cf01913e99b7c5c35f87452fb8f7421b17bc936f08181888c2dc46c3",
+  "payload_sha256": "b76cb88cc20575fa578b0b0fa067534173cdee2295cddaa874414c1bfc22597b",
+  "pilot_attempt": {
+    "distinct_error_count": 1,
+    "error": "HTTP 401: Missing Authentication header",
+    "log_bytes": 32960,
+    "log_rows": 80,
+    "log_sha256": "160b48e045c31d4466d0f7f5d6ace88e2146eebbc2240fa8a59d9341726e450f",
+    "outcomes": 0,
+    "status": "transport_or_route_error"
+  },
+  "reason": "OPENROUTER_API_KEY is a credential for the configured local OpenRouter proxy, not a direct openrouter.ai credential; the v1 direct endpoint therefore rejected every request before a model response",
+  "schema_version": "alljobs.predictive-validity-successor-stop.v1"
+}
