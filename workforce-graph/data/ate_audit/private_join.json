@@ -1,0 +1,150 @@
+{
+  "ate_ids_absent_local": [
+    "10125",
+    "10133",
+    "11528",
+    "11529",
+    "11883",
+    "11888",
+    "11889",
+    "11890",
+    "11893",
+    "11894",
+    "11895",
+    "11972",
+    "21557",
+    "21576",
+    "21674",
+    "21675",
+    "22703",
+    "2311",
+    "23422",
+    "4578",
+    "8782"
+  ],
+  "changed_text_task_ids": [
+    "1638",
+    "1641",
+    "18000",
+    "18493",
+    "18494"
+  ],
+  "claim_ceiling": "advertised-tool nearest-task label coverage; no callable-tool, execution, adoption or ROI evidence",
+  "effective_bindings": {
+    "effective_activity_in_local": 120,
+    "effective_missions": 120,
+    "effective_task_id_in_ate": 120,
+    "effective_task_id_with_good_descriptor_match": 55,
+    "source_activity_replaced_by_review": 120
+  },
+  "join": {
+    "ate_ids_absent_local": 21,
+    "ate_task_ids": 18796,
+    "exact_text_equal": 18770,
+    "good_matched_task_ids_retained": 1379,
+    "local_ids_absent_ate": 21,
+    "local_task_ids": 18796,
+    "matched_curated_soc_equal": 17930,
+    "matched_curated_soc_mismatch": 0,
+    "matched_missing_curated_occupation_edge": 845,
+    "matched_task_ids": 18775,
+    "software_eligible_matched": 9416,
+    "staging_soc_equal": 18775,
+    "staging_soc_mismatch_or_missing": 0,
+    "text_changed": 5
+  },
+  "local_ids_absent_ate": [
+    "1101",
+    "1102",
+    "11887",
+    "11898",
+    "11973",
+    "18314",
+    "193",
+    "23646",
+    "24002",
+    "24003",
+    "24004",
+    "24005",
+    "24006",
+    "24007",
+    "24008",
+    "24009",
+    "24010",
+    "24011",
+    "24012",
+    "24013",
+    "7973"
+  ],
+  "local_onet_version": "30.2",
+  "model_calls": 0,
+  "payload_sha256": "fe621c065e7afe285ac800e3698063bcc92589eb14ebfa26ae701d5137967c49",
+  "private_source_receipts": {
+    "database_sha256": "ea1e38cfc42e334cd0e9ba86e34daa9530111dc225143fa1d5c94c7228d4dde9",
+    "effective_bindings_sha256": "8ab85234d091379d20c1a0989f6bc5d86f7868ddf258963f8c672d32d67c9357",
+    "logical_curated_links_sha256": "c6a3e590bb31e23df60053f59e660281de75e227ee38c8c5e1e0c80096715426",
+    "logical_staging_soc_rows_sha256": "7eb600f4a79ea2b9a7f604652c0fbdc660a0ffc0c67a67af302cbe141f0a629d",
+    "logical_task_rows_sha256": "a7d33d64f6bb6819578fdfdcb300cde02704cb36970ae6f1cfbdafcf3649cd58"
+  },
+  "private_source_rows_redistributed": false,
+  "provenance": {
+    "dataset": "CohereLabs/ATE",
+    "files": [
+      {
+        "bytes": 1260395,
+        "hub_path": "data/tasks/train-00000-of-00001.parquet",
+        "sha256": "2eeca1fbc15167b452454024b338e5f751bdea9477350909e61e7c32315e4f59",
+        "table": "tasks"
+      },
+      {
+        "bytes": 121391476,
+        "hub_path": "data/onet_matches/train-00000-of-00001.parquet",
+        "sha256": "c4764b514f64f919fe9782b9e3f48c1e32b4586eddfcb0e6a0a474ff258f80bb",
+        "table": "onet_matches"
+      },
+      {
+        "bytes": 45372226,
+        "hub_path": "data/tools/train-00000-of-00001.parquet",
+        "sha256": "d5ec03a90fdde415519d68e7319aa6aead483690876ab80161f9bd0c566ee04e",
+        "table": "tools"
+      },
+      {
+        "bytes": 28548759,
+        "hub_path": "data/servers/train-00000-of-00001.parquet",
+        "sha256": "382cd437a97dedb6488ce9577ebf79161513473564aa321e14daa4c01dabedc9",
+        "table": "servers"
+      },
+      {
+        "bytes": 51472,
+        "hub_path": "data/occupation_results/train-00000-of-00001.parquet",
+        "sha256": "cf03006a33398d35f4b4559d2e98488d1e2c49e157f09b00d2f8b69570bb859e",
+        "table": "occupation_results"
+      },
+      {
+        "bytes": 224899,
+        "hub_path": "data/cluster_taxonomy/train-00000-of-00001.parquet",
+        "sha256": "bfb1c378d68d315b10a369c893ad3a8f458fccb96dd6c233dde1cef55db24903",
+        "table": "cluster_taxonomy"
+      },
+      {
+        "bytes": 219374,
+        "hub_path": "data/clusters/train-00000-of-00001.parquet",
+        "sha256": "43c2ae87a48e0b8d0a506f962bd09a0c635fa40439e068284c690c7c4d936cfb",
+        "table": "clusters"
+      },
+      {
+        "bytes": 12544871,
+        "hub_path": "data/usage_stats/train-00000-of-00001.parquet",
+        "sha256": "96cfa42030c6a53e6f703e6c955630f46bf1c31d46eb35eb273cf79bc4e88d28",
+        "table": "usage_stats"
+      }
+    ],
+    "integrity_ceiling": "downloaded source bytes only; generation pipeline unverified",
+    "manifest_sha256": "bcd60bb94d625cdc73cc988ae4c5c245c0a7957f1356b288f4e8ce596fa9cb35",
+    "manifest_url": "https://huggingface.co/datasets/CohereLabs/ATE/resolve/4b567ba98acc6ddf27b2abb9004844581083c5d8/MANIFEST.json",
+    "onet_version": "29.2",
+    "revision": "4b567ba98acc6ddf27b2abb9004844581083c5d8"
+  },
+  "reproduction_ceiling": "requires private current AllJobs DB and effective bindings; public aggregate receipt cannot recreate unavailable source rows",
+  "schema_version": "alljobs.ate-private-join-audit.v1"
+}

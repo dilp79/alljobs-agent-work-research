@@ -2,7 +2,7 @@
 creator: codex
 purpose: Fail-closed contract for the clean public AllJobs research release.
 why: Publish the reproducible research surface without private laboratory records, local paths or unlicensed raw data.
-version: 2
+version: 3
 updated: 2026-09-06
 owner: founder-dilp79
 compatibility: additive clean release; private source history and frozen research artifacts unchanged
@@ -23,6 +23,8 @@ The public release contains:
 - the three final 2026-08-12 reports and their current contracts/audits;
 - the 2026-09-06 supplementary research note, original sufficient-statistic inputs, derived
   trial outcomes, analytical tables and three original figures, with its offline replay script;
+- the ATE appendix, original fetch/audit code and tests, descriptive aggregates and a
+  local-join aggregate receipt containing counts, public task identifiers and source hashes;
 - the accepted support/back-office mission suite required by current research code;
 - selected frozen aggregate/research artifacts, including their claim ceilings and payload hashes;
 - only the current research scripts, source modules and focused tests needed to inspect the
@@ -65,6 +67,16 @@ partition; its recalculated range is additive and does not replace the earlier r
 No new upstream source text, raw model generation, survey PDF, ATE source table, WEF/WORKBank
 extract, labour-force microdata or private path is admitted by this supplement. Its precise files
 are enumerated in `FIXED_FILES`; no broad publication directory glob expands that boundary.
+
+The ATE appendix adds a separate reproducible path: explicit `fetch` obtains the pinned
+upstream MANIFEST and eight source tables into an external user cache; offline `audit`
+recalculates the published descriptive aggregate from checksum-verified bytes. No source
+table, tool description or task text is redistributed. The local-join receipt contains only
+counts, task-ID difference inventories, versions, provenance and hashes; repeating that join
+requires the matching AllJobs database and effective bindings. A public aggregate receipt
+does not reconstruct the unavailable database. Descriptor-match coverage is not execution,
+adoption, labour-share or ROI evidence. These five additions are exact allowlist entries;
+the appendix does not admit experimental live runs or broaden directory globs.
 
 ## Rollback
 

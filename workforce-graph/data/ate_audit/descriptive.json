@@ -1,0 +1,144 @@
+{
+  "ate_tools_executed": 0,
+  "claim_ceiling": "advertised-tool nearest-task label coverage; no callable-tool, execution, adoption or ROI evidence",
+  "metrics": {
+    "all_occupations_without_good": 432,
+    "all_task_ids": 18796,
+    "candidate_task_ids": 6077,
+    "eligible_occupations_without_good": 404,
+    "good_matched_task_ids": 1380,
+    "good_share_of_all_rank_one_rows": 0.026004772389838296,
+    "good_share_of_labelled_pairs": 0.02600495963456537,
+    "label_denominators": {
+      "missing_match_quality": 5,
+      "rank_one_rows": 694411,
+      "successfully_labelled_pairs": 694406
+    },
+    "labels": {
+      "bad": 84522,
+      "good": 18058,
+      "missing": 5,
+      "partial": 591826
+    },
+    "occupation_coverage": {
+      "fully_covered_at_least_three_tasks": 0,
+      "fully_covered_occupations": 8,
+      "n_eligible_at_least_three_tasks": 786,
+      "sum_matched_tasks": 1380,
+      "sum_matched_tools": 18058
+    },
+    "occupations_all": 923,
+    "occupations_good_matched": 491,
+    "occupations_software_eligible": 895,
+    "row_counts": {
+      "cluster_taxonomy": 1139,
+      "clusters": 1712,
+      "occupation_results": 895,
+      "onet_matches": 694411,
+      "servers": 123069,
+      "tasks": 18796,
+      "tools": 696291,
+      "usage_stats": 123069
+    },
+    "software_eligible_task_ids": 9423,
+    "task_node_coverage": 0.14645017510347022,
+    "task_text_duplicate_excess": 1260,
+    "task_text_duplicate_groups": 398,
+    "taxonomy": {
+      "gates": {
+        "CONSUMER": 188,
+        "INCOHERENT": 13,
+        "MICRO": 36,
+        "OCCUPATIONAL": 1139,
+        "PLUMBING": 336
+      },
+      "work_types": {
+        "composite": 411,
+        "new": 35,
+        "subatomic": 693
+      },
+      "work_types_tool_weighted": {
+        "composite": 108854,
+        "new": 8388,
+        "subatomic": 151597
+      }
+    },
+    "tools": {
+      "analysis_set_rows": 694411,
+      "blank_descriptions": 49142,
+      "duplicate_nonnull_id_excess": 1876,
+      "excluded_reasons": {
+        "duplicate_tool_id": 1876,
+        "embed_miss": 1,
+        "empty_tool_name": 3,
+        "missing": 694411
+      },
+      "listings_with_tools": 70929,
+      "nonnull_distinct_tool_ids": 694412,
+      "null_descriptions": 0,
+      "null_tool_ids": 3
+    }
+  },
+  "model_calls": 0,
+  "payload_sha256": "0cc6edb71bf72a04581ac7ca70ddcf2a13d9b7f3b6296d383c80ae32eb2fd470",
+  "provenance": {
+    "dataset": "CohereLabs/ATE",
+    "files": [
+      {
+        "bytes": 1260395,
+        "hub_path": "data/tasks/train-00000-of-00001.parquet",
+        "sha256": "2eeca1fbc15167b452454024b338e5f751bdea9477350909e61e7c32315e4f59",
+        "table": "tasks"
+      },
+      {
+        "bytes": 121391476,
+        "hub_path": "data/onet_matches/train-00000-of-00001.parquet",
+        "sha256": "c4764b514f64f919fe9782b9e3f48c1e32b4586eddfcb0e6a0a474ff258f80bb",
+        "table": "onet_matches"
+      },
+      {
+        "bytes": 45372226,
+        "hub_path": "data/tools/train-00000-of-00001.parquet",
+        "sha256": "d5ec03a90fdde415519d68e7319aa6aead483690876ab80161f9bd0c566ee04e",
+        "table": "tools"
+      },
+      {
+        "bytes": 28548759,
+        "hub_path": "data/servers/train-00000-of-00001.parquet",
+        "sha256": "382cd437a97dedb6488ce9577ebf79161513473564aa321e14daa4c01dabedc9",
+        "table": "servers"
+      },
+      {
+        "bytes": 51472,
+        "hub_path": "data/occupation_results/train-00000-of-00001.parquet",
+        "sha256": "cf03006a33398d35f4b4559d2e98488d1e2c49e157f09b00d2f8b69570bb859e",
+        "table": "occupation_results"
+      },
+      {
+        "bytes": 224899,
+        "hub_path": "data/cluster_taxonomy/train-00000-of-00001.parquet",
+        "sha256": "bfb1c378d68d315b10a369c893ad3a8f458fccb96dd6c233dde1cef55db24903",
+        "table": "cluster_taxonomy"
+      },
+      {
+        "bytes": 219374,
+        "hub_path": "data/clusters/train-00000-of-00001.parquet",
+        "sha256": "43c2ae87a48e0b8d0a506f962bd09a0c635fa40439e068284c690c7c4d936cfb",
+        "table": "clusters"
+      },
+      {
+        "bytes": 12544871,
+        "hub_path": "data/usage_stats/train-00000-of-00001.parquet",
+        "sha256": "96cfa42030c6a53e6f703e6c955630f46bf1c31d46eb35eb273cf79bc4e88d28",
+        "table": "usage_stats"
+      }
+    ],
+    "integrity_ceiling": "downloaded source bytes only; generation pipeline unverified",
+    "manifest_sha256": "bcd60bb94d625cdc73cc988ae4c5c245c0a7957f1356b288f4e8ce596fa9cb35",
+    "manifest_url": "https://huggingface.co/datasets/CohereLabs/ATE/resolve/4b567ba98acc6ddf27b2abb9004844581083c5d8/MANIFEST.json",
+    "onet_version": "29.2",
+    "revision": "4b567ba98acc6ddf27b2abb9004844581083c5d8"
+  },
+  "schema_version": "alljobs.ate-descriptive-audit.v1",
+  "source_text_redistributed": false
+}

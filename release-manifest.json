@@ -1,6 +1,6 @@
 {
   "claim_ceiling": "clean research release; evidence tiers and historical report qualifiers unchanged; no production, customer-ROI, workforce-share or job-automation claim",
-  "file_count": 247,
+  "file_count": 252,
   "files": [
     {
       "bytes": 168,
@@ -13,19 +13,19 @@
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     },
     {
-      "bytes": 1653,
+      "bytes": 2084,
       "path": "PUBLIC_RELEASE.md",
-      "sha256": "8993589f8c1662f70ee218b8ae5c3baecbb5e180356ce13668a3c80cd25369e5"
+      "sha256": "baf15e00e6b934ff6cce303defbb1769e8ea9028a359facb8ad2ab418c83733e"
     },
     {
-      "bytes": 5326,
+      "bytes": 6469,
       "path": "README.md",
-      "sha256": "13711db2aa39023ece6b47fd12d4331aa837de93ee9474eba6ab49245418319f"
+      "sha256": "9b8ae9f1d58b8f11946d0a52f6b0114c1039ee69d50ac31c76e9d27941bef205"
     },
     {
-      "bytes": 2066,
+      "bytes": 2808,
       "path": "THIRD_PARTY_DATA.md",
-      "sha256": "2f3d7ec50760cf381373dd271b410b47b8ccae47c04d839395ae2fea0e8cb892"
+      "sha256": "62df30bec8701f87b5e24337d961b8b743ffb56c2feb7c460611aa1afad71ed3"
     },
     {
       "bytes": 5608,
@@ -63,9 +63,9 @@
       "sha256": "c0278817090b43d4b656596a7143d8559c7fe121093938e24126c311c4ac4c1a"
     },
     {
-      "bytes": 4100,
+      "bytes": 5079,
       "path": "docs/contracts/public-release-v1.md",
-      "sha256": "fb31b7f0f122af8e2c7b61ebd019159a2af340bca12e36dbf326c9b4bd2b48fc"
+      "sha256": "4012645b40d5a80a808978dc001fd3cee6c7041233d7bb4f0b70ca774a668427"
     },
     {
       "bytes": 5679,
@@ -86,6 +86,11 @@
       "bytes": 11111,
       "path": "docs/reports/2026-08-12-research-completion.md",
       "sha256": "a8164cbde2d866d5cdef98f44f8b9b0de06f109c02e4be5158625fb9de278886"
+    },
+    {
+      "bytes": 12119,
+      "path": "docs/reports/ate-appendix_06--092026_19-32.md",
+      "sha256": "84af08bb91c4a2060f6edc15390ed1622f0d3ac45e6ad7a2ae59e6636b3e92b8"
     },
     {
       "bytes": 17664,
@@ -913,6 +918,16 @@
       "sha256": "eae677bee3e57dda9f7caf06f690d6650c6235a1f8f365862f9da73d68bb57f9"
     },
     {
+      "bytes": 4793,
+      "path": "workforce-graph/data/ate_audit/descriptive.json",
+      "sha256": "e464751c33cbdd30842cd126623d3e31d0d72055829059c857b5235fa2938729"
+    },
+    {
+      "bytes": 4805,
+      "path": "workforce-graph/data/ate_audit/private_join.json",
+      "sha256": "d1e66eba1b788fbef2e609c09ca5b2ba25908045c75ee0ef6e15cbbca548c1d1"
+    },
+    {
       "bytes": 629855,
       "path": "workforce-graph/data/benchmark_relevance/layer_two_freeze.json",
       "sha256": "bfc797d06de65e36dc48e11e2458db60d6cb3ad7567cae13ca4793d0ed31e5b2"
@@ -1098,9 +1113,9 @@
       "sha256": "9f454357af6c3037f2748c8f62eb5b546f52fb7b4d1d26e94a7c10225f11fe9f"
     },
     {
-      "bytes": 14333,
+      "bytes": 14608,
       "path": "workforce-graph/scripts/build_public_release.py",
-      "sha256": "e22034db35104509208f8f009e1e0808e9c747f0910be1306bc28dc329b87d04"
+      "sha256": "e304f3e530ee7be19e51a479e43058c81d9fa032966866ad717b106b5e912518"
     },
     {
       "bytes": 53845,
@@ -1126,6 +1141,11 @@
       "bytes": 36696,
       "path": "workforce-graph/scripts/freeze_work_mode_snapshot.py",
       "sha256": "bdecdd0cbf3f65825905889554468649655dd9056a0bc3dd2fd5a9396b96d996"
+    },
+    {
+      "bytes": 19896,
+      "path": "workforce-graph/scripts/reproduce_ate_audit.py",
+      "sha256": "27e39f82fd830170a48180edbad404013be603b45ab7b71e4ee04b3dc9ec2ddd"
     },
     {
       "bytes": 26666,
@@ -1208,6 +1228,11 @@
       "sha256": "d5e70f97cc7cb92f732ea40bdca0088278c89c1f0321128e83dc4e063ba66419"
     },
     {
+      "bytes": 3930,
+      "path": "workforce-graph/tests/test_reproduce_ate_audit.py",
+      "sha256": "acccc656c7e0cb2a0ced4c0bd6031889055c87da3a1f1cbe229a726d6a1fe344"
+    },
+    {
       "bytes": 4618,
       "path": "workforce-graph/tests/test_reproduce_research_note.py",
       "sha256": "586025ad2eb97b40bff05a234142c787f500b5d94321c7306fdcb4d9b4ec5f68"
@@ -1240,7 +1265,7 @@
   ],
   "licence": "Apache-2.0 for original code and documentation only",
   "public_repository": "https://github.com/dilp79/alljobs-agent-work-research",
-  "release_payload_sha256": "8c83de954cd972831f17ff40e6cc00926081c4194bfa585f6a239bfdc8b50f16",
+  "release_payload_sha256": "474f561d65233a4551b230cb8da6a3ab550664a05818d4e90c051a68f8c61877",
   "schema_version": "alljobs.public-release/v1",
-  "source_commit": "72a8dfa4cbcb00dd3caffb465c8bd45ffbb34d17"
+  "source_commit": "aa6c6accf6576a506187c3ffc7580e8f00bd7f36"
 }

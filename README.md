@@ -2,7 +2,7 @@
 creator: codex
 purpose: Describe the public AllJobs research package and its verification entry point.
 why: Public readers need the evidence ceiling and current reproducible runtime without broad compatibility claims.
-version: 2026-09-06.1
+version: 2026-09-06.2
 updated: 2026-09-06
 ---
 
@@ -29,6 +29,28 @@ The final-partition diagnostic spans 0.025406–78.631813% across 90 eligible co
 from a grid of 108. This is an additive calculation on the frozen August 12 partition,
 not a revision of the historical 0.025406–78.331215% checkpoint. The note explains which
 inputs are sufficient aggregate statistics and which outcomes can be regraded publicly.
+
+## ATE reproducibility appendix
+
+[ATE: descriptor coverage and exact O*NET joins](docs/reports/ate-appendix_06--092026_19-32.md)
+recalculates 1,380/9,423 software-eligible task nodes with at least one `good` descriptor
+match (14.645018%). This measures labelled catalogue coverage, not executable tools or
+successful work. The appendix separates a public-source calculation from a local AllJobs
+join whose database remains unavailable in this release.
+
+After the environment setup below, run from `workforce-graph`:
+
+```bash
+# Explicit network download to an external user cache; verified cached bytes are reused.
+uv run python scripts/reproduce_ate_audit.py fetch
+# Offline calculation from the pinned cache, then focused tests.
+uv run python scripts/reproduce_ate_audit.py audit --output /tmp/ate-descriptive.json
+uv run pytest -q tests/test_reproduce_ate_audit.py
+```
+
+Both commands accept `--cache <directory>` for an existing source cache. Raw downloads
+are excluded from the release. The published local-join JSON contains aggregates, public
+task-ID inventories and hashes; its presence does not make the private database reproducible.
 
 ## Existing study results
 

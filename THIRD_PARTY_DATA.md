@@ -2,7 +2,7 @@
 creator: codex
 purpose: Define original-work licensing and excluded third-party material.
 why: Keep the public analytical supplement distinct from redistribution of its sources.
-version: 2026-09-06.1
+version: 2026-09-06.2
 updated: 2026-09-06
 ---
 
@@ -33,3 +33,12 @@ derived trial outcomes, calculations and figures. It adds no upstream task/tool 
 raw ATE tables, survey reports or magazine PDFs. Consult the source publishers for
 McKinsey, Thomson Reuters and Harvard Business Review materials; those documents are
 contextual research inputs, not files licensed by this project.
+
+The ATE appendix contains original audit code, aggregate counts, public task identifiers
+and source hashes. It does not redistribute ATE Parquet tables, verbatim tool descriptions,
+O*NET task text, private database rows or additional binding rows. The pinned
+[CohereLabs/ATE source](https://huggingface.co/datasets/CohereLabs/ATE/tree/4b567ba98acc6ddf27b2abb9004844581083c5d8)
+does not declare a package-wide redistribution licence. Readers obtain source bytes directly
+from the maintainer using the explicit fetch command and retain the source's applicable rights;
+the Apache licence does not relicense those downloads. The local-join aggregate includes
+database and logical-input hashes for provenance, without exposing their source rows.
