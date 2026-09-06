@@ -1,0 +1,55 @@
+{
+  "accounted_known_plus_unknown_reserve_usd": 6.68309325,
+  "actual_billed_usd": null,
+  "api_costs_by_role": {
+    "actor": {
+      "accounted_known_usd": 5.948376,
+      "calls": 132,
+      "list_price_estimate_usd": 5.948376,
+      "reported_credit_cost_usd": 1.2094197,
+      "unknown_reserve_usd": 0
+    },
+    "npc": {
+      "accounted_known_usd": 0.7347172500000001,
+      "calls": 43,
+      "list_price_estimate_usd": 0.7347172500000001,
+      "reported_credit_cost_usd": 0.7347172500000001,
+      "unknown_reserve_usd": 0
+    }
+  },
+  "bankrupt_episodes_by_arm": {
+    "BASE": 0,
+    "LEDGER": 0
+  },
+  "bootstrap": {
+    "draws": 20000,
+    "resampling_unit": "economic_terminal_seed_pair",
+    "seed": 7301
+  },
+  "claim_boundary": "Finite constructed seed experiment; exploratory interval, no occupational/ROI/365day claim",
+  "complete_pairs": 0,
+  "economic_terminal_pairs": 0,
+  "evidence_mode": "MODEL_FUNDED_SIMULATION",
+  "exploratory_bootstrap_ci95_yuan": null,
+  "horizon_complete_episodes_by_arm": {
+    "BASE": 0,
+    "LEDGER": 0
+  },
+  "horizon_days": 30,
+  "incomplete_pair_policy": "No imputation; technical truncation suppresses overall primary; verified finalized bankruptcy remains an economic terminal outcome",
+  "incomplete_pairs": [
+    {
+      "BASE": "incomplete",
+      "LEDGER": "incomplete",
+      "seed": 20260401
+    }
+  ],
+  "mock_arithmetic_mean_difference_yuan": null,
+  "paired_mean_difference_yuan": null,
+  "paired_median_difference_yuan": null,
+  "paired_results": [],
+  "planned_pairs": 1,
+  "replay_scope": "Derived final-state and receipt arithmetic only; not environment or provider replay",
+  "schema": "alljobs.ecbench-recomputation.v1",
+  "source_verification": "SHA256 binds exported source bytes; no independent trajectory/model execution verified"
+}

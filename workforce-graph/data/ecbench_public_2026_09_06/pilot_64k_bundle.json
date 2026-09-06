@@ -1,0 +1,63 @@
+{
+  "episodes": [
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0.0219225,
+          "calls": 3,
+          "list_price_estimate_usd": 0.0219225,
+          "reported_credit_cost_usd": 0.0219225,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 0,
+          "list_price_estimate_usd": 0,
+          "reported_credit_cost_usd": 0,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 100000.0,
+        "day": 0,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.0,
+        "fees_yuan": {
+          "ops": 0.0,
+          "procurement": 0.0,
+          "refunds_gross": 0.0,
+          "setup": 0.0,
+          "shipping": 0.0,
+          "storage": 0.0,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 0.0,
+        "units_returned": 0,
+        "units_shipped": 0,
+        "units_sold": 0,
+        "wallet_yuan": 0.0
+      },
+      "receipts_sha256": "7a127f77ea7500631c97734015f48dccf39ca2e48ea88bd174f69b88ecdf69d2",
+      "result_sha256": "3c5dc0db1db7c770c8b624ce5bf42c7c7c8f9e85a0249066f7bf37a4d3e23339",
+      "seed": 20260122,
+      "status": "incomplete"
+    }
+  ],
+  "evidence_mode": "MODEL_FUNDED_SIMULATION",
+  "horizon_days": 14,
+  "manifest_sha256": "cf7f25027cea1da8eae9169f85bcc1ed92e4bfd337c72d48d51637b83ae7d521",
+  "model_route": "openrouter-direct:google/gemini-3.8-flash",
+  "planned_seeds": [
+    20260122,
+    20260123
+  ],
+  "schema": "alljobs.ecbench-public-results.v1",
+  "upstream": {
+    "commit": "0c48f76f2577779cba786998f73b7992078b932d",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/QwenLM/E-CommerceBench"
+  }
+}

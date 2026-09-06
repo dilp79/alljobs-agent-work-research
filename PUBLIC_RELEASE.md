@@ -2,7 +2,7 @@
 creator: codex
 purpose: Record authority and evidence boundaries for the clean public research release.
 why: Distinguish current publication permission from historical scientific stop states.
-version: 2026-09-06.3
+version: 2026-09-06.4
 updated: 2026-09-06
 ---
 
@@ -45,3 +45,15 @@ This document and the accepted public manifest are the later release authority.
 
 Publication readiness does not promote evidence tiers. All benchmark, simulated, historical and
 inferred claims keep the qualifiers stated in the reports.
+
+The ECBench supplement adds three preserved technical pilot projections and the separately
+planned final 30-day seed pair, their current arithmetic recomputations, original calculator
+and tests, an explicitly MOCK fixture, and the bounded study report. Raw environment/model
+trajectories and private provider receipts remain excluded. Only selected economic state,
+numeric actor/NPC accounting and source hashes are published. Missingness and unknown billing
+are preserved. Finalized bankruptcy is an economic terminal distinct from horizon completion;
+one seed pair provides no confidence interval or power claim. The public replay reproduces
+derived arithmetic, not the private extraction, simulator execution or provider trajectory.
+The final two arms stopped at local cost limits on days 14 and 17 of the planned 30 days.
+Neither reached an economic terminal or the horizon; the paired result and interval are null.
+Publication preserves this bounded feasibility result and does not assert efficacy.

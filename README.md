@@ -2,7 +2,7 @@
 creator: codex
 purpose: Describe the public AllJobs research package and its verification entry point.
 why: Public readers need the evidence ceiling and current reproducible runtime without broad compatibility claims.
-version: 2026-09-06.3
+version: 2026-09-06.4
 updated: 2026-09-06
 ---
 
@@ -106,6 +106,46 @@ PY
 
 These are observed arm totals, not family-weighted causal cost estimates. Unknown token usage
 is omitted from known-token sums and reported separately; it is not assumed to be zero.
+
+## Bounded ECBench simulation
+
+[ECBench: ограниченная проверка памяти и исполнения](docs/reports/ecbench-bounded-study_06--092026_21-18.md)
+separates three preserved technical pilots from the separately planned final 30-day seed
+pair. The public package contains selected economic final states, numeric actor/NPC costs
+and provenance hashes. It permits **derived arithmetic replay**, not environment or model
+trajectory replay. Simulated yuan and API dollars are distinct; neither establishes customer ROI.
+Technical truncation remains incomplete, whereas verified finalized bankruptcy is a separate
+economic terminal. One seed pair has no confidence interval or power claim; the MOCK fixture
+does not supply model-effect evidence.
+
+The adapter implementing ledger memory, context handling, budget admission and NPC transport
+is not public. Its SHA-256 is bound in a frozen private receipt and disclosed in the study.
+Intervention mechanics are therefore the authors' description, not publicly inspectable
+adapter code; the published calculator only verifies the projected result arithmetic.
+
+The final pair was attempted under a prospective USD 7 full-rate cap (USD 3.50 per arm).
+Both arms stopped at their local cost limits: BASE at day 14 and LEDGER at day 17, before
+the planned 30-day horizon. There are **zero economic terminal pairs**; the paired estimate
+and confidence interval are `null`. The 175 actor/NPC calls account for USD 6.68309325 at
+the full rate versus USD 1.94413695 reported broker credits, with no unknown reserve.
+These are two accounting views of the same calls, not additive expenses or verified invoices.
+
+From `workforce-graph`, recomputation uses only the Python standard library:
+
+```bash
+python scripts/reproduce_ecbench.py recompute \
+  --bundle data/ecbench_public_2026_09_06/final_30d_bundle.json \
+  --output /tmp/alljobs-ecbench-final-30d.json
+```
+
+Tests additionally require the development dependencies installed in [Verification](#verification):
+`python -m pytest -q tests/test_reproduce_ecbench.py`.
+
+The same command accepts `pilot_64k_bundle.json`, `pilot_512k_bundle.json` or
+`retention_14d_bundle.json` from that directory; select a new output path each time.
+Each bundle has a corresponding published `_recomputed.json`. The calculator refuses an
+existing output file. All planned seeds remain in the denominator; missing or truncated
+pairs suppress the overall paired result, and unknown billing reserves remain explicit.
 
 ## Earlier study results
 

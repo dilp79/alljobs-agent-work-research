@@ -2,7 +2,7 @@
 creator: codex
 purpose: Fail-closed contract for the clean public AllJobs research release.
 why: Publish the reproducible research surface without private laboratory records, local paths or unlicensed raw data.
-version: 4
+version: 5
 updated: 2026-09-06
 owner: founder-dilp79
 compatibility: additive clean release; private source history and frozen research artifacts unchanged
@@ -107,6 +107,33 @@ planned trials, 171 complete paired bases and no infrastructure/missing outcomes
 is within-budget complete-state correctness: 28 of 33 failures are explicit agent-turn/tool-call
 budget terminations. It does not conflate those terminations with wrong submitted final answers.
 The published JSON/CSV remain the primary analytical result; the figure is a deterministic view.
+
+## ECBench derived-result projection
+
+The ECBench supplement admits original final-state and numeric-cost projections for three
+preserved technical pilots and the separately planned final 30-day seed pair, plus the
+original stdlib calculator, its tests, one explicitly MOCK fixture plus its README and the bounded
+study report. All thirteen additional files are exact `FIXED_FILES` entries. Historical
+private runs and earlier exports remain intact; current public recomputations use the
+published calculator without rewriting those historical receipts.
+
+The closed bundle schema permits only the pinned upstream repository/revision/licence,
+model route and evidence mode, planned horizon/seeds, source hashes, episode status,
+selected final economic state and numeric actor/NPC cost summaries. Full trajectories,
+observations, prompts, actions, model replies, reasoning, signatures, headers, private
+request/response receipts, credentials and local paths are excluded. Source hashes bind
+private extraction inputs; they do not make those inputs publicly reproducible.
+
+Offline replay recomputes final-state and resource arithmetic, not environment or model
+trajectories. Missing episodes remain missing, unknown billing remains reserved and actual
+invoice cost remains null. Technical truncation suppresses the overall paired result;
+verified finalized bankruptcy is a separate economic terminal, not horizon completion.
+MOCK arithmetic is labelled separately and has no model-effect estimate. A single final
+seed pair has no confidence interval or power claim. Simulated currency is distinct from
+API expense and cannot establish customer ROI, occupational performance or a 365-day result.
+The emitted final pair has both arms technically truncated by local cost limits, at days 14
+and 17 of a planned 30; it has zero economic terminal pairs and null paired estimate/interval.
+The package records that limitation rather than treating partial states as final outcomes.
 
 ## Rollback
 

@@ -2,7 +2,7 @@
 creator: codex
 purpose: Define original-work licensing and excluded third-party material.
 why: Keep the public analytical supplement distinct from redistribution of its sources.
-version: 2026-09-06.3
+version: 2026-09-06.4
 updated: 2026-09-06
 ---
 
@@ -48,3 +48,12 @@ synthetic fixtures and numeric/status accounting projections. It does not admit 
 text, ATE descriptions, model reasoning, full conversations, signatures or private source rows.
 Original fixture code and pure analytical source are hash-bound to the run; upstream model or
 dataset ownership is not transferred by publishing a reproducibility projection.
+
+The ECBench supplement contains original derived state/cost summaries, original arithmetic
+code and an explicitly MOCK arithmetic fixture. Its upstream kernel is
+[QwenLM/E-CommerceBench at 0c48f76](https://github.com/QwenLM/E-CommerceBench/tree/0c48f76f2577779cba786998f73b7992078b932d),
+whose [Apache-2.0 licence](https://github.com/QwenLM/E-CommerceBench/blob/0c48f76f2577779cba786998f73b7992078b932d/LICENSE)
+remains authoritative for upstream code. This release does not redistribute that kernel,
+its trajectories, observations, prompts, NPC or actor replies, private provider receipts
+or credentials. Hashes identify extraction sources without exposing them. Public arithmetic
+reproduction does not reproduce upstream execution or expand rights in model/provider content.

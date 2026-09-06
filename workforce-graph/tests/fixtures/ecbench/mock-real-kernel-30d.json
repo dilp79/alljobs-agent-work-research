@@ -1,0 +1,744 @@
+{
+  "episodes": [
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 93283.9,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 6.1,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "9722c77850c6c2d3fd2e368b6cf504122eecb41ee22a0f51873fcf212290f241",
+      "result_sha256": "b8a8748c9e76c3542618f104a6cc845f8714cf5e5dc6aef6c88be66e35ef3168",
+      "seed": 20260201,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "LEDGER",
+      "observed_final_state": {
+        "bank_yuan": 93283.9,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 6.1,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "de48ebbe105c4b54adf5f400cd84e09129fb196088cfdda2ade51b122b67553f",
+      "result_sha256": "b691f94f6b4c41168fd461ddb6f6ebf85d6e582e5163bcb1734d4e34f473a451",
+      "seed": 20260201,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 93284.45,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.55,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "1dc396026ed3a903385b0cb2fe8d893a7392fcdc2d1d328dadc22421f6be75ff",
+      "result_sha256": "03d5859e9f3a888718fd182d16ea0baeb15e1dc067b4d47a115719ae1af50d96",
+      "seed": 20260202,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "LEDGER",
+      "observed_final_state": {
+        "bank_yuan": 93284.45,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.55,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "8a02fd2827d4b64884f2aa0adcdcaf13ec186c713c4887e3db8f2b9142c501d0",
+      "result_sha256": "ed37974d9855ee9872f7f3e0f1f6bc2ab3ea7b31dcbbf5926d39200311853e81",
+      "seed": 20260202,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 93283.95,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 6.05,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.951999999999,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.951999999999
+      },
+      "receipts_sha256": "b658cdebb68bcb22ac3dbae2f6f45fb6c04f8e091a0596e4aa553ab0fc328647",
+      "result_sha256": "495844451649a70974df2aa20f73815802cee0f07fc5bffd9e7b58c10907ebbe",
+      "seed": 20260203,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "LEDGER",
+      "observed_final_state": {
+        "bank_yuan": 93283.95,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 6.05,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.951999999999,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.951999999999
+      },
+      "receipts_sha256": "68bd00edbca317a07f9f34e55d0dd2c60f3318fab80a4c3ed6cd9897a9181659",
+      "result_sha256": "aae424772b255c425c0839a6d731ecd88eb22fda4c6f156cf0cd00432b037aae",
+      "seed": 20260203,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 93284.54999999999,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.449999999999999,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "c8d3c87d299ae57f627541472dbb028fd05ece1c62bbc608aeb4da1b22559a6e",
+      "result_sha256": "fb1279a1e28f2629c4b4f492539e6a8555643d8ca1b17477c27509ed119ea3d4",
+      "seed": 20260204,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "LEDGER",
+      "observed_final_state": {
+        "bank_yuan": 93284.54999999999,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.449999999999999,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "f4247bdcb7d20dd9c751aeb94b38552ae8feae2bf71214b2bd1cf7e25ed7559f",
+      "result_sha256": "1dba98785685ddd3988d2c7862e5507c208b3b7bf79f2db48bd577d520c03a24",
+      "seed": 20260204,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 93284.64999999998,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.35,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "15eab91490cb3e17a7ed5b5f07b877a20f8a401a15f94c19c03ba47941d0c7e6",
+      "result_sha256": "380a835f244fbe71268ae3d85974ee9b03022d8334154047776e9fcb94b16fe8",
+      "seed": 20260205,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "LEDGER",
+      "observed_final_state": {
+        "bank_yuan": 93284.64999999998,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.35,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "f06b7858bfbe273d74f3dfab016c6e78867e42f69574f46b88a07b7ea1c9dedc",
+      "result_sha256": "f0421f777de8ddf88e8f95535140adca496d43e3fa45e5bfa301009185f11007",
+      "seed": 20260205,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 93284.14999999995,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 318.62,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.849999999999998,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 1,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 5926.332
+      },
+      "receipts_sha256": "17e13aaa4e717a5612d924b88d6266f24aab712b2b5b23cfb6aec55bc6ea1c41",
+      "result_sha256": "ba80d5d090e0bd145b98bb83ffddf89927b55498325d0d9bc36bab30b1000238",
+      "seed": 20260206,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "LEDGER",
+      "observed_final_state": {
+        "bank_yuan": 93284.14999999995,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 318.62,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.849999999999998,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 1,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 5926.332
+      },
+      "receipts_sha256": "b118af4ce56639eb94b675c618d4cf3d20f19a34e2f2ce97123d782f80878e65",
+      "result_sha256": "e301b548a6fce120e95748a60a4f2eb0cb757e24cff585fdf0d9e9a92fe06ea1",
+      "seed": 20260206,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 93284.05,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.95,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952000000001,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952000000001
+      },
+      "receipts_sha256": "05929439cf21735ad1b333d43588dea9c011abf1a00433589920612e67f58260",
+      "result_sha256": "7b84ab28c6fdb34d5a2d2e9a05b54751c61992fe44e2914c18a09e9bc35527fa",
+      "seed": 20260207,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "LEDGER",
+      "observed_final_state": {
+        "bank_yuan": 93284.05,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.95,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952000000001,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952000000001
+      },
+      "receipts_sha256": "8f4fa877b8632d9de92b5ac80818101edde54580ba428e52f920a8227b969dbb",
+      "result_sha256": "f6e2e80546094186a24d0c6bdcf8a286b9414ec1514b276d286faf0b5fad4cd3",
+      "seed": 20260207,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 93284.65,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.3500000000000005,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "97cd1dc9de3ee34743e9895406073d438447e4c81012fd2d877b85aeb4c7f503",
+      "result_sha256": "8c2f9b96c7753ce072f178f317de13ff2d667387d208e72ceb12c73696b10c6c",
+      "seed": 20260208,
+      "status": "complete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 0,
+          "calls": 32,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0,
+          "calls": 1,
+          "list_price_estimate_usd": 0.0,
+          "reported_credit_cost_usd": null,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "LEDGER",
+      "observed_final_state": {
+        "bank_yuan": 93284.65,
+        "day": 30,
+        "escrow_yuan": 0.0,
+        "expected_returns": 0.222,
+        "fees_yuan": {
+          "ops": 1800.0,
+          "procurement": 4400.0,
+          "refunds_gross": 0.0,
+          "setup": 500.0,
+          "shipping": 10.0,
+          "storage": 5.3500000000000005,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 6244.952,
+        "units_returned": 0,
+        "units_shipped": 20,
+        "units_sold": 20,
+        "wallet_yuan": 6244.952
+      },
+      "receipts_sha256": "b6be4e8733146be75911c0fd56e153aed5bc6ee25dd7a2193d689e9f10c3e6a9",
+      "result_sha256": "86118490bd0eea083901e231cc8dd4c063d5a55a95ceb96edc65206bcf499678",
+      "seed": 20260208,
+      "status": "complete"
+    }
+  ],
+  "evidence_mode": "MOCK_TRANSPORT_REAL_KERNEL",
+  "horizon_days": 30,
+  "manifest_sha256": "3c977ef50317ecd8428dbc3415d9400a2e2cfce276035a25a68d6cbe7401e88f",
+  "model_route": "LOCAL_MOCK",
+  "planned_seeds": [
+    20260201,
+    20260202,
+    20260203,
+    20260204,
+    20260205,
+    20260206,
+    20260207,
+    20260208
+  ],
+  "schema": "alljobs.ecbench-public-results.v1",
+  "upstream": {
+    "commit": "0c48f76f2577779cba786998f73b7992078b932d",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/QwenLM/E-CommerceBench"
+  }
+}

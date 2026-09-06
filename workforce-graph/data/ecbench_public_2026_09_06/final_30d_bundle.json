@@ -1,0 +1,107 @@
+{
+  "episodes": [
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 3.01578525,
+          "calls": 70,
+          "list_price_estimate_usd": 3.01578525,
+          "reported_credit_cost_usd": 0.611626275,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0.36732075000000003,
+          "calls": 21,
+          "list_price_estimate_usd": 0.36732075000000003,
+          "reported_credit_cost_usd": 0.36732075000000003,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "BASE",
+      "observed_final_state": {
+        "bank_yuan": 89518.04999999999,
+        "day": 14,
+        "escrow_yuan": 3425.0,
+        "expected_returns": 3.8225972529207453,
+        "fees_yuan": {
+          "ops": 840.0,
+          "procurement": 9092.0,
+          "refunds_gross": 250.0,
+          "setup": 500.0,
+          "shipping": 30.0,
+          "storage": 19.95,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 3675.0,
+        "units_returned": 2,
+        "units_shipped": 30,
+        "units_sold": 34,
+        "wallet_yuan": 0.0
+      },
+      "receipts_sha256": "8f3d7a8b63895f947886e76bcac676ff2f2015c427e047a702dddd5789d6727b",
+      "result_sha256": "958be7d130e9b4284901783d36a4a06f6f02043ba01689b3162bd17f89945381",
+      "seed": 20260401,
+      "status": "incomplete"
+    },
+    {
+      "actual_billed_usd": null,
+      "api_costs": {
+        "actor": {
+          "accounted_known_usd": 2.93259075,
+          "calls": 62,
+          "list_price_estimate_usd": 2.93259075,
+          "reported_credit_cost_usd": 0.597793425,
+          "unknown_reserve_usd": 0
+        },
+        "npc": {
+          "accounted_known_usd": 0.3673965,
+          "calls": 22,
+          "list_price_estimate_usd": 0.3673965,
+          "reported_credit_cost_usd": 0.3673965,
+          "unknown_reserve_usd": 0
+        }
+      },
+      "arm": "LEDGER",
+      "observed_final_state": {
+        "bank_yuan": 55147.529999999984,
+        "day": 17,
+        "escrow_yuan": 23044.939999999995,
+        "expected_returns": 38.14345967464779,
+        "fees_yuan": {
+          "ops": 3230.0,
+          "procurement": 43608.0,
+          "refunds_gross": 6549.0,
+          "setup": 1000.0,
+          "shipping": 100.0,
+          "storage": 69.75000000000001,
+          "vip_fees": 0.0
+        },
+        "orders_cancelled": 0,
+        "revenue_net_yuan": 32730.04,
+        "units_returned": 32,
+        "units_shipped": 151,
+        "units_sold": 166,
+        "wallet_yuan": 0.0
+      },
+      "receipts_sha256": "6494771a70c3144b8c7713c7d348fcea19a44e3cd317a7734ba35d56aa2d9827",
+      "result_sha256": "065ff67b34362166694d574b042aa100097bc2bef55bd52b604079a037ce1e1c",
+      "seed": 20260401,
+      "status": "incomplete"
+    }
+  ],
+  "evidence_mode": "MODEL_FUNDED_SIMULATION",
+  "horizon_days": 30,
+  "manifest_sha256": "e4b1568381598ce82a75534aa8889dccab874d69adf340b485e5ae7830522488",
+  "model_route": "openrouter-direct:google/gemini-3.8-flash",
+  "planned_seeds": [
+    20260401
+  ],
+  "schema": "alljobs.ecbench-public-results.v1",
+  "upstream": {
+    "commit": "0c48f76f2577779cba786998f73b7992078b932d",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/QwenLM/E-CommerceBench"
+  }
+}
