@@ -2,8 +2,8 @@
 creator: codex
 purpose: Fail-closed contract for the clean public AllJobs research release.
 why: Publish the reproducible research surface without private laboratory records, local paths or unlicensed raw data.
-version: 1
-updated: 2026-08-12
+version: 2
+updated: 2026-09-06
 owner: founder-dilp79
 compatibility: additive clean release; private source history and frozen research artifacts unchanged
 ---
@@ -21,6 +21,8 @@ The public release contains:
 
 - Apache-2.0-licensed original code and reader documentation;
 - the three final 2026-08-12 reports and their current contracts/audits;
+- the 2026-09-06 supplementary research note, original sufficient-statistic inputs, derived
+  trial outcomes, analytical tables and three original figures, with its offline replay script;
 - the accepted support/back-office mission suite required by current research code;
 - selected frozen aggregate/research artifacts, including their claim ceilings and payload hashes;
 - only the current research scripts, source modules and focused tests needed to inspect the
@@ -51,6 +53,18 @@ It does not redistribute raw model generations or upstream restricted data, so a
 re-run every historical model call or regenerate every frozen aggregate from first principles.
 Historical reports retain their checkpoint-time publication status; `PUBLIC_RELEASE.md` is the
 authority for the later release decision.
+
+The September supplement extends that ceiling precisely: the 108-convention diagnostic is recalculated
+from original aggregate cells (counts and weight sums), and historical arm frequencies from
+derived per-mission outcomes. Private source extraction remains separately hash-bound, not publicly
+reproducible from unavailable raw logs. V3 includes published inputs and deliverables: its replay
+reruns the domain grader, held-out logistic predictions and 1,999 blocked permutations. The final
+August 12 work-mode partition used by the new diagnostic differs from the historical unfrozen
+partition; its recalculated range is additive and does not replace the earlier report.
+
+No new upstream source text, raw model generation, survey PDF, ATE source table, WEF/WORKBank
+extract, labour-force microdata or private path is admitted by this supplement. Its precise files
+are enumerated in `FIXED_FILES`; no broad publication directory glob expands that boundary.
 
 ## Rollback
 

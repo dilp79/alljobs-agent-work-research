@@ -1,3 +1,11 @@
+---
+creator: codex
+purpose: Define original-work licensing and excluded third-party material.
+why: Keep the public analytical supplement distinct from redistribution of its sources.
+version: 2026-09-06.1
+updated: 2026-09-06
+---
+
 # Third-party data policy
 
 The Apache-2.0 licence in this repository covers only original code and documentation distributed
@@ -19,3 +27,9 @@ The public release intentionally excludes:
 The clean release also excludes raw model generations, private source material and the generated
 `workforce-graph/site/data.json`. Tracked aggregate/frozen research artifacts state their own
 provenance and claim ceilings; their inclusion does not broaden the rights in an upstream source.
+
+The September analytical supplement adds original aggregate counts, weight sums,
+derived trial outcomes, calculations and figures. It adds no upstream task/tool text,
+raw ATE tables, survey reports or magazine PDFs. Consult the source publishers for
+McKinsey, Thomson Reuters and Harvard Business Review materials; those documents are
+contextual research inputs, not files licensed by this project.

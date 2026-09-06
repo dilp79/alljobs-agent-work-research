@@ -1,0 +1,13 @@
+arm,cohort,checker,passes,answered,selected,unanswered,pass_share
+bare,all_answered,suite_domain,69,82,82,0,0.8414634146341463
+bare,all_answered,semantic_hardened,78,82,82,0,0.9512195121951219
+bare,complete_vote_answered,suite_domain,67,78,78,0,0.8589743589743589
+bare,complete_vote_answered,semantic_hardened,75,78,78,0,0.9615384615384616
+bare_schema,all_answered,suite_domain,0,82,82,0,0.0
+bare_schema,all_answered,semantic_hardened,0,82,82,0,0.0
+bare_schema,complete_vote_answered,suite_domain,0,78,78,0,0.0
+bare_schema,complete_vote_answered,semantic_hardened,0,78,78,0,0.0
+bare_no_example,all_answered,suite_domain,0,81,82,1,0.0
+bare_no_example,all_answered,semantic_hardened,1,81,82,1,0.012345679012345678
+bare_no_example,complete_vote_answered,suite_domain,0,78,78,0,0.0
+bare_no_example,complete_vote_answered,semantic_hardened,1,78,78,0,0.01282051282051282

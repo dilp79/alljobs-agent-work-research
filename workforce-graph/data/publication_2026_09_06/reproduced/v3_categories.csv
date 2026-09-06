@@ -1,0 +1,11 @@
+category,n,failures,passes
+data_reconciliation,7,7,0
+draft_generation,7,1,6
+escalation_preparation,7,0,7
+exception_handling,7,0,7
+followup_scheduling,7,4,3
+information_retrieval,7,0,7
+intake_classification,7,1,6
+policy_interpretation,7,0,7
+quality_verification,7,6,1
+record_preparation,7,7,0

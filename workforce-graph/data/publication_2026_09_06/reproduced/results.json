@@ -1,0 +1,212 @@
+{
+  "claim_ceiling": "code-order sensitivity and synthetic conformance; not jobs, time, ROI or mission success",
+  "inputs_payload_sha256": "5735b63763e4ddc284674d7c0f7b47c90e9d05c2ff85dd6a9a49cd92cc2a5b6f",
+  "model_calls": 0,
+  "payload_sha256": "7ccdf6accc55c7045da8f99f8f763c09ec16e4cb67a6044e310fb37beb55092f",
+  "scaffold": [
+    {
+      "answered": 82,
+      "arm": "bare",
+      "checker": "suite_domain",
+      "cohort": "all_answered",
+      "pass_share": 0.8414634146341463,
+      "passes": 69,
+      "selected": 82,
+      "unanswered": 0
+    },
+    {
+      "answered": 82,
+      "arm": "bare",
+      "checker": "semantic_hardened",
+      "cohort": "all_answered",
+      "pass_share": 0.9512195121951219,
+      "passes": 78,
+      "selected": 82,
+      "unanswered": 0
+    },
+    {
+      "answered": 78,
+      "arm": "bare",
+      "checker": "suite_domain",
+      "cohort": "complete_vote_answered",
+      "pass_share": 0.8589743589743589,
+      "passes": 67,
+      "selected": 78,
+      "unanswered": 0
+    },
+    {
+      "answered": 78,
+      "arm": "bare",
+      "checker": "semantic_hardened",
+      "cohort": "complete_vote_answered",
+      "pass_share": 0.9615384615384616,
+      "passes": 75,
+      "selected": 78,
+      "unanswered": 0
+    },
+    {
+      "answered": 82,
+      "arm": "bare_schema",
+      "checker": "suite_domain",
+      "cohort": "all_answered",
+      "pass_share": 0.0,
+      "passes": 0,
+      "selected": 82,
+      "unanswered": 0
+    },
+    {
+      "answered": 82,
+      "arm": "bare_schema",
+      "checker": "semantic_hardened",
+      "cohort": "all_answered",
+      "pass_share": 0.0,
+      "passes": 0,
+      "selected": 82,
+      "unanswered": 0
+    },
+    {
+      "answered": 78,
+      "arm": "bare_schema",
+      "checker": "suite_domain",
+      "cohort": "complete_vote_answered",
+      "pass_share": 0.0,
+      "passes": 0,
+      "selected": 78,
+      "unanswered": 0
+    },
+    {
+      "answered": 78,
+      "arm": "bare_schema",
+      "checker": "semantic_hardened",
+      "cohort": "complete_vote_answered",
+      "pass_share": 0.0,
+      "passes": 0,
+      "selected": 78,
+      "unanswered": 0
+    },
+    {
+      "answered": 81,
+      "arm": "bare_no_example",
+      "checker": "suite_domain",
+      "cohort": "all_answered",
+      "pass_share": 0.0,
+      "passes": 0,
+      "selected": 82,
+      "unanswered": 1
+    },
+    {
+      "answered": 81,
+      "arm": "bare_no_example",
+      "checker": "semantic_hardened",
+      "cohort": "all_answered",
+      "pass_share": 0.012345679012345678,
+      "passes": 1,
+      "selected": 82,
+      "unanswered": 1
+    },
+    {
+      "answered": 78,
+      "arm": "bare_no_example",
+      "checker": "suite_domain",
+      "cohort": "complete_vote_answered",
+      "pass_share": 0.0,
+      "passes": 0,
+      "selected": 78,
+      "unanswered": 0
+    },
+    {
+      "answered": 78,
+      "arm": "bare_no_example",
+      "checker": "semantic_hardened",
+      "cohort": "complete_vote_answered",
+      "pass_share": 0.01282051282051282,
+      "passes": 1,
+      "selected": 78,
+      "unanswered": 0
+    }
+  ],
+  "schema_version": "alljobs.publication-replay.v1",
+  "sensitivity": {
+    "cohort": "final 2026-08-12 work-mode partition; additive replay, not the unfrozen work-mode checkpoint of the historical 108-grid",
+    "eligible_routes": 90,
+    "highest": 0.7863181312569522,
+    "lowest": 0.00025406053800796323,
+    "ratio": 3095.0030155108384,
+    "routes": 108
+  },
+  "v3": {
+    "augmented_log_loss": 0.5197189980700662,
+    "baseline_log_loss": 0.43625738430047883,
+    "blocked_permutation_p_one_sided": 0.9765,
+    "categories": [
+      {
+        "category": "data_reconciliation",
+        "failures": 7,
+        "n": 7,
+        "passes": 0
+      },
+      {
+        "category": "draft_generation",
+        "failures": 1,
+        "n": 7,
+        "passes": 6
+      },
+      {
+        "category": "escalation_preparation",
+        "failures": 0,
+        "n": 7,
+        "passes": 7
+      },
+      {
+        "category": "exception_handling",
+        "failures": 0,
+        "n": 7,
+        "passes": 7
+      },
+      {
+        "category": "followup_scheduling",
+        "failures": 4,
+        "n": 7,
+        "passes": 3
+      },
+      {
+        "category": "information_retrieval",
+        "failures": 0,
+        "n": 7,
+        "passes": 7
+      },
+      {
+        "category": "intake_classification",
+        "failures": 1,
+        "n": 7,
+        "passes": 6
+      },
+      {
+        "category": "policy_interpretation",
+        "failures": 0,
+        "n": 7,
+        "passes": 7
+      },
+      {
+        "category": "quality_verification",
+        "failures": 6,
+        "n": 7,
+        "passes": 1
+      },
+      {
+        "category": "record_preparation",
+        "failures": 7,
+        "n": 7,
+        "passes": 0
+      }
+    ],
+    "failures": 26,
+    "held_out_log_loss_improvement": -0.08346161376958733,
+    "historical_permutation_p_reference_only": 0.9765,
+    "homogeneous_categories": 6,
+    "n": 70,
+    "passes": 44,
+    "permutation_status": "recomputed",
+    "permutations": 1999
+  }
+}

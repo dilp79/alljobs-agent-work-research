@@ -2,10 +2,10 @@
 creator: codex
 purpose: Итоговый бизнес-отчёт по исследованию AllJobs и его практическому потенциалу.
 why: Перевести завершённую исследовательскую работу в решения для основателя, продукта и рынка, не превышая доказательную базу.
-version: 2
+version: 3
 updated: 2026-08-12
 research_status: RESEARCH_COMPLETE_WITH_PARTIAL_IDENTIFICATION
-publication_status: PUBLICATION_READY
+publication_status: PUBLISHED
 ---
 
 # AllJobs: итоговый бизнес-отчёт
@@ -19,6 +19,9 @@ AllJobs не подтвердил популярный тезис о том, ч�
 мнением и выполненной работой.
 
 Исследование завершено со статусом `RESEARCH_COMPLETE_WITH_PARTIAL_IDENTIFICATION`.
+Чистый allowlisted release опубликован в
+[`dilp79/alljobs-agent-work-research`](https://github.com/dilp79/alljobs-agent-work-research);
+это не меняет evidence tier научных результатов.
 
 Главные результаты:
 
@@ -262,8 +265,11 @@ evidence-bound выбор корпоративных AI pilots.
 [основном repository](https://github.com/SALT-NLP/workbank) не найдено явного dataset license grant.
 До отдельного разрешения оба файла исключаются из public release; допустимы ссылки на
 первоисточники и разрешённые производные receipts/агрегаты. Это обязательное условие
-`PUBLICATION_READY`, а не рекомендация.
+опубликованного clean release, а не рекомендация.
 
-Publication verdict: `PUBLICATION_READY`. Clean release строится по fail-closed allowlist без
-изменения frozen research evidence; научные `HOLD` отдельных некомпетентных или неавторизованных
-экспериментальных контуров остаются их корректными stop decisions, а не блокерами публикации.
+Publication verdict: `PUBLISHED`. Clean release построен по fail-closed allowlist без изменения
+frozen research evidence: public commit `0a272399931b5888884b9e565ac4cc9b4ec08f85`, private source
+commit `d17bf2b8c75e451117e5657a2c68453641f86768`, manifest payload SHA-256
+`74613894a08c83a0e9368475b1ed43b31b57b2b6f951c485e54e438c0def23a5`. Научные `HOLD`
+отдельных некомпетентных или неавторизованных экспериментальных контуров остаются их корректными
+stop decisions, а не блокерами публикации.

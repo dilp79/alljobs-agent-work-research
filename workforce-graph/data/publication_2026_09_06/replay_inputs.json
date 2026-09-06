@@ -1,0 +1,6357 @@
+{
+  "claim_ceiling": "code-order sensitivity and synthetic conformance; not jobs, time, ROI or mission success",
+  "historical_sensitivity_reference": {
+    "bytes": 36433,
+    "path": "data/scoring/sensitivity.json",
+    "sha256": "05020954289c7bc62e30474a24335714cafb84d25c0d34a47c1136bfe7ca5bf9"
+  },
+  "logical_occupation_activity_source": {
+    "rows": 54604,
+    "sha256": "ef9537e1c3fb05ffb74dc82c0a8843f6ac912eb713a105a4cf665570da235008",
+    "sql": "SELECT oa.activity_id, o.source_code FROM curated.occupation_activity oa JOIN curated.occupation o USING (occupation_id) ORDER BY oa.activity_id, o.source_code"
+  },
+  "payload_sha256": "5735b63763e4ddc284674d7c0f7b47c90e9d05c2ff85dd6a9a49cd92cc2a5b6f",
+  "rights": "Original aggregate statistics and derived trial outcomes only; no source text, raw model generation, WEF/WORKBank records or labour-force microdata.",
+  "scaffold": {
+    "rows": [
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-05",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-06",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-08",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-09",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-10",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-11",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-12",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-06",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-08",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-09",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-10",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-11",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-12",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-05",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-06",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-08",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-09",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-10",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-12",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-05",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-06",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-09",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-10",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-11",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-12",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-06",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-08",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-09",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "followup_scheduling",
+        "complete_votes": false,
+        "mission_id": "sbov1-followup_scheduling-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-05",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-06",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "information_retrieval",
+        "complete_votes": false,
+        "mission_id": "sbov1-information_retrieval-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-08",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-09",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-10",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-11",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-05",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-06",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-08",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-09",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-10",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-12",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-05",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-06",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-09",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-10",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-11",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-12",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-05",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-08",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-09",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-10",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "quality_verification",
+        "complete_votes": false,
+        "mission_id": "sbov1-quality_verification-11",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-12",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "record_preparation",
+        "complete_votes": false,
+        "mission_id": "sbov1-record_preparation-04",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-05",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-06",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-07",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-08",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-10",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-11",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-12",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": true
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "followup_scheduling",
+        "complete_votes": false,
+        "mission_id": "sbov1-followup_scheduling-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "information_retrieval",
+        "complete_votes": false,
+        "mission_id": "sbov1-information_retrieval-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "quality_verification",
+        "complete_votes": false,
+        "mission_id": "sbov1-quality_verification-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "record_preparation",
+        "complete_votes": false,
+        "mission_id": "sbov1-record_preparation-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_schema",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "data_reconciliation",
+        "complete_votes": true,
+        "mission_id": "sbov1-data_reconciliation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "draft_generation",
+        "complete_votes": true,
+        "mission_id": "sbov1-draft_generation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "escalation_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-escalation_preparation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "exception_handling",
+        "complete_votes": true,
+        "mission_id": "sbov1-exception_handling-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "followup_scheduling",
+        "complete_votes": false,
+        "mission_id": "sbov1-followup_scheduling-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "followup_scheduling",
+        "complete_votes": true,
+        "mission_id": "sbov1-followup_scheduling-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "information_retrieval",
+        "complete_votes": false,
+        "mission_id": "sbov1-information_retrieval-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "information_retrieval",
+        "complete_votes": true,
+        "mission_id": "sbov1-information_retrieval-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-05",
+        "semantic_pass": true,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "intake_classification",
+        "complete_votes": true,
+        "mission_id": "sbov1-intake_classification-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "policy_interpretation",
+        "complete_votes": true,
+        "mission_id": "sbov1-policy_interpretation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-04",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-09",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "quality_verification",
+        "complete_votes": false,
+        "mission_id": "sbov1-quality_verification-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "quality_verification",
+        "complete_votes": true,
+        "mission_id": "sbov1-quality_verification-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": false,
+        "arm": "bare_no_example",
+        "category": "record_preparation",
+        "complete_votes": false,
+        "mission_id": "sbov1-record_preparation-04",
+        "semantic_pass": null,
+        "status": "unparseable",
+        "suite_pass": null
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-05",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-06",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-07",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-08",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-10",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-11",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      },
+      {
+        "answered": true,
+        "arm": "bare_no_example",
+        "category": "record_preparation",
+        "complete_votes": true,
+        "mission_id": "sbov1-record_preparation-12",
+        "semantic_pass": false,
+        "status": "ok",
+        "suite_pass": false
+      }
+    ],
+    "selection": {
+      "bare": {
+        "latest_unique_missions": 82,
+        "raw_rows": 92,
+        "run_spec": "legacy-missing-run-spec",
+        "superseded_rows": 10
+      },
+      "bare_no_example": {
+        "latest_unique_missions": 82,
+        "raw_rows": 82,
+        "run_spec": "2026-08-10.1",
+        "superseded_rows": 0
+      },
+      "bare_schema": {
+        "latest_unique_missions": 82,
+        "raw_rows": 82,
+        "run_spec": "2026-08-10.1",
+        "superseded_rows": 0
+      }
+    },
+    "semantic_outcome": "Hardened comparator applied during extraction; public replay aggregates derived outcomes, not omitted prose",
+    "suite_outcome": "Recorded historical suite/domain boolean, not regraded without private deliverables in the public replay"
+  },
+  "schema_version": "alljobs.publication-replay-inputs.v1",
+  "sensitivity": {
+    "cells": [
+      {
+        "count": 226,
+        "employment_mass": 0.012184724706606158,
+        "importance_mass": 945.1199999999999,
+        "levels": [
+          0,
+          0,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 6294,
+        "employment_mass": 0.3418543535539431,
+        "importance_mass": 24946.00999999998,
+        "levels": [
+          0,
+          0,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 96,
+        "employment_mass": 0.00518509918713936,
+        "importance_mass": 391.7000000000001,
+        "levels": [
+          0,
+          0,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 138,
+        "employment_mass": 0.007508141234204412,
+        "importance_mass": 496.6599999999999,
+        "levels": [
+          0,
+          0,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 25,
+        "employment_mass": 0.001032767559853696,
+        "importance_mass": 103.76999999999998,
+        "levels": [
+          0,
+          0,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 105,
+        "employment_mass": 0.0037100553771314466,
+        "importance_mass": 412.24999999999994,
+        "levels": [
+          0,
+          0,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 14,
+        "employment_mass": 0.0005541838723747295,
+        "importance_mass": 59.68,
+        "levels": [
+          0,
+          0,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 15,
+        "employment_mass": 0.0005969472982071064,
+        "importance_mass": 56.510000000000005,
+        "levels": [
+          0,
+          0,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 7.438224637681159e-05,
+        "importance_mass": 4.78,
+        "levels": [
+          0,
+          0,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 11,
+        "employment_mass": 0.00033209286568546784,
+        "importance_mass": 39.940000000000005,
+        "levels": [
+          0,
+          0,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 3,
+        "employment_mass": 9.835108873062203e-05,
+        "importance_mass": 13.09,
+        "levels": [
+          0,
+          0,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 5.5534005037783376e-05,
+        "importance_mass": 3.95,
+        "levels": [
+          0,
+          0,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 34,
+        "employment_mass": 0.002093086790872835,
+        "importance_mass": 136.67,
+        "levels": [
+          0,
+          0,
+          null
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 2,
+        "employment_mass": 2.6447746883988493e-05,
+        "importance_mass": 4.25,
+        "levels": [
+          0,
+          0,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 164,
+        "employment_mass": 0.00768000423368201,
+        "importance_mass": 661.3000000000001,
+        "levels": [
+          0,
+          1,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 376,
+        "employment_mass": 0.017424086914105838,
+        "importance_mass": 1434.8700000000006,
+        "levels": [
+          0,
+          1,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 234,
+        "employment_mass": 0.010516612331267855,
+        "importance_mass": 916.2600000000007,
+        "levels": [
+          0,
+          1,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 95,
+        "employment_mass": 0.004427103410143935,
+        "importance_mass": 349.65000000000003,
+        "levels": [
+          0,
+          1,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 84,
+        "employment_mass": 0.003149190268642691,
+        "importance_mass": 338.29,
+        "levels": [
+          0,
+          1,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 97,
+        "employment_mass": 0.004262685866726023,
+        "importance_mass": 397.6900000000001,
+        "levels": [
+          0,
+          1,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 273,
+        "employment_mass": 0.012661292025922874,
+        "importance_mass": 1060.7699999999995,
+        "levels": [
+          0,
+          1,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 62,
+        "employment_mass": 0.0024665047108062515,
+        "importance_mass": 221.2700000000001,
+        "levels": [
+          0,
+          1,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 3,
+        "employment_mass": 6.24617726765503e-05,
+        "importance_mass": 6.99,
+        "levels": [
+          0,
+          1,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.0003347577276107709,
+        "importance_mass": 16.84,
+        "levels": [
+          0,
+          1,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 16,
+        "employment_mass": 0.0008895900230279726,
+        "importance_mass": 61.96000000000001,
+        "levels": [
+          0,
+          1,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.0002178906695246693,
+        "importance_mass": 21.05,
+        "levels": [
+          0,
+          1,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 0.0002389095744680851,
+        "importance_mass": 4.7,
+        "levels": [
+          0,
+          1,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00012470932869169116,
+        "importance_mass": 11.790000000000001,
+        "levels": [
+          0,
+          1,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 3,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 7.52,
+        "levels": [
+          0,
+          1,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.3169811320754717e-05,
+        "importance_mass": 3.67,
+        "levels": [
+          0,
+          1,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 5.8813765182186236e-05,
+        "importance_mass": 3.04,
+        "levels": [
+          0,
+          1,
+          4
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.466068866571019e-05,
+        "importance_mass": 4.78,
+        "levels": [
+          0,
+          1,
+          null
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.7801084010840108e-05,
+        "importance_mass": 4.44,
+        "levels": [
+          0,
+          1,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 28,
+        "employment_mass": 0.0014562632091728294,
+        "importance_mass": 116.53999999999998,
+        "levels": [
+          0,
+          2,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 46,
+        "employment_mass": 0.0019121332130657435,
+        "importance_mass": 177.06000000000003,
+        "levels": [
+          0,
+          2,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 31,
+        "employment_mass": 0.0015603569237092477,
+        "importance_mass": 129.15,
+        "levels": [
+          0,
+          2,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.0003735493671609622,
+        "importance_mass": 33.05,
+        "levels": [
+          0,
+          2,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 43,
+        "employment_mass": 0.002087346144563695,
+        "importance_mass": 167.97000000000006,
+        "levels": [
+          0,
+          2,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 20,
+        "employment_mass": 0.0007334372335310459,
+        "importance_mass": 73.03999999999999,
+        "levels": [
+          0,
+          2,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 51,
+        "employment_mass": 0.0028416237074123133,
+        "importance_mass": 198.87999999999997,
+        "levels": [
+          0,
+          2,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 14,
+        "employment_mass": 0.0008242568952911399,
+        "importance_mass": 51.499999999999986,
+        "levels": [
+          0,
+          2,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.0001728906382683684,
+        "importance_mass": 15.08,
+        "levels": [
+          0,
+          2,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 5,
+        "employment_mass": 0.00012523338334355317,
+        "importance_mass": 15.59,
+        "levels": [
+          0,
+          2,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 14,
+        "employment_mass": 0.000464622109351552,
+        "importance_mass": 52.58,
+        "levels": [
+          0,
+          2,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 6.926483057682716e-05,
+        "importance_mass": 8.4,
+        "levels": [
+          0,
+          2,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.0003760641904113139,
+        "importance_mass": 13.0,
+        "levels": [
+          0,
+          2,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00013758311216814076,
+        "importance_mass": 21.81,
+        "levels": [
+          0,
+          2,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.0003772538070935677,
+        "importance_mass": 12.29,
+        "levels": [
+          0,
+          2,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00011576766358892012,
+        "importance_mass": 6.46,
+        "levels": [
+          0,
+          2,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 16,
+        "employment_mass": 0.0009447226201143427,
+        "importance_mass": 66.16999999999999,
+        "levels": [
+          0,
+          3,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 38,
+        "employment_mass": 0.002370752803454539,
+        "importance_mass": 143.04999999999998,
+        "levels": [
+          0,
+          3,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 15,
+        "employment_mass": 0.001362310933678707,
+        "importance_mass": 59.57,
+        "levels": [
+          0,
+          3,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 15,
+        "employment_mass": 0.0009146858394573246,
+        "importance_mass": 57.570000000000014,
+        "levels": [
+          0,
+          3,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 24,
+        "employment_mass": 0.0009951640345225062,
+        "importance_mass": 99.02000000000002,
+        "levels": [
+          0,
+          3,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.00016551651111450767,
+        "importance_mass": 17.75,
+        "levels": [
+          0,
+          3,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 20,
+        "employment_mass": 0.001156000056533052,
+        "importance_mass": 84.16000000000001,
+        "levels": [
+          0,
+          3,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.0005049421528529276,
+        "importance_mass": 33.169999999999995,
+        "levels": [
+          0,
+          3,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.0002436826262186278,
+        "importance_mass": 22.85,
+        "levels": [
+          0,
+          3,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00012330644539496633,
+        "importance_mass": 8.56,
+        "levels": [
+          0,
+          3,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 12,
+        "employment_mass": 0.0008520405265490755,
+        "importance_mass": 42.49,
+        "levels": [
+          0,
+          3,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 4,
+        "employment_mass": 9.52995386339971e-05,
+        "importance_mass": 14.46,
+        "levels": [
+          0,
+          3,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 10,
+        "employment_mass": 0.0006352531241828895,
+        "importance_mass": 34.629999999999995,
+        "levels": [
+          0,
+          3,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 8,
+        "employment_mass": 0.00026460859611265506,
+        "importance_mass": 29.36,
+        "levels": [
+          0,
+          3,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 16,
+        "employment_mass": 0.0010642048585885733,
+        "importance_mass": 65.85,
+        "levels": [
+          0,
+          3,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00020766560995690302,
+        "importance_mass": 15.819999999999999,
+        "levels": [
+          0,
+          3,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.3169811320754717e-05,
+        "importance_mass": 3.86,
+        "levels": [
+          0,
+          3,
+          4
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.000338773680819636,
+        "importance_mass": 8.6,
+        "levels": [
+          0,
+          3,
+          4
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00015433770299946528,
+        "importance_mass": 12.120000000000001,
+        "levels": [
+          0,
+          3,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.35,
+        "levels": [
+          0,
+          3,
+          4
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 3.63,
+        "levels": [
+          0,
+          4,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.074178403755869e-05,
+        "importance_mass": 3.99,
+        "levels": [
+          0,
+          4,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.074178403755869e-05,
+        "importance_mass": 3.33,
+        "levels": [
+          0,
+          4,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.6418882978723406e-05,
+        "importance_mass": 4.05,
+        "levels": [
+          0,
+          4,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 10,
+        "employment_mass": 0.0010304763901547492,
+        "importance_mass": 37.66,
+        "levels": [
+          0,
+          null,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.6418882978723406e-05,
+        "importance_mass": 3.67,
+        "levels": [
+          0,
+          null,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 24,
+        "employment_mass": 0.0011540397296177884,
+        "importance_mass": 102.74,
+        "levels": [
+          1,
+          0,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 50,
+        "employment_mass": 0.0024265634702993737,
+        "importance_mass": 210.21999999999997,
+        "levels": [
+          1,
+          0,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 24,
+        "employment_mass": 0.0011236076252985898,
+        "importance_mass": 90.87000000000002,
+        "levels": [
+          1,
+          0,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 16,
+        "employment_mass": 0.000898482139101057,
+        "importance_mass": 57.78999999999999,
+        "levels": [
+          1,
+          0,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 13,
+        "employment_mass": 0.0007889987128651574,
+        "importance_mass": 54.56,
+        "levels": [
+          1,
+          0,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 21,
+        "employment_mass": 0.0011658391716522034,
+        "importance_mass": 81.95000000000002,
+        "levels": [
+          1,
+          0,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 12,
+        "employment_mass": 0.0006877818374882209,
+        "importance_mass": 54.56,
+        "levels": [
+          1,
+          0,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.0006532988565869555,
+        "importance_mass": 33.78,
+        "levels": [
+          1,
+          0,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 4.281708369283866e-05,
+        "importance_mass": 4.79,
+        "levels": [
+          1,
+          0,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.466068866571019e-05,
+        "importance_mass": 4.57,
+        "levels": [
+          1,
+          0,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.0001254618180212452,
+        "importance_mass": 11.73,
+        "levels": [
+          1,
+          0,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 8.333508904862348e-05,
+        "importance_mass": 7.85,
+        "levels": [
+          1,
+          0,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.7801084010840108e-05,
+        "importance_mass": 4.13,
+        "levels": [
+          1,
+          0,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 80,
+        "employment_mass": 0.003539405296210447,
+        "importance_mass": 305.7000000000001,
+        "levels": [
+          1,
+          1,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 56,
+        "employment_mass": 0.0023573314668330677,
+        "importance_mass": 214.47,
+        "levels": [
+          1,
+          1,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 212,
+        "employment_mass": 0.009853846882019976,
+        "importance_mass": 851.8999999999996,
+        "levels": [
+          1,
+          1,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 39,
+        "employment_mass": 0.0016960312603362087,
+        "importance_mass": 136.74999999999997,
+        "levels": [
+          1,
+          1,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 122,
+        "employment_mass": 0.004866710719683842,
+        "importance_mass": 476.56,
+        "levels": [
+          1,
+          1,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 33,
+        "employment_mass": 0.0013448518208251574,
+        "importance_mass": 124.72,
+        "levels": [
+          1,
+          1,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1030,
+        "employment_mass": 0.04249720736668291,
+        "importance_mass": 3874.5600000000013,
+        "levels": [
+          1,
+          1,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 111,
+        "employment_mass": 0.004625702695909387,
+        "importance_mass": 387.82,
+        "levels": [
+          1,
+          1,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 14,
+        "employment_mass": 0.00038460936733286123,
+        "importance_mass": 54.46,
+        "levels": [
+          1,
+          1,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 8.340325203252033e-05,
+        "importance_mass": 10.13,
+        "levels": [
+          1,
+          1,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 176,
+        "employment_mass": 0.006871005005505054,
+        "importance_mass": 634.2399999999997,
+        "levels": [
+          1,
+          1,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 10,
+        "employment_mass": 0.00033455701955802347,
+        "importance_mass": 33.35,
+        "levels": [
+          1,
+          1,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 3,
+        "employment_mass": 8.405225130496494e-05,
+        "importance_mass": 11.93,
+        "levels": [
+          1,
+          1,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 6.001479339175206e-05,
+        "importance_mass": 12.41,
+        "levels": [
+          1,
+          1,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 23,
+        "employment_mass": 0.0009382535911834932,
+        "importance_mass": 84.82000000000001,
+        "levels": [
+          1,
+          1,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 5.5602168021680215e-05,
+        "importance_mass": 7.77,
+        "levels": [
+          1,
+          1,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 5.8813765182186236e-05,
+        "importance_mass": 4.51,
+        "levels": [
+          1,
+          1,
+          null
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.0003652343227873986,
+        "importance_mass": 10.88,
+        "levels": [
+          1,
+          1,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 9.47595856353406e-05,
+        "importance_mass": 7.42,
+        "levels": [
+          1,
+          1,
+          null
+        ],
+        "mode": null
+      },
+      {
+        "count": 15,
+        "employment_mass": 0.0005984682049099352,
+        "importance_mass": 58.01,
+        "levels": [
+          1,
+          2,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 8,
+        "employment_mass": 0.0002460547506669104,
+        "importance_mass": 33.12,
+        "levels": [
+          1,
+          2,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 35,
+        "employment_mass": 0.0019130832743013252,
+        "importance_mass": 130.19,
+        "levels": [
+          1,
+          2,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 10,
+        "employment_mass": 0.00035656720692583515,
+        "importance_mass": 34.910000000000004,
+        "levels": [
+          1,
+          2,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 87,
+        "employment_mass": 0.0033328934571127417,
+        "importance_mass": 326.37999999999994,
+        "levels": [
+          1,
+          2,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 14,
+        "employment_mass": 0.0005261144263921289,
+        "importance_mass": 56.54,
+        "levels": [
+          1,
+          2,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 561,
+        "employment_mass": 0.023766386854050407,
+        "importance_mass": 2050.259999999999,
+        "levels": [
+          1,
+          2,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 57,
+        "employment_mass": 0.0025186766220657106,
+        "importance_mass": 198.61,
+        "levels": [
+          1,
+          2,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 32,
+        "employment_mass": 0.001196166636472572,
+        "importance_mass": 118.9,
+        "levels": [
+          1,
+          2,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 8,
+        "employment_mass": 0.0002769179619364176,
+        "importance_mass": 32.74,
+        "levels": [
+          1,
+          2,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 607,
+        "employment_mass": 0.024489770528905254,
+        "importance_mass": 2290.8299999999967,
+        "levels": [
+          1,
+          2,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 30,
+        "employment_mass": 0.0010227430352598328,
+        "importance_mass": 96.69000000000003,
+        "levels": [
+          1,
+          2,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 13,
+        "employment_mass": 0.0007781617452980463,
+        "importance_mass": 50.150000000000006,
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00012766519036239106,
+        "importance_mass": 8.41,
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 129,
+        "employment_mass": 0.00544086941525744,
+        "importance_mass": 469.75000000000006,
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 5,
+        "employment_mass": 0.0002182987240498207,
+        "importance_mass": 18.82,
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.15,
+        "levels": [
+          1,
+          2,
+          4
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 3.466068866571019e-05,
+        "importance_mass": 3.12,
+        "levels": [
+          1,
+          2,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 6.621930651701602e-05,
+        "importance_mass": 9.129999999999999,
+        "levels": [
+          1,
+          2,
+          null
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.0002944124193805864,
+        "importance_mass": 25.07,
+        "levels": [
+          1,
+          2,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 8,
+        "employment_mass": 0.0006708377472693827,
+        "importance_mass": 34.41,
+        "levels": [
+          1,
+          3,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00020906231665321492,
+        "importance_mass": 24.3,
+        "levels": [
+          1,
+          3,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 12,
+        "employment_mass": 0.0006862810923599691,
+        "importance_mass": 44.64,
+        "levels": [
+          1,
+          3,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.0004210721436002382,
+        "importance_mass": 33.480000000000004,
+        "levels": [
+          1,
+          3,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 34,
+        "employment_mass": 0.0015640471817521362,
+        "importance_mass": 129.57000000000002,
+        "levels": [
+          1,
+          3,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 5,
+        "employment_mass": 0.0001368545943113554,
+        "importance_mass": 18.380000000000003,
+        "levels": [
+          1,
+          3,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 145,
+        "employment_mass": 0.006559096857330394,
+        "importance_mass": 537.8100000000001,
+        "levels": [
+          1,
+          3,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 37,
+        "employment_mass": 0.0014759135671229232,
+        "importance_mass": 137.7,
+        "levels": [
+          1,
+          3,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 29,
+        "employment_mass": 0.0013377798689014119,
+        "importance_mass": 109.52999999999997,
+        "levels": [
+          1,
+          3,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 5,
+        "employment_mass": 0.00010421856433382136,
+        "importance_mass": 20.27,
+        "levels": [
+          1,
+          3,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 288,
+        "employment_mass": 0.012197716654209738,
+        "importance_mass": 1046.209999999999,
+        "levels": [
+          1,
+          3,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 39,
+        "employment_mass": 0.0012922094634054801,
+        "importance_mass": 132.64999999999995,
+        "levels": [
+          1,
+          3,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 24,
+        "employment_mass": 0.0008568106344048174,
+        "importance_mass": 96.56999999999998,
+        "levels": [
+          1,
+          3,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 5,
+        "employment_mass": 0.00012080729363514458,
+        "importance_mass": 16.59,
+        "levels": [
+          1,
+          3,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 205,
+        "employment_mass": 0.00861921964902862,
+        "importance_mass": 699.0800000000002,
+        "levels": [
+          1,
+          3,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 18,
+        "employment_mass": 0.0008470198747388833,
+        "importance_mass": 63.52,
+        "levels": [
+          1,
+          3,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 4.6689393939393936e-05,
+        "importance_mass": 4.27,
+        "levels": [
+          1,
+          3,
+          4
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 9.831442768142632e-05,
+        "importance_mass": 11.95,
+        "levels": [
+          1,
+          3,
+          4
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 14,
+        "employment_mass": 0.0007848181124169921,
+        "importance_mass": 47.07,
+        "levels": [
+          1,
+          3,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 4.4219966989563514e-05,
+        "importance_mass": 8.39,
+        "levels": [
+          1,
+          3,
+          4
+        ],
+        "mode": null
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00030723947504973523,
+        "importance_mass": 19.81,
+        "levels": [
+          1,
+          3,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 5.8813765182186236e-05,
+        "importance_mass": 4.01,
+        "levels": [
+          1,
+          4,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 9.986410635155096e-05,
+        "importance_mass": 3.99,
+        "levels": [
+          1,
+          4,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00010568822629969419,
+        "importance_mass": 8.0,
+        "levels": [
+          1,
+          4,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.6418882978723406e-05,
+        "importance_mass": 3.38,
+        "levels": [
+          1,
+          4,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00034031426197976816,
+        "importance_mass": 24.47,
+        "levels": [
+          1,
+          4,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.00038479942668133665,
+        "importance_mass": 29.810000000000002,
+        "levels": [
+          1,
+          4,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.00021587676976874283,
+        "importance_mass": 27.759999999999998,
+        "levels": [
+          1,
+          4,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 0.0,
+        "importance_mass": 0.0,
+        "levels": [
+          1,
+          4,
+          4
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 5.8813765182186236e-05,
+        "importance_mass": 3.16,
+        "levels": [
+          1,
+          null,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.466068866571019e-05,
+        "importance_mass": 3.53,
+        "levels": [
+          1,
+          null,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.769105691056911e-05,
+        "importance_mass": 3.54,
+        "levels": [
+          1,
+          null,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 4.281708369283866e-05,
+        "importance_mass": 3.43,
+        "levels": [
+          2,
+          0,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 20,
+        "employment_mass": 0.0007032267622874007,
+        "importance_mass": 89.47000000000001,
+        "levels": [
+          2,
+          0,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 15,
+        "employment_mass": 0.000661655676377891,
+        "importance_mass": 63.529999999999994,
+        "levels": [
+          2,
+          0,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.7801084010840108e-05,
+        "importance_mass": 3.65,
+        "levels": [
+          2,
+          0,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 5,
+        "employment_mass": 0.00016223654794412777,
+        "importance_mass": 18.89,
+        "levels": [
+          2,
+          0,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.0001958869698067464,
+        "importance_mass": 29.699999999999996,
+        "levels": [
+          2,
+          0,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 4.326969292389853e-05,
+        "importance_mass": 3.6,
+        "levels": [
+          2,
+          0,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 4,
+        "employment_mass": 9.434926456833211e-05,
+        "importance_mass": 12.57,
+        "levels": [
+          2,
+          0,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 5.5534005037783376e-05,
+        "importance_mass": 4.28,
+        "levels": [
+          2,
+          0,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.691063829787234e-05,
+        "importance_mass": 3.96,
+        "levels": [
+          2,
+          0,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 0.0,
+        "importance_mass": 4.41,
+        "levels": [
+          2,
+          0,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.8779625779625778e-05,
+        "importance_mass": 3.76,
+        "levels": [
+          2,
+          0,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 6.695881595881595e-05,
+        "importance_mass": 4.26,
+        "levels": [
+          2,
+          0,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.3434083601286174e-05,
+        "importance_mass": 4.25,
+        "levels": [
+          2,
+          0,
+          null
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00032215426543502434,
+        "importance_mass": 25.61,
+        "levels": [
+          2,
+          1,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 10,
+        "employment_mass": 0.00046178843495145287,
+        "importance_mass": 41.38000000000001,
+        "levels": [
+          2,
+          1,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 14,
+        "employment_mass": 0.0005938739795159677,
+        "importance_mass": 61.16,
+        "levels": [
+          2,
+          1,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 6.9727721990711e-05,
+        "importance_mass": 12.37,
+        "levels": [
+          2,
+          1,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.0002835335258817458,
+        "importance_mass": 24.240000000000002,
+        "levels": [
+          2,
+          1,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.0005022916795011462,
+        "importance_mass": 28.54,
+        "levels": [
+          2,
+          1,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 70,
+        "employment_mass": 0.0031288324962233465,
+        "importance_mass": 276.1,
+        "levels": [
+          2,
+          1,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.00023123987143327008,
+        "importance_mass": 26.21,
+        "levels": [
+          2,
+          1,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 3,
+        "employment_mass": 5.42488308948286e-05,
+        "importance_mass": 11.07,
+        "levels": [
+          2,
+          1,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00013178315000797068,
+        "importance_mass": 14.639999999999999,
+        "levels": [
+          2,
+          1,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 45,
+        "employment_mass": 0.0017330094326239295,
+        "importance_mass": 182.91,
+        "levels": [
+          2,
+          1,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 4,
+        "employment_mass": 9.982213501124373e-05,
+        "importance_mass": 15.43,
+        "levels": [
+          2,
+          1,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 7.438224637681159e-05,
+        "importance_mass": 4.44,
+        "levels": [
+          2,
+          1,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.34,
+        "levels": [
+          2,
+          1,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 13,
+        "employment_mass": 0.00043569413903969255,
+        "importance_mass": 55.07000000000001,
+        "levels": [
+          2,
+          1,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.466068866571019e-05,
+        "importance_mass": 4.72,
+        "levels": [
+          2,
+          1,
+          4
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.6418882978723406e-05,
+        "importance_mass": 4.46,
+        "levels": [
+          2,
+          1,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.00025590842697658094,
+        "importance_mass": 28.54,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 8,
+        "employment_mass": 0.0003050361282832141,
+        "importance_mass": 29.31,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 22,
+        "employment_mass": 0.0012758994872451156,
+        "importance_mass": 92.0,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00012437361451765404,
+        "importance_mass": 12.07,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 13,
+        "employment_mass": 0.0004919546718607327,
+        "importance_mass": 50.9,
+        "levels": [
+          2,
+          2,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00027418787635487756,
+        "importance_mass": 12.21,
+        "levels": [
+          2,
+          2,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 145,
+        "employment_mass": 0.005633480247471811,
+        "importance_mass": 564.67,
+        "levels": [
+          2,
+          2,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 19,
+        "employment_mass": 0.0008615010839744091,
+        "importance_mass": 66.99,
+        "levels": [
+          2,
+          2,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 24,
+        "employment_mass": 0.000798163948526875,
+        "importance_mass": 98.65000000000003,
+        "levels": [
+          2,
+          2,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 8.817359659310879e-05,
+        "importance_mass": 12.16,
+        "levels": [
+          2,
+          2,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 524,
+        "employment_mass": 0.021008503005319156,
+        "importance_mass": 1938.5699999999997,
+        "levels": [
+          2,
+          2,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 17,
+        "employment_mass": 0.00045799224503209683,
+        "importance_mass": 59.74,
+        "levels": [
+          2,
+          2,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 10,
+        "employment_mass": 0.0003400982677260705,
+        "importance_mass": 37.07,
+        "levels": [
+          2,
+          2,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 2,
+        "employment_mass": 6.932137733142038e-05,
+        "importance_mass": 9.29,
+        "levels": [
+          2,
+          2,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 275,
+        "employment_mass": 0.010700080179204574,
+        "importance_mass": 1009.7200000000004,
+        "levels": [
+          2,
+          2,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 8,
+        "employment_mass": 0.0005156553585488788,
+        "importance_mass": 25.500000000000004,
+        "levels": [
+          2,
+          2,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.0002886461744439799,
+        "importance_mass": 29.550000000000004,
+        "levels": [
+          2,
+          2,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.79,
+        "levels": [
+          2,
+          2,
+          null
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 2,
+        "employment_mass": 7.747777235854884e-05,
+        "importance_mass": 9.14,
+        "levels": [
+          2,
+          2,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00012127553785873653,
+        "importance_mass": 12.399999999999999,
+        "levels": [
+          2,
+          3,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.0002420675681069701,
+        "importance_mass": 16.52,
+        "levels": [
+          2,
+          3,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 19,
+        "employment_mass": 0.0008754667336618257,
+        "importance_mass": 79.43999999999998,
+        "levels": [
+          2,
+          3,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.0001420867982965544,
+        "importance_mass": 6.869999999999999,
+        "levels": [
+          2,
+          3,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.000370891371126941,
+        "importance_mass": 36.34,
+        "levels": [
+          2,
+          3,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 2,
+        "employment_mass": 5.471172230871245e-05,
+        "importance_mass": 9.04,
+        "levels": [
+          2,
+          3,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 86,
+        "employment_mass": 0.004175837753898277,
+        "importance_mass": 330.5399999999999,
+        "levels": [
+          2,
+          3,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 19,
+        "employment_mass": 0.0006827308409817059,
+        "importance_mass": 68.64,
+        "levels": [
+          2,
+          3,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 18,
+        "employment_mass": 0.0008532073455705002,
+        "importance_mass": 69.18,
+        "levels": [
+          2,
+          3,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00012276612227492213,
+        "importance_mass": 12.14,
+        "levels": [
+          2,
+          3,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 618,
+        "employment_mass": 0.02551075846436226,
+        "importance_mass": 2228.9000000000015,
+        "levels": [
+          2,
+          3,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 15,
+        "employment_mass": 0.000816432905559096,
+        "importance_mass": 52.86,
+        "levels": [
+          2,
+          3,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 18,
+        "employment_mass": 0.0008933639606939009,
+        "importance_mass": 67.74000000000001,
+        "levels": [
+          2,
+          3,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.0001823118085141188,
+        "importance_mass": 18.08,
+        "levels": [
+          2,
+          3,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1086,
+        "employment_mass": 0.04469389887354295,
+        "importance_mass": 3803.060000000001,
+        "levels": [
+          2,
+          3,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 23,
+        "employment_mass": 0.001077168504268002,
+        "importance_mass": 80.07,
+        "levels": [
+          2,
+          3,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.0005317391437723553,
+        "importance_mass": 24.660000000000004,
+        "levels": [
+          2,
+          3,
+          4
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 188,
+        "employment_mass": 0.007464691845486465,
+        "importance_mass": 675.5900000000005,
+        "levels": [
+          2,
+          3,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.6447746883988493e-05,
+        "importance_mass": 3.09,
+        "levels": [
+          2,
+          3,
+          4
+        ],
+        "mode": null
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.00020634896300492962,
+        "importance_mass": 27.23,
+        "levels": [
+          2,
+          3,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.38,
+        "levels": [
+          2,
+          4,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 17,
+        "employment_mass": 0.0006142399779067456,
+        "importance_mass": 63.809999999999995,
+        "levels": [
+          2,
+          4,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00011123114573968634,
+        "importance_mass": 9.33,
+        "levels": [
+          2,
+          4,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 83,
+        "employment_mass": 0.0031862247213870665,
+        "importance_mass": 286.18999999999994,
+        "levels": [
+          2,
+          4,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.0001863250599239724,
+        "importance_mass": 10.25,
+        "levels": [
+          2,
+          4,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 18,
+        "employment_mass": 0.0005929060638371282,
+        "importance_mass": 67.76000000000002,
+        "levels": [
+          2,
+          4,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00010873375035950532,
+        "importance_mass": 8.3,
+        "levels": [
+          2,
+          4,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.611320754716981e-05,
+        "importance_mass": 4.49,
+        "levels": [
+          2,
+          null,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 14,
+        "employment_mass": 0.000973283981247348,
+        "importance_mass": 59.959999999999994,
+        "levels": [
+          3,
+          0,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 0.0,
+        "importance_mass": 4.52,
+        "levels": [
+          3,
+          0,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 0.0,
+        "importance_mass": 0.0,
+        "levels": [
+          3,
+          0,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00012786477029836323,
+        "importance_mass": 8.61,
+        "levels": [
+          3,
+          0,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 3,
+        "employment_mass": 7.113060528743585e-05,
+        "importance_mass": 12.09,
+        "levels": [
+          3,
+          0,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 0.0002389095744680851,
+        "importance_mass": 3.89,
+        "levels": [
+          3,
+          0,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.0002979398168755186,
+        "importance_mass": 19.549999999999997,
+        "levels": [
+          3,
+          1,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00014489038698021936,
+        "importance_mass": 12.41,
+        "levels": [
+          3,
+          1,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 4.281708369283866e-05,
+        "importance_mass": 2.61,
+        "levels": [
+          3,
+          1,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00015692140981718447,
+        "importance_mass": 17.68,
+        "levels": [
+          3,
+          1,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00046479949662725105,
+        "importance_mass": 24.8,
+        "levels": [
+          3,
+          1,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.466068866571019e-05,
+        "importance_mass": 3.83,
+        "levels": [
+          3,
+          1,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 2,
+        "employment_mass": 7.263776350461133e-05,
+        "importance_mass": 7.37,
+        "levels": [
+          3,
+          1,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.00031043687377889096,
+        "importance_mass": 29.729999999999997,
+        "levels": [
+          3,
+          1,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 2.912623171870138e-05,
+        "importance_mass": 11.42,
+        "levels": [
+          3,
+          1,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.527830188679246e-05,
+        "importance_mass": 4.1,
+        "levels": [
+          3,
+          1,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.0002911894227407912,
+        "importance_mass": 29.93,
+        "levels": [
+          3,
+          1,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.6418882978723406e-05,
+        "importance_mass": 3.03,
+        "levels": [
+          3,
+          1,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 0.0001142857142857143,
+        "importance_mass": 4.17,
+        "levels": [
+          3,
+          1,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.0005392529182879377,
+        "importance_mass": 9.18,
+        "levels": [
+          3,
+          2,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.0002523207978799778,
+        "importance_mass": 16.47,
+        "levels": [
+          3,
+          2,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 3.38,
+        "levels": [
+          3,
+          2,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.594836956521739e-05,
+        "importance_mass": 4.61,
+        "levels": [
+          3,
+          2,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 17,
+        "employment_mass": 0.0006616918295469526,
+        "importance_mass": 62.209999999999994,
+        "levels": [
+          3,
+          2,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 5.2532090525893217e-05,
+        "importance_mass": 8.059999999999999,
+        "levels": [
+          3,
+          2,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 30,
+        "employment_mass": 0.0016599418521490964,
+        "importance_mass": 103.49,
+        "levels": [
+          3,
+          2,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00011628298933027436,
+        "importance_mass": 7.02,
+        "levels": [
+          3,
+          2,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 4.281708369283866e-05,
+        "importance_mass": 3.29,
+        "levels": [
+          3,
+          2,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 2,
+        "employment_mass": 5.828231028733181e-05,
+        "importance_mass": 9.05,
+        "levels": [
+          3,
+          2,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 46,
+        "employment_mass": 0.001950784135532392,
+        "importance_mass": 178.43000000000004,
+        "levels": [
+          3,
+          2,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 8,
+        "employment_mass": 0.0006015057824522809,
+        "importance_mass": 33.93,
+        "levels": [
+          3,
+          2,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00027206079612564546,
+        "importance_mass": 23.72,
+        "levels": [
+          3,
+          3,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.0011589104936738067,
+        "importance_mass": 33.75999999999999,
+        "levels": [
+          3,
+          3,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.3621621621621622e-05,
+        "importance_mass": 3.12,
+        "levels": [
+          3,
+          3,
+          0
+        ],
+        "mode": null
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00011854608368294875,
+        "importance_mass": 16.349999999999998,
+        "levels": [
+          3,
+          3,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00036020689672440644,
+        "importance_mass": 12.77,
+        "levels": [
+          3,
+          3,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 24,
+        "employment_mass": 0.0015837277118259192,
+        "importance_mass": 89.65,
+        "levels": [
+          3,
+          3,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00024193574300412405,
+        "importance_mass": 15.59,
+        "levels": [
+          3,
+          3,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.00035054463234084104,
+        "importance_mass": 37.5,
+        "levels": [
+          3,
+          3,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 2,
+        "employment_mass": 8.660319060821214e-05,
+        "importance_mass": 6.76,
+        "levels": [
+          3,
+          3,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 138,
+        "employment_mass": 0.0071708273150972585,
+        "importance_mass": 525.1200000000001,
+        "levels": [
+          3,
+          3,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.0003341747232461591,
+        "importance_mass": 26.04,
+        "levels": [
+          3,
+          3,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 19,
+        "employment_mass": 0.0011109187422388075,
+        "importance_mass": 75.97,
+        "levels": [
+          3,
+          3,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 5,
+        "employment_mass": 0.00040815245140110986,
+        "importance_mass": 21.509999999999998,
+        "levels": [
+          3,
+          3,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 608,
+        "employment_mass": 0.027677080419825518,
+        "importance_mass": 2209.7700000000045,
+        "levels": [
+          3,
+          3,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 13,
+        "employment_mass": 0.0005701816933687205,
+        "importance_mass": 48.49000000000001,
+        "levels": [
+          3,
+          3,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00010813294455425287,
+        "importance_mass": 12.489999999999998,
+        "levels": [
+          3,
+          3,
+          4
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00018617758800182186,
+        "importance_mass": 13.02,
+        "levels": [
+          3,
+          3,
+          4
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 176,
+        "employment_mass": 0.010606270642519903,
+        "importance_mass": 639.6200000000005,
+        "levels": [
+          3,
+          3,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00010903639020985468,
+        "importance_mass": 10.14,
+        "levels": [
+          3,
+          3,
+          4
+        ],
+        "mode": null
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00020088504421490085,
+        "importance_mass": 14.639999999999999,
+        "levels": [
+          3,
+          3,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.0008486509370649341,
+        "importance_mass": 17.15,
+        "levels": [
+          3,
+          4,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 9.986410635155096e-05,
+        "importance_mass": 4.05,
+        "levels": [
+          3,
+          4,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 2,
+        "employment_mass": 7.05133436705862e-05,
+        "importance_mass": 8.37,
+        "levels": [
+          3,
+          4,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 70,
+        "employment_mass": 0.00283070597054447,
+        "importance_mass": 240.99000000000007,
+        "levels": [
+          3,
+          4,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 0.0,
+        "importance_mass": 0.0,
+        "levels": [
+          3,
+          4,
+          3
+        ],
+        "mode": null
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00013963566598457848,
+        "importance_mass": 8.030000000000001,
+        "levels": [
+          3,
+          4,
+          4
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 43,
+        "employment_mass": 0.0021984383248500514,
+        "importance_mass": 148.97,
+        "levels": [
+          3,
+          4,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 6.126458358775108e-05,
+        "importance_mass": 12.219999999999999,
+        "levels": [
+          3,
+          4,
+          null
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 4.326969292389853e-05,
+        "importance_mass": 4.18,
+        "levels": [
+          3,
+          null,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.691063829787234e-05,
+        "importance_mass": 3.97,
+        "levels": [
+          4,
+          1,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.79,
+        "levels": [
+          4,
+          2,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00029510001707983604,
+        "importance_mass": 12.59,
+        "levels": [
+          4,
+          2,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.3621621621621622e-05,
+        "importance_mass": 4.74,
+        "levels": [
+          4,
+          2,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.16,
+        "levels": [
+          4,
+          3,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00013877167198945948,
+        "importance_mass": 13.049999999999999,
+        "levels": [
+          4,
+          3,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 8.048936170212766e-05,
+        "importance_mass": 4.54,
+        "levels": [
+          4,
+          3,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 0.0,
+        "importance_mass": 0.0,
+        "levels": [
+          4,
+          3,
+          2
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.6418882978723406e-05,
+        "importance_mass": 3.62,
+        "levels": [
+          4,
+          3,
+          3
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 9.596200224477845e-05,
+        "importance_mass": 12.66,
+        "levels": [
+          4,
+          3,
+          3
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 38,
+        "employment_mass": 0.0015904841548548614,
+        "importance_mass": 149.02000000000004,
+        "levels": [
+          4,
+          3,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 6.621930651701602e-05,
+        "importance_mass": 7.92,
+        "levels": [
+          4,
+          3,
+          4
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 1.6418882978723406e-05,
+        "importance_mass": 4.54,
+        "levels": [
+          4,
+          3,
+          4
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 43,
+        "employment_mass": 0.0020210068610994197,
+        "importance_mass": 165.4,
+        "levels": [
+          4,
+          3,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 5,
+        "employment_mass": 0.00017740922303310222,
+        "importance_mass": 19.880000000000003,
+        "levels": [
+          4,
+          4,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 8,
+        "employment_mass": 0.00022670800999675998,
+        "importance_mass": 26.339999999999996,
+        "levels": [
+          4,
+          4,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 54,
+        "employment_mass": 0.0026746315485353766,
+        "importance_mass": 221.48000000000005,
+        "levels": [
+          null,
+          0,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.7801084010840108e-05,
+        "importance_mass": 2.75,
+        "levels": [
+          null,
+          0,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 4.326969292389853e-05,
+        "importance_mass": 4.27,
+        "levels": [
+          null,
+          0,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.7801084010840108e-05,
+        "importance_mass": 4.42,
+        "levels": [
+          null,
+          0,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.7801084010840108e-05,
+        "importance_mass": 3.76,
+        "levels": [
+          null,
+          0,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 2,
+        "employment_mass": 6.876545325805604e-05,
+        "importance_mass": 7.359999999999999,
+        "levels": [
+          null,
+          1,
+          0
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00013891170397532272,
+        "importance_mass": 12.59,
+        "levels": [
+          null,
+          1,
+          0
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00023886976366007594,
+        "importance_mass": 23.810000000000002,
+        "levels": [
+          null,
+          1,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.00032263504144660205,
+        "importance_mass": 15.700000000000001,
+        "levels": [
+          null,
+          1,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 8.048936170212766e-05,
+        "importance_mass": 3.58,
+        "levels": [
+          null,
+          1,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 13,
+        "employment_mass": 0.0009413165393704913,
+        "importance_mass": 47.160000000000004,
+        "levels": [
+          null,
+          1,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 6.926483057682716e-05,
+        "importance_mass": 7.5600000000000005,
+        "levels": [
+          null,
+          1,
+          1
+        ],
+        "mode": null
+      },
+      {
+        "count": 1,
+        "employment_mass": 7.438224637681159e-05,
+        "importance_mass": 3.28,
+        "levels": [
+          null,
+          1,
+          2
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00022629559999462316,
+        "importance_mass": 23.869999999999997,
+        "levels": [
+          null,
+          1,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 3,
+        "employment_mass": 0.00013927687876959824,
+        "importance_mass": 13.149999999999999,
+        "levels": [
+          null,
+          1,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 2.7801084010840108e-05,
+        "importance_mass": 3.87,
+        "levels": [
+          null,
+          2,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 1,
+        "employment_mass": 8.048936170212766e-05,
+        "importance_mass": 3.14,
+        "levels": [
+          null,
+          2,
+          1
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 8,
+        "employment_mass": 0.0004485321032461518,
+        "importance_mass": 30.89,
+        "levels": [
+          null,
+          2,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.32,
+        "levels": [
+          null,
+          2,
+          2
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 9,
+        "employment_mass": 0.0003345776097815571,
+        "importance_mass": 35.22,
+        "levels": [
+          null,
+          2,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 4,
+        "employment_mass": 0.0001503617536570208,
+        "importance_mass": 14.46,
+        "levels": [
+          null,
+          2,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.466068866571019e-05,
+        "importance_mass": 3.66,
+        "levels": [
+          null,
+          3,
+          0
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.04,
+        "levels": [
+          null,
+          3,
+          1
+        ],
+        "mode": "mixed"
+      },
+      {
+        "count": 2,
+        "employment_mass": 0.00013602336673991104,
+        "importance_mass": 7.31,
+        "levels": [
+          null,
+          3,
+          1
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 6,
+        "employment_mass": 0.00033357540204631883,
+        "importance_mass": 18.52,
+        "levels": [
+          null,
+          3,
+          2
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 17,
+        "employment_mass": 0.000714746420345704,
+        "importance_mass": 59.309999999999995,
+        "levels": [
+          null,
+          3,
+          3
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 1,
+        "employment_mass": 3.9771559633027524e-05,
+        "importance_mass": 4.48,
+        "levels": [
+          null,
+          3,
+          4
+        ],
+        "mode": "physical"
+      },
+      {
+        "count": 7,
+        "employment_mass": 0.00027682568243700623,
+        "importance_mass": 27.19,
+        "levels": [
+          null,
+          3,
+          4
+        ],
+        "mode": "screen"
+      },
+      {
+        "count": 2,
+        "employment_mass": 1.3169811320754717e-05,
+        "importance_mass": 3.63,
+        "levels": [
+          null,
+          4,
+          3
+        ],
+        "mode": "screen"
+      }
+    ],
+    "cohort": "final 2026-08-12 work-mode partition; additive replay, not the unfrozen work-mode checkpoint of the historical 108-grid",
+    "complete_rater_activities": 18539,
+    "raters": [
+      "deepseek-v4-pro",
+      "gemini-3.5-flash-lite",
+      "minimax-m3"
+    ],
+    "scored_activities": 18796,
+    "selection": {
+      "deepseek-v4-pro": {
+        "latest_unique_activities": 18636,
+        "rows": 18636,
+        "superseded_rows": 0
+      },
+      "gemini-3.5-flash-lite": {
+        "latest_unique_activities": 18780,
+        "rows": 18780,
+        "superseded_rows": 0
+      },
+      "minimax-m3": {
+        "latest_unique_activities": 18715,
+        "rows": 18715,
+        "superseded_rows": 0
+      }
+    },
+    "weight_rule": "one vote or O*NET importance or group employment mass; groups divide their share across distinct linked activities; missing weights contribute zero; none measures task time",
+    "work_mode_authority": "abbcb8ebe082548c86766ac0038b5c6f8af83c7ec2a38b6b1b03443d0b1081cf"
+  },
+  "source_receipts": [
+    {
+      "bytes": 10542143,
+      "path": "data/scoring/full/deepseek-v4-pro.jsonl",
+      "sha256": "7ad98d7b29822f4445ea10e38699349c2677c5d59d1f7a4488cd53be1ed59d8e"
+    },
+    {
+      "bytes": 10835522,
+      "path": "data/scoring/full/gemini-3.5-flash-lite.jsonl",
+      "sha256": "953e0eb1e0073372913fb21776f50b1ed4d096a8eed659418b7e9d0dc150390b"
+    },
+    {
+      "bytes": 10985704,
+      "path": "data/scoring/full/minimax-m3.jsonl",
+      "sha256": "e684aed5b4a607887c7f4d61fda648f84d4e5052c89ca13914490133dc02bc16"
+    },
+    {
+      "bytes": 5324576,
+      "path": "data/scoring/full/sample.jsonl",
+      "sha256": "68efa40118e3c2b3a957e2c3a428c3aaee49a00041d5d1c59cc705bbf15637fc"
+    },
+    {
+      "bytes": 8313735,
+      "path": "data/work_mode/work_mode_final_2026-08-12.json",
+      "sha256": "3c79b4bf6e2f3141d512505511774b9b8c93d744293d62f9dfb67ecd4b5a21c4"
+    },
+    {
+      "bytes": 170206,
+      "path": "data/ru/onet_to_okz2.csv",
+      "sha256": "494ce0b0d8ca5cec6c090fff58d285fd3dba3aab4c300f58b5c6544dff65978a"
+    },
+    {
+      "bytes": 629855,
+      "path": "data/benchmark_relevance/layer_two_freeze.json",
+      "sha256": "bfc797d06de65e36dc48e11e2458db60d6cb3ad7567cae13ca4793d0ed31e5b2"
+    },
+    {
+      "bytes": 90948,
+      "path": "benchmark/support_backoffice/v1/fixtures/expected_outputs.jsonl",
+      "sha256": "ec5f52c069c092b89b064a062f45ec81d0ad78692cf0c9e2087a77447535e058"
+    },
+    {
+      "bytes": 22922,
+      "path": "scripts/semantic_match.py",
+      "sha256": "9f52e5650d6f834d3ce093144f65332f60d65ae2f3c8d23e7545fb9a11fe1b9a"
+    },
+    {
+      "bytes": 89348,
+      "path": "data/trials/TRIALS_bare_deepseek-v4-pro.jsonl",
+      "sha256": "3eed83a3cfce4c0190b1e242a6b2c43b9a92b9abbc5eaf655043e469a527d283"
+    },
+    {
+      "bytes": 90366,
+      "path": "data/trials/TRIALS_bare_schema_deepseek-v4-pro.jsonl",
+      "sha256": "f1b62463e65441d53429ea55bc24b6d16624e2d725bbd27ab9cd72ac052d50a4"
+    },
+    {
+      "bytes": 88445,
+      "path": "data/trials/TRIALS_bare_no_example_deepseek-v4-pro.jsonl",
+      "sha256": "20a350aee78e468947355320f9fad68f6eccb61c3ccbd92d9abc538cbc4fcf45"
+    }
+  ]
+}

@@ -1,3 +1,11 @@
+---
+creator: codex
+purpose: Record authority and evidence boundaries for the clean public research release.
+why: Distinguish current publication permission from historical scientific stop states.
+version: 2026-09-06.1
+updated: 2026-09-06
+---
+
 # Public release decision
 
 Decision: **PUBLICATION_READY**.
@@ -7,6 +15,12 @@ Founder choices recorded on 2026-08-12:
 - Apache-2.0 for original code and documentation;
 - separate public repository `dilp79/alljobs-agent-work-research`;
 - laboratory working records remain in the private source history.
+
+On 2026-09-06 the founder authorized the supplementary analytical publication and the
+subsequent bounded experimental program. This snapshot adds the technical note,
+original aggregate inputs, per-mission outcomes, three figures and an actual analytical
+replay. Its exact source revision and files are bound by `release-manifest.json`.
+Publication of the note does not imply completion of a new live experiment.
 
 The public release is an additive clean snapshot, not a publication of the private repository. Its
 manifest binds the exact source commit and every emitted file. WEF and WORKBank raw data, raw model

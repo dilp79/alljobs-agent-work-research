@@ -1,6 +1,6 @@
 {
   "claim_ceiling": "clean research release; evidence tiers and historical report qualifiers unchanged; no production, customer-ROI, workforce-share or job-automation claim",
-  "file_count": 232,
+  "file_count": 247,
   "files": [
     {
       "bytes": 168,
@@ -13,19 +13,19 @@
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     },
     {
-      "bytes": 997,
+      "bytes": 1653,
       "path": "PUBLIC_RELEASE.md",
-      "sha256": "2c7328359eef28f3e3c34c240c6ca36919e8475d0f889b7a6e558019c66a2f2b"
+      "sha256": "8993589f8c1662f70ee218b8ae5c3baecbb5e180356ce13668a3c80cd25369e5"
     },
     {
-      "bytes": 3735,
+      "bytes": 5326,
       "path": "README.md",
-      "sha256": "bda1a063cd003d2b30752f111656bf7932a5ad88175bc9782313978353c2c54a"
+      "sha256": "13711db2aa39023ece6b47fd12d4331aa837de93ee9474eba6ab49245418319f"
     },
     {
-      "bytes": 1437,
+      "bytes": 2066,
       "path": "THIRD_PARTY_DATA.md",
-      "sha256": "bfe8595c146039392a17ca729521ea7dcd6e7cb6c01ae064106b98c8bf3d695a"
+      "sha256": "2f3d7ec50760cf381373dd271b410b47b8ccae47c04d839395ae2fea0e8cb892"
     },
     {
       "bytes": 5608,
@@ -63,9 +63,9 @@
       "sha256": "c0278817090b43d4b656596a7143d8559c7fe121093938e24126c311c4ac4c1a"
     },
     {
-      "bytes": 2954,
+      "bytes": 4100,
       "path": "docs/contracts/public-release-v1.md",
-      "sha256": "c9213b69061cf7bdf5fab665e528c03d38dc5ec9eda9ddb84faf2d3011076306"
+      "sha256": "fb31b7f0f122af8e2c7b61ebd019159a2af340bca12e36dbf326c9b4bd2b48fc"
     },
     {
       "bytes": 5679,
@@ -73,9 +73,9 @@
       "sha256": "0af786d7aeee85b30bec87ba1b23f8a4622dda0d411197cd3aee00966b55bd49"
     },
     {
-      "bytes": 23688,
+      "bytes": 24146,
       "path": "docs/reports/2026-08-12-business-outcome-RU.md",
-      "sha256": "68d6e3ab83bf26f01864e6f964bd06ef7512e27e40fc72205b45524e1cf18f00"
+      "sha256": "b7d2511d0966fdf9cf45febb1a803c865f74a798d937f771e40b62b34acffd0c"
     },
     {
       "bytes": 5845,
@@ -88,9 +88,14 @@
       "sha256": "a8164cbde2d866d5cdef98f44f8b9b0de06f109c02e4be5158625fb9de278886"
     },
     {
-      "bytes": 5,
+      "bytes": 17664,
+      "path": "docs/reports/research-note_06--092026_19-13.md",
+      "sha256": "9759fb20fc98e59abb8c8bb4b74edc8af83fb84eb0a37c93fe45d35766cf31f9"
+    },
+    {
+      "bytes": 7,
       "path": "workforce-graph/.python-version",
-      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+      "sha256": "922fe0c3de073b01988e23348ea184456161678c5e329e6f34be89be24383f93"
     },
     {
       "bytes": 2278,
@@ -963,6 +968,66 @@
       "sha256": "c360d21ed319b6f3ad2d6d891ab222dc516aa8563cd5d4a01f9754c73c4329db"
     },
     {
+      "bytes": 150202,
+      "path": "workforce-graph/data/publication_2026_09_06/replay_inputs.json",
+      "sha256": "4749b17da75df1f7c8bc379ec9f8bcbed9e8bf8d2f855a3e8f57c18dc88487d5"
+    },
+    {
+      "bytes": 16596,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/definition_sensitivity.csv",
+      "sha256": "3c202f8a2cac86f4931d5e85cac494d5951ff9482ed940bce7700e2261bfb7a5"
+    },
+    {
+      "bytes": 125465,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/figure_1_definition_sensitivity.png",
+      "sha256": "43a479ff5f716e9c812d1b45429c254a74cb2f346cdd0b9d969721847a7d67f7"
+    },
+    {
+      "bytes": 26950,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/figure_1_definition_sensitivity.svg",
+      "sha256": "732f6d8c76bd627a24f37f47f2d10d6db1dc54321069e06b6203adef9e15c832"
+    },
+    {
+      "bytes": 82196,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/figure_2_scaffold_checkers.png",
+      "sha256": "a2695276db3dcf349538056e061b1e3e40b8cddf2778a19b7f7aa02a49422910"
+    },
+    {
+      "bytes": 11764,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/figure_2_scaffold_checkers.svg",
+      "sha256": "cb521d6a26272a7c3cedebc82797ccf831a4b8bb3fcaf168d8d55fb3c61e54c9"
+    },
+    {
+      "bytes": 135824,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/figure_3_v3_prediction.png",
+      "sha256": "f892aec39ab34e562611095a5777c7734e94ac663aaa62fd8eb815eaee272a2a"
+    },
+    {
+      "bytes": 21514,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/figure_3_v3_prediction.svg",
+      "sha256": "f0bc04b8cdee72b50bcdda2fad43b5f5e5127e8f7adf9ec2592497960a44438e"
+    },
+    {
+      "bytes": 5107,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/results.json",
+      "sha256": "638c92f0601daa3b861399ea9dff825fb441c0ed8ca451798be44c7f0a646abd"
+    },
+    {
+      "bytes": 865,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/scaffold_checkers.csv",
+      "sha256": "3a1e8b47bc2cace8373d38565358c62cc72a04fd6d86e18ea245a78d2c482a49"
+    },
+    {
+      "bytes": 292,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/v3_categories.csv",
+      "sha256": "6edb9bcfc7d18c12c99633970b4536a41be0c807ec58cf8e6317d913be255a89"
+    },
+    {
+      "bytes": 8061,
+      "path": "workforce-graph/data/publication_2026_09_06/reproduced/v3_missions.csv",
+      "sha256": "781c43ce01d01d63258126475935ea212a510e553da8815720f0a395e503f7b5"
+    },
+    {
       "bytes": 6936,
       "path": "workforce-graph/data/ru/employment_by_okz2.csv",
       "sha256": "9c3a38fef192e96f6a8599119cc8949a940cfd07083a050733b2beb3916b2627"
@@ -1003,9 +1068,9 @@
       "sha256": "3c79b4bf6e2f3141d512505511774b9b8c93d744293d62f9dfb67ecd4b5a21c4"
     },
     {
-      "bytes": 957,
+      "bytes": 1075,
       "path": "workforce-graph/pyproject.toml",
-      "sha256": "b6d074dc438eb928b9ec69fef3107179f891499679fb9bae65d4accd4cc56884"
+      "sha256": "d5949d8d0928c7278d194e2e7ebd52c5a482cb3ccceba0caa155935fad0f82b4"
     },
     {
       "bytes": 361793,
@@ -1033,9 +1098,9 @@
       "sha256": "9f454357af6c3037f2748c8f62eb5b546f52fb7b4d1d26e94a7c10225f11fe9f"
     },
     {
-      "bytes": 13124,
+      "bytes": 14333,
       "path": "workforce-graph/scripts/build_public_release.py",
-      "sha256": "e09a2765af673c46beb1f27d1766d66b553bcb02ddcae3c777ffbda2c1ff3133"
+      "sha256": "e22034db35104509208f8f009e1e0808e9c747f0910be1306bc28dc329b87d04"
     },
     {
       "bytes": 53845,
@@ -1061,6 +1126,11 @@
       "bytes": 36696,
       "path": "workforce-graph/scripts/freeze_work_mode_snapshot.py",
       "sha256": "bdecdd0cbf3f65825905889554468649655dd9056a0bc3dd2fd5a9396b96d996"
+    },
+    {
+      "bytes": 26666,
+      "path": "workforce-graph/scripts/reproduce_research_note.py",
+      "sha256": "c84c5bb0cc2b267199665bbddf6162bd725a9996c55d8a0870f1191edfbefcd8"
     },
     {
       "bytes": 48658,
@@ -1138,6 +1208,11 @@
       "sha256": "d5e70f97cc7cb92f732ea40bdca0088278c89c1f0321128e83dc4e063ba66419"
     },
     {
+      "bytes": 4618,
+      "path": "workforce-graph/tests/test_reproduce_research_note.py",
+      "sha256": "586025ad2eb97b40bff05a234142c787f500b5d94321c7306fdcb4d9b4ec5f68"
+    },
+    {
       "bytes": 21918,
       "path": "workforce-graph/tests/test_research_completion_report.py",
       "sha256": "5e7b6827c6b7380619dcdc697a42ab1af1f4bdaca3a0a542ff58ded7d581a9a7"
@@ -1158,14 +1233,14 @@
       "sha256": "9c2937396f13ad4eb9575ef1db8431f44c927ee23e0c45f22929f63c180e98ab"
     },
     {
-      "bytes": 154226,
+      "bytes": 95564,
       "path": "workforce-graph/uv.lock",
-      "sha256": "24251f8a1d958229206b8b837e210063950a6c8864b1a06db9bb97eb6bcb9966"
+      "sha256": "7a9dbe66c8fb6277e7e6717c3a440eb2ab1b6397a4a028d7db111ed7e40250ae"
     }
   ],
   "licence": "Apache-2.0 for original code and documentation only",
   "public_repository": "https://github.com/dilp79/alljobs-agent-work-research",
-  "release_payload_sha256": "74613894a08c83a0e9368475b1ed43b31b57b2b6f951c485e54e438c0def23a5",
+  "release_payload_sha256": "8c83de954cd972831f17ff40e6cc00926081c4194bfa585f6a239bfdc8b50f16",
   "schema_version": "alljobs.public-release/v1",
-  "source_commit": "d17bf2b8c75e451117e5657a2c68453641f86768"
+  "source_commit": "72a8dfa4cbcb00dd3caffb465c8bd45ffbb34d17"
 }
