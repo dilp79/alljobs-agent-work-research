@@ -2,7 +2,7 @@
 creator: codex
 purpose: Define original-work licensing and excluded third-party material.
 why: Keep the public analytical supplement distinct from redistribution of its sources.
-version: 2026-09-06.2
+version: 2026-09-06.3
 updated: 2026-09-06
 ---
 
@@ -24,7 +24,7 @@ The public release intentionally excludes:
   citation, but the reviewed pages do not declare a dataset redistribution licence. Obtain the
   data from its maintainers and comply with their current terms.
 
-The clean release also excludes raw model generations, private source material and the generated
+The clean release also excludes raw model transcripts, private source material and the generated
 `workforce-graph/site/data.json`. Tracked aggregate/frozen research artifacts state their own
 provenance and claim ceilings; their inclusion does not broaden the rights in an upstream source.
 
@@ -42,3 +42,9 @@ does not declare a package-wide redistribution licence. Readers obtain source by
 from the maintainer using the explicit fetch command and retain the source's applicable rights;
 the Apache licence does not relicense those downloads. The local-join aggregate includes
 database and logical-input hashes for provenance, without exposing their source rows.
+
+The tools-by-defects replay exception covers final answer content generated for original
+synthetic fixtures and numeric/status accounting projections. It does not admit external task
+text, ATE descriptions, model reasoning, full conversations, signatures or private source rows.
+Original fixture code and pure analytical source are hash-bound to the run; upstream model or
+dataset ownership is not transferred by publishing a reproducibility projection.

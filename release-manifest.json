@@ -1,6 +1,6 @@
 {
   "claim_ceiling": "clean research release; evidence tiers and historical report qualifiers unchanged; no production, customer-ROI, workforce-share or job-automation claim",
-  "file_count": 252,
+  "file_count": 265,
   "files": [
     {
       "bytes": 168,
@@ -13,19 +13,19 @@
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     },
     {
-      "bytes": 2084,
+      "bytes": 2757,
       "path": "PUBLIC_RELEASE.md",
-      "sha256": "baf15e00e6b934ff6cce303defbb1769e8ea9028a359facb8ad2ab418c83733e"
+      "sha256": "f82b91f681ea2f15f6f650f7ceb0bba43f209c9442b43b0784a03fa3dc49181a"
     },
     {
-      "bytes": 6469,
+      "bytes": 9974,
       "path": "README.md",
-      "sha256": "9b8ae9f1d58b8f11946d0a52f6b0114c1039ee69d50ac31c76e9d27941bef205"
+      "sha256": "992b75038814e3dd1c45fc56238e61c685c7ad9ea0914343e8c03f100bb3b351"
     },
     {
-      "bytes": 2808,
+      "bytes": 3263,
       "path": "THIRD_PARTY_DATA.md",
-      "sha256": "62df30bec8701f87b5e24337d961b8b743ffb56c2feb7c460611aa1afad71ed3"
+      "sha256": "34b558eb334d52e5bfdd250021d2f25247a09468070053c46cd86016aec76927"
     },
     {
       "bytes": 5608,
@@ -63,9 +63,9 @@
       "sha256": "c0278817090b43d4b656596a7143d8559c7fe121093938e24126c311c4ac4c1a"
     },
     {
-      "bytes": 5079,
+      "bytes": 7384,
       "path": "docs/contracts/public-release-v1.md",
-      "sha256": "4012645b40d5a80a808978dc001fd3cee6c7041233d7bb4f0b70ca774a668427"
+      "sha256": "f752fcf011e667b8bed03849e5abc4086137440988c9935500730b622e0c4c47"
     },
     {
       "bytes": 5679,
@@ -96,6 +96,11 @@
       "bytes": 17664,
       "path": "docs/reports/research-note_06--092026_19-13.md",
       "sha256": "9759fb20fc98e59abb8c8bb4b74edc8af83fb84eb0a37c93fe45d35766cf31f9"
+    },
+    {
+      "bytes": 30120,
+      "path": "docs/reports/tool-defect-study_06--092026_20-38.md",
+      "sha256": "bb3029022d9526640749bef1b63a67cc67996f601112ac572db79073491e83e3"
     },
     {
       "bytes": 7,
@@ -1063,6 +1068,56 @@
       "sha256": "86dc96d9b5212f6d680b681e9a4073c9e8cd4346f42c017d8c6cb91063b3c516"
     },
     {
+      "bytes": 3087956,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/replay_inputs.json",
+      "sha256": "caaf119414f42adbdab052667eca17b84e4553b4b51d8ce2140ee184deb14d48"
+    },
+    {
+      "bytes": 481,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/reproduced/cells.csv",
+      "sha256": "1900e701c6f29e9c9bbc52c221936ebde307f1388518ac97ae8a8a0393933536"
+    },
+    {
+      "bytes": 98455,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/reproduced/figure_tool_effect.png",
+      "sha256": "f4cdad76300fc0125121c111a9feaceab79be860fbcb78ab2bb5aa7d3b0d13cd"
+    },
+    {
+      "bytes": 70845,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/reproduced/figure_tool_effect.svg",
+      "sha256": "ecedcc7226ea048f5214e7285922ff81eb836e9199cdd6fa89171ecf91b346fb"
+    },
+    {
+      "bytes": 3573,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/reproduced/results.json",
+      "sha256": "82ee70d5fcf0fdcb4882f4cc177628a74a21792674b78bb2698c669277bb7a4f"
+    },
+    {
+      "bytes": 91607,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/reproduced/trials.csv",
+      "sha256": "0765ef9e028c19c61874bdd5f34349b0d44385434065fc75baf4b59913b70723"
+    },
+    {
+      "bytes": 8081,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/source/analysis_core.py",
+      "sha256": "7366e218d47daa3ed9fc6122623b36c6a8fdaada30403115190ed9cf83351335"
+    },
+    {
+      "bytes": 11163,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/source/cases.py",
+      "sha256": "cb84b88ce11e922b12d7fad717b961540812da612ec62a2813d4e2785c634b92"
+    },
+    {
+      "bytes": 3657,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/source/tools.py",
+      "sha256": "f4970474c13a68d389b74f925c8ae2812d1ce77765cfcfa9a51fcb55887e7523"
+    },
+    {
+      "bytes": 1904,
+      "path": "workforce-graph/data/tool_defect_public_2026_09_06/source_receipts.json",
+      "sha256": "ef1a8529c05fbffb6af4e3e88ea899441ca8578208f940b54bb8c852703be685"
+    },
+    {
       "bytes": 15471,
       "path": "workforce-graph/data/work_mode/corrected_result_full_glm_2026-08-11_incomplete-third-rater.json",
       "sha256": "54f4d03fa39a4c6df3273dec6053e65fd22e747e2d78f7172d6a0049b7f51507"
@@ -1113,9 +1168,9 @@
       "sha256": "9f454357af6c3037f2748c8f62eb5b546f52fb7b4d1d26e94a7c10225f11fe9f"
     },
     {
-      "bytes": 14608,
+      "bytes": 15592,
       "path": "workforce-graph/scripts/build_public_release.py",
-      "sha256": "e304f3e530ee7be19e51a479e43058c81d9fa032966866ad717b106b5e912518"
+      "sha256": "767a8e46109f18088e23b99e05cbc9bd643f047c3644249a2ea60b2184977514"
     },
     {
       "bytes": 53845,
@@ -1151,6 +1206,11 @@
       "bytes": 26666,
       "path": "workforce-graph/scripts/reproduce_research_note.py",
       "sha256": "c84c5bb0cc2b267199665bbddf6162bd725a9996c55d8a0870f1191edfbefcd8"
+    },
+    {
+      "bytes": 35126,
+      "path": "workforce-graph/scripts/reproduce_tool_defect.py",
+      "sha256": "2b446f9f8965227c52d0d7d7ddfa09b24fca80e26ae4e6f809265870a8d9d23f"
     },
     {
       "bytes": 48658,
@@ -1238,6 +1298,11 @@
       "sha256": "586025ad2eb97b40bff05a234142c787f500b5d94321c7306fdcb4d9b4ec5f68"
     },
     {
+      "bytes": 12325,
+      "path": "workforce-graph/tests/test_reproduce_tool_defect.py",
+      "sha256": "41e93a5a6ec820f8631eb8e780df7729c4eab0fced256fa6e9575f8a79372f78"
+    },
+    {
       "bytes": 21918,
       "path": "workforce-graph/tests/test_research_completion_report.py",
       "sha256": "5e7b6827c6b7380619dcdc697a42ab1af1f4bdaca3a0a542ff58ded7d581a9a7"
@@ -1265,7 +1330,7 @@
   ],
   "licence": "Apache-2.0 for original code and documentation only",
   "public_repository": "https://github.com/dilp79/alljobs-agent-work-research",
-  "release_payload_sha256": "474f561d65233a4551b230cb8da6a3ab550664a05818d4e90c051a68f8c61877",
+  "release_payload_sha256": "172a055bd02f1cbc371e8d1ecf2f3ebd4907b4488c6a7f5484be132653504242",
   "schema_version": "alljobs.public-release/v1",
-  "source_commit": "aa6c6accf6576a506187c3ffc7580e8f00bd7f36"
+  "source_commit": "9f6328b4504b1da6ee2a2876dba5b965745b5af0"
 }
